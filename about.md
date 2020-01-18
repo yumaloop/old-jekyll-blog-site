@@ -6,18 +6,19 @@ permalink: /about/
 ---
 
 内海 佑麻 (Yuma Uchiumi)<br>
-1997/12/08，東京生まれ．[CV](https://yumaloop.github.io/cv/)<br>
+1997/12/08，東京生まれ．[CV](https://github.com/yumaloop/yumaloop.github.io/cv/)<br>
 大学4年生(計算機科学)．インタラクティブAIのためのアルゴリズムや統計処理に基づくヒトの経験的思考法を研究しています．
 
 #### Education
 
-* Dept. of Information & Computer Science, Fac. of Science and Technology, Keio University, Japan.
+* Department of Information & Computer Science, Faculty of Science and Technology, Keio University, Japan. (Apr. 2016 - Mar. 2020)
+* [Center for Information & Computer Science, School of Science for Open and Environmental Systems, Graduate School of Science and Technology, Keio University, Japan. (Apr. 2020 - Mar. 2022)
 
 #### Work Experience
 
 * Internship
-   * Software engineer, [ARAYA, inc.](https://www.araya.org) (July. 2018 - Present)
-   * Software engineer, [PASTURE, INC.](https://corp.pasture.biz/) (July. 2017 - Mar. 2018)
+   * Software engineer, [ARAYA, inc.](https://www.araya.org) (Jul. 2018 - Present)
+   * Software engineer, [PASTURE, INC.](https://corp.pasture.biz/) (Jul. 2017 - Mar. 2018)
 * Outsourcing Agreement
    * Technical support staff, [STANDARD, inc.](https://standard2017.com/) (Feb. 2019 - Present)
 
