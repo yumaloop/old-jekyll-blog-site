@@ -12,7 +12,7 @@ permalink: /about/
 #### Education
 
 * Department of Information & Computer Science, Faculty of Science and Technology, Keio University, Japan. (Apr. 2016 - Mar. 2020)
-* [Center for Information & Computer Science, School of Science for Open and Environmental Systems, Graduate School of Science and Technology, Keio University, Japan. (Apr. 2020 - Mar. 2022)
+* Center for Information & Computer Science, School of Science for Open and Environmental Systems, Graduate School of Science and Technology, Keio University, Japan. (Apr. 2020 - Mar. 2022)
 
 #### Work Experience
 
