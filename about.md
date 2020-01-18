@@ -6,7 +6,7 @@ permalink: /about/
 ---
 
 内海 佑麻 (Yuma Uchiumi)<br>
-1997/12/08，東京生まれ．[CV](https://github.com/yumaloop/yumaloop.github.io/cv/)<br>
+1997/12/08，東京生まれ．[CV](https://github.com/yumaloop/yumaloop.github.io/blob/master/assets/pdf/CV201906.pdf)<br>
 大学4年生(計算機科学)．インタラクティブAIのためのアルゴリズムや統計処理に基づくヒトの経験的思考法を研究しています．
 
 #### Education
