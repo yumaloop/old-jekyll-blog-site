@@ -29,36 +29,22 @@
 
       <!-- row -->
       <div class="row">
-        
-        <!-- large-12 -->
-        <div class="large-12 medium-12 columns">
-          <div class="markdown-body home-categories">
 
-            <!-- article -->
-            <div class="article">
-              <h1>{{ page.title }}</h1>
-              <div class="read-more clearfix">
-                  <span class="date"><time>{{ page.date | date: '%B %d, %Y' }}</time></span>
-                  <span>tags:&nbsp;</span> 
-                  <span class="posted-in">
-                    <a href='numerical.html'>{{ page.tags }}</a>
-                  </span>
-                  <span class="comments">
-                    <a href="{{ post.url | relative_url }}#disqus_thread">comments</a>
-                  </span>
-              </div>
+        <div class="markdown-body">
+                
+          <!-- article -->
+          <div class="article">
+            <h1>{{ page.title }}</h1>
+            <div class="read-more clearfix">
+                <span>{{ page.description }}</span> 
             </div>
-
-            <br>
-            
-            <!-- article-content -->
-            <div class="article-content">
-              {{ content }}
-            </div>
-
+          </div>
+          <br>
+          <!-- article-content -->
+          <div class="article-content">
+            {{ content }}
           </div>
         </div>
-
       </div>
       <!-- row -->
 
