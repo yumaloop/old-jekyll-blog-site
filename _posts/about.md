@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-description: プロフィールページのサンプルです｡よろしくお願いします｡
+description: はろはろ
 permalink: /about/
 ---
 
