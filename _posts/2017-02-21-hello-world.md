@@ -1,9 +1,11 @@
 ---
 layout: post
 title: Hello World!
+categories:
+    - Jekyll
 tags:
-    - jekyll
-    - programing
+    - hoge
+    - foo
 ---
 
 First Post. 
