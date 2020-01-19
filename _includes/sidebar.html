@@ -17,8 +17,10 @@
     </div>
     <div class="side-content">
       <p class="cat-list">
-        <a href="hackers.html"><strong>Jekyll</strong></a>
-        <a href="numerical.html"><strong>Statistics</strong></a>
+        {% for category in site.categories %}
+        {% capture category_name %}{{ category | first }}{% endcapture %}
+          <a href="{{ "/categories/" | relative_url }}#{{ category_name }}"><strong>{{ category_name }}</strong></a>
+        {% endfor %}
       </p>
     </div>
   </div>

@@ -51,10 +51,11 @@
                     <span class="date"><time>{{ post.date | date: '%B %d, %Y' }}</time></span>
                     <span>posted-in:&nbsp;</span> 
                     <span class="posted-in"><a href='numerical.html'>{{ post.categories }}</a>
-                    </span> </div>
-                  <div class="more-right right"> <span class="comments">
-                        <a href="{{ post.url | relative_url }}#disqus_thread">comments</a>
-                  </span> </div>
+                    </span>
+                  </div>
+                  <div class="more-right right"> 
+                    <span class="comments"><a href="{{ post.url | relative_url }}#disqus_thread">comments</a></span>
+                </div>
                 </div>
               </div>
               {% endfor %}
