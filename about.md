@@ -50,7 +50,7 @@ permalink: /about/
 * Github: [@yumaloop](https://github.com/yumaloop)
 * Kaggle: [@yumaloop](https://www.kaggle.com/yumaloop)
 * Hatena Blog: [yul.hatenablog.com](https://yul.hatenablog.com/archive)
-* Linkedin: [yuma-uchiumi](https://www.linkedin.com/in/yuma-uchiumi-699398151/)
+* Linkedin: [yuma-uchiumi-699398151](https://www.linkedin.com/in/yuma-uchiumi-699398151/)
 * Wantedly: [users/18935801](https://www.wantedly.com/users/18935801)
 
 #### Contact
