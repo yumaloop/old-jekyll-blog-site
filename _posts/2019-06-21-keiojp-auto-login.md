@@ -13,8 +13,8 @@ tags:
 Have you ever want to login to keio.jp automatically? Don't you think it is cool? At least I think so and I write its Python code here.
 
 <video width="600" controls autoplay loop muted>
-  <source src="{{"/assets/video/keio_login.mp4" | site.url }}" type="video/mp4">
-Your browser does not support the video tag.
+  <source src="{{ "/assets/video/keio_login.mp4" | relative_url }}" type="video/mp4">
+  <p>Your browser does not support the video tag.</p>
 </video>
 <br>
 
