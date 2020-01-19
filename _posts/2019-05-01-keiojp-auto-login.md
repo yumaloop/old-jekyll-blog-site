@@ -16,7 +16,6 @@ Have you ever want to login to keio.jp automatically? Don't you think it is cool
   <source src="{{"/assets/video/keio_login.mp4" | site.url }}" type="video/mp4">
 Your browser does not support the video tag.
 </video>
-
 <br>
 
 # Auto Login to keio.jp
