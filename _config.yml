@@ -1,6 +1,6 @@
-title: My Jekyll
+title: Yuma Uchiumi
 description: >
-  My Description. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+  Yuma Uchiumi's Blog site 
 baseurl: ""
 url: "http://e-joint.jp"
 
@@ -9,7 +9,7 @@ author:
   email: yumaloop@gmail.com
   github: yumaloop
   twitter: yumaloop
-  facebook: uchiumiyuma
+  facebook: yumauchiumi
   disqus_shortname: https-yumaloop-github-io
 
 paginate: 3
