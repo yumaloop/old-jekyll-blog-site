@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Setting up a blog built by Jekyll and hostting it on Github Pages
+title: Note on the site construction and development
 categories:
     - Personal
 tags:
