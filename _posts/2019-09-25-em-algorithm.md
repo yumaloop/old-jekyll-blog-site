@@ -2,7 +2,7 @@
 layout: post
 title: EM Algorithm
 categories:
-    - Stat/ML
+    - StatML
 tags:
     - hoge
     - foo
