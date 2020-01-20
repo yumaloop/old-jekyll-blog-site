@@ -10,6 +10,10 @@ tags:
 
 Have you ever want to login to keio.jp automatically? Don't you think it is cool? At least I think so and I write down the way to achieve that with Python.
 
+
+
+<br>
+
 <div style="text-align:center">
   <video style="width: 90%;" controls autoplay loop muted>
     <source src="{{ "/assets/video/keio_login.mp4" | relative_url }}" type="video/mp4">
@@ -17,7 +21,10 @@ Have you ever want to login to keio.jp automatically? Don't you think it is cool
   </video>
 </div>
 
+
 <br>
+
+
 
 In order to login to keio.jp (Keio Single Sign-On System), it is necessary to satisfy the page transition as below. 
 
