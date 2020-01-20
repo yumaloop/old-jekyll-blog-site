@@ -68,16 +68,11 @@ $$
 
 <br>
 
-　例として、2つの正規分布間でKL-divergenceを計算[^2]すると、以下のような値になります。分布のズレが大きくなるほど、値が増加していることがわかります。
+	For example, calculating KL-divergence[^2] between two Gaussian distributions gives the following results: It can be seen that the more the shapes between the distributions do not match, the more the KL-divergence increases.
 
 {{% img src="images/dkl_norm.png" width="600" %}}
 
-
-
 <br>
-
-
-
 
 #### 1.3 Is KL-divergence a metrics?
 
