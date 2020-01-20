@@ -8,7 +8,7 @@ permalink: /about/
 I'm Yuma Uchiumi, a university student majoring in computer science 
 born on December 8, 1997 in Tokyo, Japan.  [CV](https://github.com/yumaloop/yumaloop.github.io/blob/master/assets/pdf/CV201906.pdf)<br>
 My research goal is to understand and implement the computation for human thinking; 
-I study algorithm, model, and system to solve problems that statistical estimation, multi-agent communication, rewarded games.
+I study algorithms, models, and systems to solve problems that statistical estimation, multi-agent communication, rewarded games.
 
 > keywords: statistics, machine learning, system science, complexity network, game theory and more. <br>
 > ʕ•̫͡•ʕ•̫͡•ʔ•̫͡•ʔ•̫͡•ʕ•̫͡•ʔ•̫͡•ʕ•̫͡•ʕ•̫͡•ʔ•̫͡•ʔ•̫͡•ʕ•̫͡•ʔ•̫͡•ʔ
