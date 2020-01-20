@@ -14,6 +14,8 @@ Have you ever want to login to keio.jp automatically? Don't you think it is cool
 
 <br>
 
+
+
 <div style="text-align:center">
   <video style="width: 90%;" controls autoplay loop muted>
     <source src="{{ "/assets/video/keio_login.mp4" | relative_url }}" type="video/mp4">
