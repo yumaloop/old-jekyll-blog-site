@@ -25,7 +25,7 @@ KL-divergence frequently appears in many fields such as statistics and informati
 
 #### 1.1 Definition
 
-　For any probability distribution $$P$$ and $$Q$$, **KL-divergence** (Kullback-Leibler divergence) is defined as follows, using their probability density function $$p(x)$$ and $$q(x)$$. 
+　For any probability distributions $$P$$ and $$Q$$, **KL-divergence** (Kullback-Leibler divergence) is defined as follows, using their probability density function $$p(x)$$ and $$q(x)$$. 
 $$
 D_{KL}( Q \mid\mid P ) := \int q(x) \log \frac{q(x)}{p(x)} ~dx  \tag{1}
 $$
@@ -73,34 +73,38 @@ $$
 {{% img src="images/dkl_norm.png" width="600" %}}
 
 
+
+<br>
+
+
+
+
 #### 1.3 Is KL-divergence a metrics?
 
-　KL-divergenceは、確率や情報を考える際にとても重要な量であるため、分野や文脈によって様々な名称で呼ばれます。
+​	KL-divergence is so important quantity when considering probability and information that it is called by various names depending on the field and context.
 
 > "KL-divergence"
->
 > "KL-metrics"
->
 > "KL-information"
->
 > "Information divergence"
->
 > "Information gain"
->
 > "Relative entropy"
 
-
-
-　KL-divergenceはつねに非負の値をとるため、これは確率分布 P と Q が存在する空間における距離(metrics)を示していると解釈することができます。しかし、KL-divergenceは次の**距離の公理**のうち「非負性」と「完備性」しか満たさないため、厳密には 距離(metrics) ではありません。
+Since KL-divergence is always non-negative, it can be interpreted as the metrics in the space where the probability distributions $$P$$ and $$Q$$ exist. However, KL-divergence is **not** strictly a metric because it only satisfies "non-negativity" and "completeness" among the following **the metric axioms**. 
 
 
 
-> 距離 $d(~)$ の公理
+> Axioms of metrics $$d(~)$$:
+> 
+> 1. non-negativity                     $$d(x, ~ y) \geq 0$$
+> 
+> 1. completeness                      $$d(x, ~ y) = 0 ~~ \Leftrightarrow ~~ x = y$$
+> 
+> 1. symmetry                             $$d(x, ~ y) = d(y, ~ x)$$
+> 
+> 1. The triangle inequality       $$d(x, ~ y) + d(y, ~ z) \geq d(x, ~ z)$$
 
-> 1. 非負性　　　　$$d(x, ~ y) \geq 0$$
-> 1. 完備性　　　　$$d(x, ~ y) = 0 ~~ \Leftrightarrow ~~ x = y$$
-> 1. 対称性　　　　$$d(x, ~ y) = d(y, ~ x)$$
-> 1. 三角不等式　　$$d(x, ~ y) + d(y, ~ z) \geq d(x, ~ z)$$
+Note that $$d()$$ is called the *distance function* or simply *distance*
 
 
 
