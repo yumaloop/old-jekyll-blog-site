@@ -10,7 +10,7 @@ born on December 8, 1997 in Tokyo, Japan.  [CV](https://github.com/yumaloop/yuma
 My research goal is to understand and implement the computation for human thinking; 
 I study algorithms, models, and systems to solve problems that statistical estimation, multi-agent communication, rewarded games, and so on.
 
-> Keywords: Statistics, Machine Learning, Information Theory, System Science, Complexity Network, Game Theory<br>
+> keywords: Statistics, Machine Learning, Information Theory, System Science, Complexity Network, Game Theory<br>
 > ʕ•̫͡•ʕ•̫͡•ʔ•̫͡•ʔ•̫͡•ʕ•̫͡•ʔ•̫͡•ʕ•̫͡•ʕ•̫͡•ʔ•̫͡•ʔ•̫͡•ʕ•̫͡•ʔ•̫͡•ʔ
 
 <br>
