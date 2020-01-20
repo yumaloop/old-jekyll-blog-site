@@ -5,9 +5,15 @@ description: Know thyself.
 permalink: /about/
 ---
 
-内海 佑麻 (Yuma Uchiumi)<br>
-1997/12/08，東京生まれ．[CV](https://github.com/yumaloop/yumaloop.github.io/blob/master/assets/pdf/CV201906.pdf)<br>
-大学4年生(計算機科学)．インタラクティブAIのためのアルゴリズムや統計処理に基づくヒトの経験的思考法を研究しています．
+I'm Yuma Uchiumi, a university student majoring in computer science 
+born on December 8, 1997 in Tokyo, Japan.  [CV](https://github.com/yumaloop/yumaloop.github.io/blob/master/assets/pdf/CV201906.pdf)<br>
+My research goal is to understand and implement the computation for human thinking; 
+I study algorithm, model, and system to solve problems that statistical estimation, multi-agent communication, rewarded games.
+
+> keywords: statistics, machine learning, system science, complexity network, game theory and more. <br>
+> ʕ•̫͡•ʕ•̫͡•ʔ•̫͡•ʔ•̫͡•ʕ•̫͡•ʔ•̫͡•ʕ•̫͡•ʕ•̫͡•ʔ•̫͡•ʔ•̫͡•ʕ•̫͡•ʔ•̫͡•ʔ
+
+<br>
 
 #### Education
 
