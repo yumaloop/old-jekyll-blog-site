@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Em algorithm
+title: EM Algorithm
 categories:
     - Stat/ML
 tags:
