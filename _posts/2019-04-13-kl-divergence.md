@@ -68,7 +68,7 @@ $$
 
 <br>
 
-	For example, calculating KL-divergence[^2] between two Gaussian distributions gives the following results: It can be seen that the more the shapes between the distributions do not match, the more the KL-divergence increases.
+​	For example, calculating KL-divergence[^2] between two Gaussian distributions gives the following results: It can be seen that the more the shapes between the distributions do not match, the more the KL-divergence increases.
 
 {{% img src="images/dkl_norm.png" width="600" %}}
 
