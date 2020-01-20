@@ -29,7 +29,9 @@ In order to login to keio.jp (Keio Single Sign-On System), it is necessary to sa
 
 So, this time, a static web-scraping library like BeautifulSoup is not enough, because it doesn't support the dynamic site with Javascript or page redirection. Then I use [Selenium](https://selenium.dev/documentation/en/) and [ChromeDriver](http://chromedriver.chromium.org/getting-started) in python.
 
-Each web page source is given by HTTP GET request and  
+
+
+<br>
 
 
 
@@ -81,6 +83,8 @@ driver.quit()
 
 
 
+<br>
+
 
 
 #### Example 2 : Auto login to twitter.com
@@ -125,6 +129,8 @@ driver.quit()
 
 
 
+<br>
+
 
 
 #### Example 3 : Auto search in google.com
@@ -159,7 +165,11 @@ driver.quit()
 
 
 
-Cf.)
+<br>
+
+
+
+### References
 
 - The Selenium Browser Automation Project > Getting started > Quick tour
 
