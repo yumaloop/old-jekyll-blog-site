@@ -103,35 +103,72 @@ Note that $$d()$$ is called the *distance function* or simply *distance*
 
 
 
-　例えば、ユークリッド距離、二乗距離、マハラビノス距離、ハミング距離などは、この4つの条件をすべて満たすため、明らかに距離(metrics)として扱うことができます。一方で、KL-divergenceは距離(metrics)ではなく**divergence**です。"divergence"とは、距離の公理における４つの条件のうち「非負性」「対称性」のみを採用したものであり、"距離(metrics)"の拡張概念です。距離の公理による制約を減らし、抽象度の高い議論をしようというわけです。
+For example, Euclidean distance, squared distance, Mahalanobis distance, and Hamming distance satisfy these conditions, and can be clearly considered as metrics. On the other hand, KL-divergence is divergence, not metrics. In mathematics, **"divergence"** is an extended concept of "metrics" that satisfies only **non-negativity** and **completeness** among axioms of metrics. By introducing "divergence", you can reduce the constraints of axioms of metrics and  have a high level of abstraction.
 
-　なお、このdivergenceという語は**発散**と訳されることが一般的で、例えば物理学ではベクトル作用素 div として登場します。divergenceのイメージに該当する日本語はありませんが、相違度、分離度、逸脱度、乖離度などが使われているようです。
 
-　実例として、2つの正規分布 $N(0, 1)$（青）と $N(1, 2)$（赤）の間のKL-divergenceを測ってみましょう。左が**青からみた赤とのKL距離**、右が**赤からみた青とのKL距離**となっており値が異なることがわかります。なお「等分散正規分布間のKL-divergence」という特殊な条件下では、対称性が成り立ちます。
 
-{{% img src="images/comparison_of_dkl_norm.png" width="600" %}}
+The word divergence is generally interpreted as "the process or state of diverging.", for example, in physics it appears as a vector operator **div**. There is no Japanese words that corresponds to the meaning of divergence, but it seems that the degree of difference, "相違度", "分離度", "逸脱度", "乖離度" etc. might be used.
 
-なお，確率分布間の近さを測る尺度としては，KL情報量の他にも次のようなものが知られています．
 
-> **確率分布 $q(x), p(x)$ 間の"距離"を測る量**
 
-> * $$ {\chi}^2(q ; p) := \sum_{i=1}^{k} \frac{ { \{ p_i - q_i \} }^{2} }{p_i}$$ 　　　　　　　　 $$ {\chi}^2$$ 統計量
+As an example, let's measure the KL-divergence between two Gaussian distributions $$ N (0, 1) $$ (blue) and $$ N (1, 2) $$ (red). In the figure, the left shows **KL-divergence from red one as seen from blue one**, and the right shows **KL-divergence from blue one as seen from red one**. Their value are surely different. 
 
-> * $$ L_1(q ; p) := \int \vert q(x) - p(x) \vert ~ dx$$　　　　　　 $$L_1$$-ノルム
-> * $$ L_2(q ; p) := \int { \{ q(x) - p(x) \} }^{2} ~ dx$$　　　　　 $$L_2$$-ノルム
-> * $$ I_K(q ; p) := \int { \\{ \sqrt{ q(x) } - \sqrt{ p(x) } \\} }^{2} ~ dx $$　　 ヘリンジャー距離
-> * $$ \mathbb{D}(q ; p) := \int f \left( {\large \frac{q(x)}{p(x)} } \right) q(x) ~ dx$$　　　　　　 $$f$$-ダイバージェンス
-> * $$ I_{\lambda}(q ; p) := \int \left\{ { \left( {\large \frac{q(x)}{p(x)} } \right) }^{\lambda} - 1 \right\} q(x) ~ dx$$　 　  一般化情報量(Kawada, 1987)
+Note that given two Gaussian distribution $$p_1,p_2$$ as 
 
-> * $$ \mathbb{D}_{KL}(q ; p) := \int \log \left( {\large \frac{q(x)}{p(x)} } \right) q(x) ~ dx$$　　  　　 KL情報量
+
+$$
+\begin{align}
+p_1(x) &= \mathcal{N}(\mu_1, \sigma_1^2) = \frac{1}{\sqrt{2 \pi \sigma_1^2}} \exp \left\{ - \frac{ {(x - \mu_1)}^2}{2 \sigma_1^2} \right\} \\
+p_2(x) &= \mathcal{N}(\mu_2, \sigma_2^2) = \frac{1}{\sqrt{2 \pi \sigma_2^2}} \exp \left\{ - \frac{ {(x - \mu_2)}^2}{2 \sigma_2^2} \right\}
+\end{align}
+$$
+
+
+the following holds.
+
+
+$$
+\begin{align}
+{D}_{KL}(p_1||p_2) &= \int_{-\infty}^{\infty} p_1(x) \log \frac{p_1(x)}{p_2(x)} dx \\
+&= \log \frac{\sigma_2}{\sigma_1} + \frac{\sigma_1^2 + {( \mu_1 - \mu_2 )}^2}{2 \sigma_2^2} - \frac{1}{2}
+\end{align}
+$$
+
+
+
+
+
+
+img src="images/comparison_of_dkl_norm.png" width="600"
+
+
+
+Incidentally, in addition to the KL-divergence, the following is known as a measure of the proximity (or closeness) between two probability distributions.
+
+
+
+> **The metrics to measure closeness between $$q(x)$$ and $$p(x)$$**
+>
+> * $$ {\chi}^2(q ; p) := \sum_{i=1}^{k} \frac{ { \{ p_i - q_i \} }^{2} }{p_i}$$ 　　　　　　　    　 *$$ {\chi}^2$$ statistics*
+> * $$ L_1(q ; p) := \int \vert q(x) - p(x) \vert ~ dx$$　　　　　    　 *$$L_1$$-norm*
+> * $$ L_2(q ; p) := \int { \{ q(x) - p(x) \} }^{2} ~ dx$$　　　　         *$$L_2$$-norm*
+> * $$ I_K(q ; p) := \int { \\{ \sqrt{ q(x) } - \sqrt{ p(x) } \\} }^{2} ~ dx $$　　             *Herringer distance*
+> * $$ \mathbb{D}(q ; p) := \int f \left( {\large \frac{q(x)}{p(x)} } \right) q(x) ~ dx$$　　　　　        *$$f$$-divergence*
+> * $$ I_{\lambda}(q ; p) := \int \left\{ { \left( {\large \frac{q(x)}{p(x)} } \right) }^{\lambda} - 1 \right\} q(x) ~ dx$$　 　      *Generalized information (Kawada, 1987)*
+> * $$ {D}_{KL}(q ; p) := \int \log \left( {\large \frac{q(x)}{p(x)} } \right) q(x) ~ dx$$　　  　　     *KL-divergence*
+> * $$ JSD(q \vert \vert p) := \frac{1}{2} {D}_{KL}(q ; \frac{q+p}{2}) + \frac{1}{2} {D}_{KL}(p ; \frac{q+p}{2})$$   *JS-divergence*
+
+
 
 <br>
 
-## 2. 諸量との関係
 
-#### 2.1 KL-divergenceと相互情報量
 
-　エントロピー $H(X)$，結合エントロピー $H(X,Y)$、条件つきエントロピー $H(X|Y)$、相互情報量 $MI(X,Y)$ は、確率密度 $Pr(~)$ を用いて以下のように定義されます。[^3]
+## 2. Relatinoship to other measurements
+
+#### 2.1 KL-divergence vs Mutual information
+
+　In information theory, entropy $H(X)$，join entropy $H(X,Y)$、conditional entropy $H(X \vert Y)$、mutual information $MI(X,Y)$ are defined as follows by using probability density $$Pr()$$[^3].
 
 $$
 \begin{align}
@@ -142,9 +179,12 @@ $$
 \end{align}
 $$
 
-2つの確率変数 X, Y について、**相互情報量** MI（: Mutual Information）によって相互の関係性が明示されます。
 
-{{% img src="images/dkl_and_mutual_information.png" width="400" %}}
+
+For any two random variable $$X$$ and $$Y$$, mutual information $$MI(X, Y)$$ specifies the mutual (symmetric) dependence between them.
+
+  {{% img src="images/dkl_and_mutual_information.png" width="400" %}}
+
 
 $$
 \begin{align}
@@ -154,7 +194,7 @@ $$
 \end{align}
 $$
 
-　ここで、KL-divergenceと相互情報量 MI には以下の関係が成り立ちます。つまり、相互情報量 MI(X, Y) は、「確率変数 X と Y が独立でない場合の同時分布 P(X, Y)」と「独立である場合の同時分布 P(X)P(Y)」 の離れ具合（平均的な乖離度合い）を示しているのだと解釈できます。
+　Here, the following relationship holds between KL-divergence and mutual information.
 
 $$
 \begin{align}
@@ -164,7 +204,9 @@ $$
 \end{align}
 $$
 
-（例）3.6.2の式展開
+So that, mutual information $$MI (X, Y)$$ is interpreted as the degree of difference (average degree of deviation) between the joint distribution $$Pr (x, y)$$ when the $$X$$ and $$Y$$ are **not independent** and the joint distribution $$Pr (x) Pr (y)$$ when $$ X$$ and $$Y$$ are **independent**. 
+
+（cf.）Formula transformation of 3.6.2
 
 $$
 \begin{eqnarray}
@@ -178,56 +220,73 @@ $$
 
 <br>
 
-### 2.2 KL-divergenceと対数尤度比
+### 2.2 KL-divergence vs Log likelihood ratio
 
-　ベイズ推定や統計モデリングでは、しばしば「**真の分布** $q$ を、$p(x|\hat{w})$（パラメータの推定値 $\hat{w}$ と確率モデル $p(x|w)$ の組み合わせ）推定する」というモチベーションが起こります。そのため、２つの分布のズレを測りたいとき、あるいは推定誤差を損失関数やリスク関数に組み込んでパラメータに対する最適化問題をときたいときに、KL-divergenceを使います。
+​	In the field of Bayes inference and statistical modeling, you often face the problem of estimating the **true distribution** $$q(x)$$ by $$p_{\theta}(x)$$ (that is the combination of stochastic model $$p_{\theta}(x)$$ and estimated parameter $$\hat{\theta}$$ ) . Therefore, KL-divergence is used when you want to measure the difference between two distributions, or when you want to incorporate the estimation error into the loss function or risk function in order to solve  the optimization problem for the parameter $$\theta$$ . 
 
-　KL-divergenceは最尤法をベースに、尤度比検定（Likelihood ratio test）、ベイズ因子（Bayse factor）、赤池情報量基準（AIC, Akaike's Information Critation）などのモデル選択手法[^4]と深い関わりを持ちます。
+​	Also, KL-divergence is related to the log likelihood ratio, and has a deep connection to model selection method [^ 4] such as likelihood ratio test, Bayes factor, and AIC (Akaike's information criterion).
 
-* 　真の分布 $P$ に対する推定分布 $p$ のKL-divergence：$D\_{KL}(Q \mid\mid P)$ は次式のように、「 $q$ と $p$ の対数尤度比に対して、真の分布 $q$ で平均操作をおこなった値」です。
+* 　KL-divergence of estimated distribution $$p_{\theta}(x)$$ for the true distribution $$q(x)$$ : $$D_{KL}(q \mid\mid p_{\theta})$$ is considerd as the expected value of the log likelihood ratio $$q(x)/p_{\theta}(x)$$ for tue true distribution $$q(x)$$.
 
 $$
-  \left( 対数尤度比 \right) = \log \frac{q(x)}{p(x)}   \tag{4}
+\left( \text{Log likelihood ratio} \right) = \log \frac{q(x)}{p_{\theta}(x)}   \tag{4}
 $$
 
 $$
 \begin{eqnarray}
-D_{KL}( Q \mid\mid P ) & := & \int q(x) \log \frac{q(x)}{p(x)} ~dx \\\
-                                         & = & \mathbb{E}_{X} \left[ \log \frac{q(x)}{p(x)} \right] \left(: 平均対数尤度比 \right)   \tag{5.1} \\\
+D_{KL}( q \mid\mid p_{\theta} ) & := & \int q(x) \log \frac{q(x)}{p_{\theta}(x)} ~dx \\\
+                                         & = & \mathbb{E}_{X} \left[ \log \frac{q(x)}{p_{\theta}(x)} \right] \left(\text{Expected log likelihood ratio} \right)   \tag{5.1} \\\
 \end{eqnarray}
 $$
 
-　　モデル比較・選択の評価値としてKL-divergenceを用いる場合、次式のように「KL-divergenceを最小にすること」と「平均対数尤度を最大にする」ことは等価になります。
+​	When using KL-divergence as the evaluation/loss value in model selection/comparison, it is equivalent that minimizing KL-divergence: $$D_{KL}( q \mid\mid p )$$ and maximizing the log likelihood: $$\log p(x)$$ as follows.
 
 $$
 \begin{eqnarray}
-D_{KL}( Q \mid\mid P ) & = & \mathbb{E}_{X} \bigl[ \log q(x) \bigr] - \mathbb{E}_{X} \bigl[ \log p(x) \bigr] \tag{5.2} \\
-                               & \propto & - \mathbb{E}_{X} \bigl[ \log p(x) \bigr] \left(: - 平均対数尤度 \right)    \tag{5.3}
-\end{eqnarray}
-$$
-
-<br>
-
-* パラメトリックな確率モデル $f(x|\theta)$（例えば線形回帰モデル）を考えた場合、何らかの損失関数 $L$ に対して最適なパラメータ $\theta_{0}$ と、その推定値 $\hat{\theta}$ に対して、確率モデルの誤差は以下のようにKL-divergenceで表現されます。（ただし、$\ell( \cdot|x)$ を対数尤度関数とする。）
-
-$$
-  \left( 対数尤度比 \right) = \log \frac{f(x|\theta\_{0})}{f(x|\hat{\theta})}   \tag{6}
-$$
-
-$$
-\begin{eqnarray}
- \hat{\theta} & :=& \underset{\theta \in \Theta}{\rm argmin} ~ L(\theta) \tag{7} \\
- D_{KL}( \theta_{0} \mid\mid \hat{\theta} ) & := & \int f(x|\theta_{0}) \log \frac{f(x|\theta_{0})}{f(x|\hat{\theta})} ~dx \\
-                                         & = & \mathbb{E}_{X} \left[ \log \frac{ f(x|\theta_{0}) }{ f(x|\hat{\theta}) } \right] \tag{8.1} \\
-                                         & = & \mathbb{E}_{X} \bigl[ \ell( \theta_{0}|x ) \bigr] - \mathbb{E}_{X} \bigl[ \ell( \hat{\theta} | x ) \bigr] \tag{8.2}
+D_{KL}( q \mid\mid p_{\theta} ) & = & \mathbb{E}_{X} \bigl[ \log q(x) \bigr] - \mathbb{E}_{X} \bigl[ \log p_{\theta}(x) \bigr] \tag{5.2} \\
+                               & \propto & - \mathbb{E}_{X} \bigl[ \log p_{\theta}(x) \bigr] \left(-1 \cdot \text{ Expected log likelihood} \right)    \tag{5.3}
 \end{eqnarray}
 $$
 
 <br>
 
-#### 2.3 KL-divergenceとFisher情報量
+* For any parametric stochastic model $$ f(x \vert \theta) $$ (such as a linear regression model) which represents the estimated distribution as
+  $$
+  \begin{align}
+  	p_{\theta}(x) = f(x|\theta)
+  \end{align}
+  $$
+  , if a certain loss function $$L(\theta)$$ is given, the optimal parameter $$\theta^*$$ exists as it satisfy the following.
+  $$
+  \begin{align}
+    q(x) &= f(x|\theta^*) \\
+  \end{align}
+  $$
+  Then, for any estimated parameter $$\hat{\theta}$$ ,the estimated loss of the model $$f(x \vert \hat{\theta})$$ is represented by KL-divergence. (Note that $$ \ell( \cdot \vert x) $$ means the log likelihood function.)
 
-　確率モデル $f(\cdot | \theta)$ を仮定したとき、パラメータ $\theta$ の**Fisher情報量** $I(\theta)$ は以下のように定義されます。（ただし、$\ell( \cdot | x )$ を対数尤度関数とする。）
+$$
+\left( \text{Log likelihood ratio} \right) = \log \frac{f(x|\theta^{*})}{f(x|\hat{\theta})}   \tag{6}
+$$
+
+$$
+\begin{eqnarray}
+ \hat{\theta} 
+ & :=& \underset{\theta \in \Theta}{\rm argmin} ~ L(\theta) \tag{7} 
+ \\
+ D_{KL}( q \mid\mid p_{\hat{\theta}} ) 
+ & = & D_{KL}( p_{\theta^{*}} \mid\mid p_{\hat{\theta}} ) \\
+ & = & D_{KL}( f_{\theta^{*}} \mid\mid f_{\hat{\theta}} ) \\
+ & = & \int f(x|\theta^{*}) \log \frac{f(x|\theta^{*})}{ f(x|\hat{\theta})} dx \\
+ & = & \mathbb{E}_{X} \left[ \log \frac{ f(x|\theta^{*}) }{ f(x|\hat{\theta}) } \right] \tag{8.1} \\
+ & = & \mathbb{E}_{X} \bigl[ \ell( \theta_{0}|x ) \bigr] - \mathbb{E}_{X} \bigl[ \ell( \hat{\theta} | x ) \bigr] \tag{8.2}
+\end{eqnarray}
+$$
+
+<br>
+
+#### 2.3 KL-divergence vs Fisher information
+
+Given a certain stochastic model $$f(\cdot \vert \theta)$$, **Fisher information** $$I(\theta)$$ for the parameter $$\theta$$ is defined as follows.  (Note that $$ \ell( \cdot \vert x) $$ means the log likelihood function.)
 
 $$
 \begin{align}
@@ -236,20 +295,30 @@ $$
 \end{align}
 $$
 
-　確率モデル $f(\cdot | \theta)$ を仮定したとき、KL-divergenceとFisher情報量 $I(\theta)$ の間には、次のような関係((この式は、KL-divergenceをテイラー展開して二次形式で近似すると導出されます。$$ \ell(\theta + h) - \ell(\theta) = {\ell}^{'}(\theta)h + \frac{1}{2} {\ell}^{''}(\theta) h^{2} + O(h^{3}) $$
-))が成り立ちます。
+Also, between KL-divergence and Fisher information, the following holds.
+　
+$$
+\lim_{h \to 0} \frac{1}{h^{2}} D_{KL} \bigl( f(x|\theta) \mid\mid f(x|\theta+h) \bigr) = \frac{1}{2} I(\theta)   \tag{10}
+$$
+
+(cf.) The following equation holds by using Taylor expansion of $$ \ell( \cdot \vert x) $$.
 
 $$
-\lim\_{h \to 0} \frac{1}{h^{2}} D_{KL} \bigl( f(x|\theta) \mid\mid f(x|\theta+h) \bigr) = \frac{1}{2} I(\theta)   \tag{10}
+\ell(\theta + h) - \ell(\theta) = {\ell}^{'}(\theta)h + \frac{1}{2} {\ell}^{''}(\theta) h^{2} + O(h^{3})
 $$
 
-　この式は、$\theta$ の近傍でのKL-divergence：$D_{KL} \bigl( f(x|\theta) \mid\mid f(x|\theta+h) \bigr)$ は、$\theta$ における確率モデル $f(\cdot|\theta)$ のFisher情報量 $I(\theta)$ に比例することを示しています。つまり、Fisher情報量 $I(\theta)$ は確率モデル $f(\cdot | \theta)$ が $\theta$ の近傍でもつ**局所的な情報量**を表していることがわかります。
+This formula indicates that in parameter space $$ \Theta $$, for all point $$ \theta \in \Theta $$ ant its neighborring point $$ \theta + h $$, their KL-divergence：$$ D_{KL} ( f(x \vert \theta) \mid\mid f(x \vert \theta+h) ) $$ is **directly proportional to** Fisher information $$ I(\theta)$$. After all, Fisher information $$ I(\theta)$$ measures **the local information** that the stochastic model $$ f(\cdot \vert \theta) $$ has at the point $$ \theta$$.
+
 
 {{% img src="images/dkl_and_fischer_information.png" width="600" %}}
 
+
+
 <br>
 
-## 3. 参考書籍
+
+
+## 3. References
 
 [asin:4785314117:detail]
 
