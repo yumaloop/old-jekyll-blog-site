@@ -25,13 +25,13 @@ tags:
 > Purpose: To find out the probability distribution $$q(x)$$ that a certain variable $$x \in X$$ follows.
 
 Namely, when considering a stochastic model $$p(x \vert \theta)$$ determined by the parameter $$\theta \in \Theta$$ and detecting the optimal parameter $$\theta^{*} \in \Theta$$ from dataset $$ \mathcal{D} := {\{x_i\}}_{i=1}^{n}$$, the follwing Approximation holds.
-
 $$
+~ \\
 \begin{align}
 x \sim q(x) \approx p(x|\theta) \\
 \end{align}
+~ \\
 $$
-
 This is called a statistical inference (or statistical estimation).
 
 
@@ -44,27 +44,28 @@ This is called a statistical inference (or statistical estimation).
 ## 2. Maximum likelihood estimation
 
 The most basic algorithm for statistical inference is maximum likelihood estimation (MLE). A log likelihood function of the stochastic model $$p(x \vert \theta)$$ is defined as
-
 $$
+~ \\
 \begin{align}
 \ell(\theta | x) := \log p(x | \theta)
 \end{align}
+~ \\
 $$
-
 and an empirical objective function of $$\theta$$:
-
 $$
+~ \\
 \begin{align}
 J(\theta) := \frac{1}{n} \sum_{i=1}^{n} \ell(\theta | x_i)
 \end{align}
+~ \\
 $$
-
 that depends on dataset $$ \mathcal{D} := {\{x_i\}}_{i=1}^{n}$$ can be obtained, MLE of parameter $$\theta$$ is derived as follows.
-
 $$
+~ \\
 \begin{align}
 \hat{\theta}_{MLE} = \underset{\theta \in \Theta}{\rm argmax} ~ J(\theta)
 \end{align}
+~ \\
 $$
 
 
@@ -82,23 +83,24 @@ Let's define the following data categories.
     - observable but **not completely follows** the true distribution $$p(x)$$ 
 
 In general, the relationship complete data $$x$$ and incomplete data $$y$$ is a one-to-many relationship. but here, as a convenient assumption, I introduce a latent variable $$z \in Z$$ to express this constraint, that is assume $$x = [y,z]$$ holds. Considering the stochastic model for the complete data $$x$$,
-
 $$
+~ \\
 \begin{align}
 p(x | \theta) = p(y,z | \theta)
 \end{align}
+~ \\
 $$
 
 data sample $$x_i$$ cannot be observed and its likelihood $$p(x_i \vert \theta)$$ cannot be calculated. However, for data sample $$y_i$$ can be observed and its likelihood $$p(y_i \vert \theta)$$ can be calculated.
-
 $$
+~ \\
 \begin{align}
 p(y_i | \theta) 
 &= \int_{Z} p(x_i | \theta) ~ dz \\
 &= \int_{Z} p(y_i, z | \theta) ~ dz
 \end{align}
+~ \\
 $$
-
 By using this formula, the estimated value of $$\hat{\theta}_{MLE}$$ can be obtained by approximating $$p(x \vert \theta)$$, the likelihood function of complete data $$x$$. The procedure to derive the estimated value of $$\hat{\theta}_{MLE}$$ is called EM algorithm because it is an iterative method that repeats E-step and M-step alternately.
 
 
@@ -130,15 +132,15 @@ By using this formula, the estimated value of $$\hat{\theta}_{MLE}$$ can be obta
 <br>
 
 As a result, the estimated value of $$\hat{\theta}_{MLE}$$ is derived as $$\hat{\theta}_{EM}$$ and the following holds.
-
 $$
+~ \\
 \begin{align}
 \hat{\theta}_{MLE} \approx \hat{\theta}_{EM}, ~~~ 
 p(x|\hat{\theta}_{MLE} ) \approx p(x|\hat{\theta}_{EM} )
 \end{align}
+~ \\
 $$
 
-<br>
 
 Also, the summarized formula of calculations in E step and M step is as follows.
 
@@ -152,7 +154,7 @@ Also, the summarized formula of calculations in E step and M step is as follows.
 > \end{align}
 > $$
 
-<br>
+<br><br>
 
 ## References
 
