@@ -141,14 +141,14 @@ Incidentally, in addition to the KL-divergence, the following is known as a meas
 
 > **The metrics to measure closeness between $$q(x)$$ and $$p(x)$$**
 >
-> * $$ {\chi}^2(q ; p) := \sum_{i=1}^{k} \frac{ { \{ p_i - q_i \} }^{2} }{p_i}$$ 　　　　　　　    　 *$$ {\chi}^2$$ statistics*
-> * $$ L_1(q ; p) := \int \vert q(x) - p(x) \vert ~ dx$$　　　　　    　 *$$L_1$$-norm*
-> * $$ L_2(q ; p) := \int { \{ q(x) - p(x) \} }^{2} ~ dx$$　　　　         *$$L_2$$-norm*
-> * $$ I_K(q ; p) := \int { \\{ \sqrt{ q(x) } - \sqrt{ p(x) } \\} }^{2} ~ dx $$　　             *Herringer distance*
-> * $$ \mathbb{D}(q ; p) := \int f \left( {\large \frac{q(x)}{p(x)} } \right) q(x) ~ dx$$　　　　　        *$$f$$-divergence*
-> * $$ I_{\lambda}(q ; p) := \int \left\{ { \left( {\large \frac{q(x)}{p(x)} } \right) }^{\lambda} - 1 \right\} q(x) ~ dx$$　 　      *Generalized information (Kawada, 1987)*
-> * $$ {D}_{KL}(q ; p) := \int \log \left( {\large \frac{q(x)}{p(x)} } \right) q(x) ~ dx$$　　  　　     *KL-divergence*
-> * $$ JSD(q \mid\mid p) := \frac{1}{2} {D}_{KL}(q \mid\mid \frac{q+p}{2}) + \frac{1}{2} {D}_{KL}(p \mid\mid \frac{q+p}{2})$$   *JS-divergence*
+> * $$ {\chi}^2(q ; p) := \sum_{i=1}^{k} \frac{ { \{ p_i - q_i \} }^{2} }{p_i}$$    *$$ {\chi}^2$$ statistics*
+> * $$ L_1(q ; p) := \int \vert q(x) - p(x) \vert ~ dx$$    *$$L_1$$-norm*
+> * $$ L_2(q ; p) := \int { \{ q(x) - p(x) \} }^{2} ~ dx$$    *$$L_2$$-norm*
+> * $$ I_K(q ; p) := \int { \\{ \sqrt{ q(x) } - \sqrt{ p(x) } \\} }^{2} ~ dx $$    *Herringer distance*
+> * $$ \mathbb{D}(q ; p) := \int f \left( {\large \frac{q(x)}{p(x)} } \right) q(x) ~ dx$$    *$$f$$-divergence*
+> * $$ I_{\lambda}(q ; p) := \int \left\{ { \left( {\large \frac{q(x)}{p(x)} } \right) }^{\lambda} - 1 \right\} q(x) ~ dx$$    *Generalized information (Kawada, 1987)*
+> * $$ {D}_{KL}(q ; p) := \int \log \left( {\large \frac{q(x)}{p(x)} } \right) q(x) ~ dx$$    *KL-divergence*
+> * $$ JSD(q \mid\mid p) := \frac{1}{2} {D}_{KL}(q \mid\mid \frac{q+p}{2}) + \frac{1}{2} {D}_{KL}(p \mid\mid \frac{q+p}{2})$$    *JS-divergence*
 
 
 
