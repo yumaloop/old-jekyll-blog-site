@@ -115,7 +115,7 @@ Note that $$d()$$ is called the *distance function* or simply *distance*
 
 For example, Euclidean distance, squared distance, Mahalanobis distance, and Hamming distance satisfy these conditions, and can be clearly considered as metrics. On the other hand, KL-divergence is a divergence, not metrics. In mathematics, **"divergence"** is an extended concept of "metrics" that satisfies only **non-negativity** and **completeness** among axioms of metrics. By introducing "divergence", you can reduce the constraints of axioms of metrics and  have a high level of abstraction.
 
-The word "divergence" is generally interpreted as the process or state of diverging; for example, in physics it appears as a vector operator **div**. There is no Japanese words that corresponds to the meaning of divergence, but it seems that the degree of difference, "相違度", "分離度", "逸脱度", "乖離度" etc. might be used.
+The word "divergence" is generally interpreted as the process or state of diverging; for example, in physics it appears as a vector operator **div**. There is no Japanese words that corresponds to the meaning of divergence, but it seems that "相違度", "分離度", "逸脱度", "乖離度" etc. might be used.
 
 As an example, let's measure the KL-divergence between two Gaussian distributions $$ N (0, 1) $$ (blue) and $$ N (1, 2) $$ (red). In the figure, the left shows **KL-divergence from red one as seen from blue one**, and the right shows **KL-divergence from blue one as seen from red one**. Their value are surely different. 
 
