@@ -38,7 +38,7 @@ I study algorithms, models, and systems to solve problems that statistical estim
    * HTML/CSS/Javascript
    * SQL(MySQL/PostgreSQL)
 
-* Statistics, ML/RL
+* Stat/ML
    * Grade 1, Mathematical statistics, Japan Statistical Society Certificate
    * Grade 1, Applied statistics, Japan Statistical Society Certificate
 
