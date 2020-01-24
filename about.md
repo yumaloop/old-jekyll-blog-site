@@ -45,6 +45,7 @@ I study algorithms, models, and systems to solve problems that statistical estim
 * DevOps
    * Git
    * Docker
+   * Kubernetes
 
 * Cloud
    * AWS (EC2, S3, Lambda, Sagemaker)
@@ -52,6 +53,7 @@ I study algorithms, models, and systems to solve problems that statistical estim
 
 #### Links
 
+* Facebook: [yumauchiumi](https://www.facebook.com/yumauchiumi)
 * Twitter: [@yumaloop](https://twitter.com/yumaloop)
 * Github: [@yumaloop](https://github.com/yumaloop)
 * Kaggle: [@yumaloop](https://www.kaggle.com/yumaloop)
