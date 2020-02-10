@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Note on the site construction and development
+lang: en
 categories:
     - Personal
 tags:

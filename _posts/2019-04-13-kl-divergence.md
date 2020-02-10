@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Kullback-Leibler Divergence
+lang: en
 categories:
     - StatML
 tags:

@@ -41,7 +41,7 @@
                   <span class="date"><time>{{ page.date | date: '%B %d, %Y' }}</time></span>
                   <span>posted-in:&nbsp;</span> 
                   <span class="posted-in">
-                    <a href='numerical.html'>{{ page.categories }}</a>
+                    <a href="{{ "/categories" | absolute_url }}#{{ page.categories }}">{{ page.categories }}</a>
                   </span>
                   <span class="comments">
                     <a href="{{ post.url | relative_url }}#disqus_thread">comments</a>

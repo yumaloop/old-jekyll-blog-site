@@ -1,6 +1,7 @@
 ---
 layout: post
 title: EM Algorithm
+lang: en
 categories:
     - StatML
 tags:

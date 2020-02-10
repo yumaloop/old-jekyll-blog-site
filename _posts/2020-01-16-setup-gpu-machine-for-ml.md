@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Setting up a GPU machine for Machine Learning
+lang: en
 categories:
     - Tips
 tags:

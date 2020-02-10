@@ -4,6 +4,7 @@ title: Categories
 description:  List of all posts organized by categories.
 permalink: /categories/
 ---
+
 <div class="article">
 {% for category in site.categories %}
     {% capture category_name %}{{ category | first }}{% endcapture %}
