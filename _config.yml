@@ -14,7 +14,7 @@ author:
   linkedin: yuma-uchiumi-699398151
   disqus_shortname: https-yumaloop-github-io
 
-paginate: 3
+paginate: 5
 paginate_path: page:num
 
 sass:
