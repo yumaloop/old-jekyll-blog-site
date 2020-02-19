@@ -55,6 +55,7 @@ I study algorithms, models, and systems to solve problems that statistical estim
 
 * Facebook: [yumauchiumi](https://www.facebook.com/yumauchiumi)
 * Twitter: [@yumaloop](https://twitter.com/yumaloop)
+* Medium: [@yumaloop](https://medium.com/@yumaloop)
 * Github: [@yumaloop](https://github.com/yumaloop)
 * Kaggle: [@yumaloop](https://www.kaggle.com/yumaloop)
 * Hatena Blog: [yul.hatenablog.com](https://yul.hatenablog.com/archive)
