@@ -1,6 +1,6 @@
 ---
 layout: post
-title: counterfactual regret minimization
+title: Counterfactual Regret Minimization
 lang: en
 categories:
     - StatML
@@ -11,10 +11,7 @@ tags:
 
 
 
-## Counterfactual regret minimization
-
-hoge
-
+## Counterfactual Regret Minimization (CFR Algorithm)
 
 
 ### Notation
