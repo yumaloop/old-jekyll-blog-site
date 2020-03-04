@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Bash script for git command
+title: Bash script for git push
 lang: en
 categories:
     - Tips
@@ -10,9 +10,9 @@ tags:
 ---
 
 In Git, commit messages are very imoportant to avoid confused commit log in your branch.
-But in small project that you develope alone, thinking about every commit message might be dull.
+But in some small projects that you develope alone, thinking about every commit message might be dull.
 
-I usualy use the following script to send local data to the remote repository.
+I usualy use the following script to send local data to the remote repository. Please try it.
 
 ```bash
 #!/bin/bash
