@@ -1,15 +1,15 @@
 ---
-$$2^{\frac{1}{12}}$$layout: post
-title: 音楽理論
-lang: jp
+layout: post
+title: 音律と音階
+lang: ja
 categories:
-    - StatML
+    - Tips
 tags:
-    - hoge
-    - foo
+    - memo
+
 ---
 
-
+ブルーバックス「音律と音階の科学」を読んで，面白かったのでメモ．
 
 
 

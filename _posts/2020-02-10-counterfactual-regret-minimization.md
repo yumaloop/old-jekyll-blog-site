@@ -145,16 +145,3 @@ u_i(\sigma^t_{I \to a}, I) - u_i(\sigma^t, I)
 $$
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
