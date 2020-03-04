@@ -24,4 +24,3 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
 
-exclude: [vendor]
