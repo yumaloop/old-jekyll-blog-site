@@ -11,7 +11,7 @@ tags:
 
 
 In this note, I describe how to install NVIDIA GPU and set up CUDA/cuDNN on Ubuntu 16.04LTS machine that has been clean booted. Also, I write down some linux commands used in debugging, since knowing your machine in detail would lead to resolving some errors related to the machine environment. This article could be updated from time to time.
- 
+
 
 > Example: My Ubuntu GPU machine (2020/01/10)
 > - OS :
@@ -37,40 +37,37 @@ In this note, I describe how to install NVIDIA GPU and set up CUDA/cuDNN on Ubun
 <br>
 
 > Table of contents
-> - [オペレーティングシステム（OS）](#-------------os-)
-> 	- [OSを確認したい](#os------)
-> 	- [Linuxディストリビューションを確認したい](#linux-----------------)
-> 	- [Linuxカーネルを確認したい](#linux----------)
-> - [ストレージ（ROM）](#------rom-)
-> 	- [HDDの状態を確認したい](#hdd---------)
-> 	- [ファイル数を確認したい](#-----------)
-> 	- [ファイルのディスク使用量を確認したい](#------------------)
-> - [メモリ（RAM）](#----ram-)
-> 	- [メモリデバイスを確認したい](#-------------)
-> 	- [メモリの空き容量を確認したい](#--------------)
+> - [Operating System](#OS)
+> 	- [Checking Linux OS](#linux_os)
+> 	- [Checking Linux distribution](#linux_dist)
+> 	- [Checking Linux kernel](#linux_kernel)
+> - [Storage (ROM)](#ROM)
+> 	- [Checking ROM devices](#rom_devices)
+> 	- [Checking the number of files](#rom_file)
+> 	- [Checking disk space](#rom_diskspace)
+> - [Memory (RAM)](#ram)
+> 	- [Checking RAM devices](#ram_devices)
+> 	- [Checking memory space](#ram_memspace)
 > - [CPU](#cpu)
-> 	- [CPUデバイスを確認したい](#cpu----------)
+> 	- [Checking CPU devices](#cpu_devices)
 > - [GPU](#gpu)
-> 	- [GPUデバイスの確認](#gpu-------)
-> - [NVIDIAドライバとCUDA/cuDNNの導入](#nvidia-----cuda-cudnn---)
-> 	- [NVIDIAドライバのインストール](#nvidia-----------)
-> - [CUDAのインストール](#cuda-------)
-> 	- [cuDNNのインストール](#cudnn-------)
-> 	- [PATHチェック](#path----)
-> - [ディスプレイ](#------)
-> 	- [X11ディスプレイマネージャ(DM)を確認](#x11------------dm----)
+> 	- [Checking GPU devices](#gpu_devices)
+>   - [NVIDIA driver & CUDA/cuDNN](#nvidia-cudacudnn)
+>       - [Installing NVIDIA driver](#nvidia_nvidiadriver)
+>       - [Installing NVIDIA CUDA](#nvidia_cuda)
+>       - [Installing NVIDIA cuDNN](#nvidia_cuDNN)
+> - [I/O](#------)
+> 	- [Checking X11 display manager (DM)](#x11------------dm----)
 
 <br>
 <br>
 
 
-## オペレーティングシステム（OS）
+## Operating System
 
-##### OSを確認したい
+##### Checking Linux OS
 
-unameコマンドを使う
-
-「OS名,ホスト名,OSリリース,OSバージョン,マシンアーキテクチャ,CPUタイプ,プラットフォーム,OS名」が順に表示される．
+`uname` command shows 1.OS Name, 2.Hostname, 3.Release, 4.Version, 5,Hardware Architecture, 6,CPU type, 7.Platform, 8.OS Name, respectively,
 
 ```bash
 $ uname -a
