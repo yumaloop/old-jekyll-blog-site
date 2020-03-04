@@ -21,7 +21,7 @@ Evidence Lower Bound (ELBO) is a lower bound of Log likelihood of $$X$$ (Evidenc
 
 
 $$
-\begin{align}
+\begin{aligned}
 (\text{Evidence})
 &= \log p(x) \\
 &= \log \int_{Z} p(x,z) \\
@@ -31,16 +31,18 @@ $$
 &\geq \mathbb{E}_{z \sim q} \left[ \log \frac{p(x,z)}{q(z)} \right] \\
 &= \mathbb{E}_{z \sim q} \left[ \log p(x,z) \right] + H_q(Z) \\
 &= ELBO(q) ~~~ (\text{Evidence Lower Bound, ELBO})
-\end{align}
+\end{aligned}
 $$
+
 
 So that, we can obtain the optimization formula below.
 
+
 $$
-\begin{align}
+\begin{aligned}
 \underset{\theta}{\rm max} ~ \log p_{\theta}(x) 
 &= \underset{q}{\rm max} ~ ELBO(q)
-\end{align}
+\end{aligned}
 $$
 
 
@@ -49,24 +51,24 @@ $$
 
 
 $$
-\begin{align}
+\begin{aligned}
 D_{KL}( q(z) \vert\vert p(z|x) ) 
 &= \int_{Z} q(z) \frac{q(z)}{p(z|x)} \\
 &= - H_q(Z) - \mathbb{E}_{z \sim q} \left[ \log p(z|x) \right]
-\end{align}
+\end{aligned}
 $$
 
 ELBO is considered as the difference between Log likelihood  $$\log p(x) $$ and KL-divergence  $$D_{KL}( q(z) \vert\vert p(z|x) ) $$.
 
 $$
-\begin{align}
+\begin{aligned}
 ELBO 
 &= \mathbb{E}_{z \sim q} \left[ \log p(x,z) \right] + H_q(Z) \\
 &= \mathbb{E}_{z \sim q} \left[ \log p(x) + \log p(z|x) \right] + H_q(Z) \\
 &= \mathbb{E}_{z \sim q} \left[ \log p(x) \right] + \mathbb{E}_{z \sim q} \left[ \log p(z|x) \right] + H_q(Z) \\
 &= \log p(x) + H_q(Z) + \mathbb{E}_{z \sim q} \left[ \log p(z|x) \right] \\
 &= \log p(x) - D_{KL}( q(z) \vert\vert p(z|x) ) 
-\end{align}
+\end{aligned}
 $$
 
 
