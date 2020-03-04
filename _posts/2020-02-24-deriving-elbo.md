@@ -52,13 +52,13 @@ $$
 
 $$
 \begin{aligned}
-D_{KL}( q(z) \vert\vert p(z|x) ) 
-&= \int_{Z} q(z) \frac{q(z)}{p(z|x)} \\
+D_{KL}( q(z) \vert\vert p(z \vert x) ) 
+&= \int_{Z} q(z) \frac{q(z)}{p(z \vert x)} \\
 &= - H_q(Z) - \mathbb{E}_{z \sim q} \left[ \log p(z|x) \right]
 \end{aligned}
 $$
 
-ELBO is considered as the difference between Log likelihood  $$\log p(x) $$ and KL-divergence  $$D_{KL}( q(z) \vert\vert p(z|x) ) $$.
+ELBO is considered as the difference between Log likelihood  $$\log p(x)$$ and KL-divergence $$D_{KL}( q(z) \vert\vert p(z \vert x) )$$ as below.
 
 $$
 \begin{aligned}
@@ -66,8 +66,8 @@ ELBO
 &= \mathbb{E}_{z \sim q} \left[ \log p(x,z) \right] + H_q(Z) \\
 &= \mathbb{E}_{z \sim q} \left[ \log p(x) + \log p(z|x) \right] + H_q(Z) \\
 &= \mathbb{E}_{z \sim q} \left[ \log p(x) \right] + \mathbb{E}_{z \sim q} \left[ \log p(z|x) \right] + H_q(Z) \\
-&= \log p(x) + H_q(Z) + \mathbb{E}_{z \sim q} \left[ \log p(z|x) \right] \\
-&= \log p(x) - D_{KL}( q(z) \vert\vert p(z|x) ) 
+&= \log p(x) + H_q(Z) + \mathbb{E}_{z \sim q} \left[ \log p(z \vert x) \right] \\
+&= \log p(x) - D_{KL}( q(z) \vert\vert p(z \vert x) ) 
 \end{aligned}
 $$
 
