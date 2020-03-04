@@ -21,5 +21,5 @@ sass:
   style: expanded
 
 plugins:
-  - jekyll-paginate
   - jekyll-feed
+  - jekyll-paginate

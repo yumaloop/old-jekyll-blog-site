@@ -226,7 +226,10 @@ Here is the directory structure of this site. All HTML and CSS/SCSS/Javascript c
 ```
 
 
+# Links
 
+- Ruby - github-pages version list<br>
+https://rubygems.org/gems/github-pages/versions/
 
 
 

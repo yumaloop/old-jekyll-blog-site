@@ -1,9 +1,5 @@
 source "https://rubygems.org"
 
-gem 'jekyll', '3.8.5'
+gem 'jekyll', '2.4.0'
 gem 'jekyll-feed'
-
-group :jekyll_plugins do
-  gem 'jekyll-paginate'
-end
-
+gem 'jekyll-paginate'
