@@ -163,4 +163,3 @@ $$
 執筆時の個人的な理解としては，FEPにおける各変数$$\theta, \mu, y, \alpha$$の更新規則は，「観測データを用いた最尤推定」そのものだと思っている．論文で提唱されている自由エネルギー$$F(y)$$最小化は，Variational BayesにおけるELBO最大化と同じであるから，むしろ4つの変数間のループ構造（グラフ表現）の方が重要なのだろう． 
 
 <a href="https://www.mendeley.com/viewer/?fileId=05efc940-2dc2-9039-46ca-bb6e1ae1bdba&documentId=ed320c28-3a4c-373a-9089-2a456e2b56f3">FristonのNature論文(2010)</a>では，自由エネルギー$$F(y)$$の定義がより複雑化しており，よく理解していない．
-
