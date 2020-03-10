@@ -9,7 +9,7 @@ tags:
 
 ---
 
-<a href="https://gmwgroup.harvard.edu/people/george-m-whitesides">Prof. George M. Whitesides</a> is a top-level researcher on chemistry and also known as one of the highest h-index researchers in the world. He explains his writing techniques called outline method in the article, <a href="https://www.tulane.edu/~lamp/whiteside.pdf">"Whitesides' Group: Writing a Paper"</a>. I've translated that into Japanese and publish it on the Web.
+<a href="https://gmwgroup.harvard.edu/people/george-m-whitesides">Prof. George M. Whitesides</a> is a top-level researcher on chemistry and also known as one of the highest h-index researchers in the world. He explains his unique writing techniques called Outline Method in the article, <a href="https://www.tulane.edu/~lamp/whiteside.pdf">"Whitesides' Group: Writing a Paper"</a>. I've translated that into Japanese and publish it here.
 
 
 ## Original paper
