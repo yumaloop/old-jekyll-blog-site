@@ -129,7 +129,7 @@ By using this formula, the estimated value of $$\hat{\theta}_{MLE}$$ can be obta
 > 	
 > 	- M step 
 > 	
-> 	  Derive the optimal parameter \theta^{(t+1)} that maximize $$Q$$ value.
+> 	  Derive the optimal parameter $$\theta^{(t+1)}$$ that maximize $$Q$$ value.
 > 	
 > 	  $$ \theta^{(t+1)} = \underset{\theta \in \Theta}{\rm argmax} ~ Q(\theta | \theta^{(t)}) $$
 > 	
