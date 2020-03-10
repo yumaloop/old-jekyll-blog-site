@@ -165,6 +165,7 @@ Also, the summarized formula of calculations in E step and M step is as follows.
 
 ## References
 
+- <a href="http://users.isr.ist.utl.pt/~wurmd/Livros/school/Bishop%20-%20Pattern%20Recognition%20And%20Machine%20Learning%20-%20Springer%20%202006.pdf">PRML Chapter 9: Mixture models and EM</a>
 - <a href="http://ebsa.ism.ac.jp/ebooks/sites/default/files/ebook/1881/pdf/vol3_ch9.pdf">9章 EMアルゴリズム - 「21 世紀の統計科学」第 III 巻 日本統計学会, 2008</a>
 - <a href="https://staff.aist.go.jp/s.akaho/papers/josho-main.pdf">解説 EMアルゴリズムの幾何学 - 赤穂昭太郎, 電子技術総合研究所</a>
 - <a href="https://www.ism.ac.jp/~shiro/papers/books/embook2000.pdf">EMアルゴリズムと神経回路網, 2000, 統計数理研究所</a>
