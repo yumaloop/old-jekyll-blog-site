@@ -29,7 +29,7 @@ $$
 
 $$
 \begin{aligned}
-D_{KL}(p \vert\vert q) := \int_{X} q(x) \log \frac{q(x)}{p(x)} 
+D_{KL}(q \vert\vert p) := \int_{X} q(x) \log \frac{q(x)}{p(x)} 
 \end{aligned}
 $$
 
@@ -37,7 +37,7 @@ $$
 
 $$
 \begin{aligned}
-D_{KL}(p \vert\vert q) 
+D_{KL}(q \vert\vert p) 
 &= \beta \int_X q(x)\phi(x) - \left\{ - \int_X q(x)\log q(x) \right\} + \log \int_X \exp(-\beta \phi(x)) \\
 &= \beta~ \mathbb{E}_{x \sim q}[\phi(x)] - H_q(X) + \log Z^{\phi}(\beta) \\
 &= \beta~ (\text{Internal energy}) - (\text{Entropy}) + (\text{Const.}) \\
@@ -47,10 +47,16 @@ $$
 いま，近似分布$$q(x)$$に対する汎関数として，自由エネルギー:
 
 $$
-F^{\phi}(q) := \beta~ \mathbb{E}_{x \sim q}[\phi(x)] - H_q(X) ~~~ (\text{Free energy})
+F^{\phi}(q) := \mathbb{E}_{x \sim q}[\phi(x)] - \frac{1}{\beta}H_q(X) ~~~ (\text{Free energy})
 $$
 
-を定義すれば，$$q(x)$$による$$p(x)$$の近似問題は，次式で表現できる．
+を定義すれば，
+
+$$
+D_{KL}(q \vert\vert p)  = \beta~ F^{\phi}(q) + \log Z^{\phi}(\beta)
+$$
+
+となるから，$$q(x)$$による$$p(x)$$の近似問題は次式で表現できる．
 
 $$
 \begin{aligned}
