@@ -38,16 +38,16 @@ $$
 $$
 \begin{aligned}
 D_{KL}(p \vert\vert q) 
-&= \int_X q(x)\phi(x) - \left\{ - \int_X q(x)\log q(x) \right\} + \log \int_X \exp(-\beta \phi(x)) \\
-&= \mathbb{E}_{x \sim q}[\phi(x)] - H_q(X) + \log Z^{\phi}(\beta) \\
-&= (\text{Internal energy}) - (\text{Entropy}) + (\text{Const.}) \\
+&= \beta \int_X q(x)\phi(x) - \left\{ - \int_X q(x)\log q(x) \right\} + \log \int_X \exp(-\beta \phi(x)) \\
+&= \beta~ \mathbb{E}_{x \sim q}[\phi(x)] - H_q(X) + \log Z^{\phi}(\beta) \\
+&= \beta~ (\text{Internal energy}) - (\text{Entropy}) + (\text{Const.}) \\
 \end{aligned}
 $$
 
 いま，近似分布$$q(x)$$に対する汎関数として，自由エネルギー:
 
 $$
-F^{\phi}(q) := \mathbb{E}_{x \sim q}[\phi(x)] - H_q(X) ~~~ (\text{Free energy})
+F^{\phi}(q) := \beta~ \mathbb{E}_{x \sim q}[\phi(x)] - H_q(X) ~~~ (\text{Free energy})
 $$
 
 を定義すれば，$$q(x)$$による$$p(x)$$の近似問題は，次式で表現できる．
@@ -79,3 +79,23 @@ p(\cdot) \equiv	 q(\cdot)
 $$
 
 となる．
+
+
+
+<br>
+
+**熱力学(統計力学)との関係**
+
+温度$$T$$，内部エネルギー$$U$$，エントロピー$$S$$に対して，Helmholtzの自由エネルギー$$F$$は以下のように定義される．
+
+$$
+F = U - TS
+$$
+
+$$F^{\phi}(q)$$の定義式で，$$F = F^{\phi}(q)$$，$$U = \mathbb{E}_{x \sim q}[\phi(x)]$$，$$S = H_q(X)$$とおけば，
+
+$$
+F = \beta U - S
+$$
+
+となるから，汎関数$$F^{\phi}(q)$$は，熱力学におけるHelmholtzの自由エネルギー$$F$$と類似した形式を持っていることがわかる．
