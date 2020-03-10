@@ -149,7 +149,7 @@ F(y)
 \end{aligned}
 $$
 
-つまり，Fristonの自由エネルギー$$F(y)$$は，「対脳の外部環境$$Y$$に対する観測データ$${\{y_t\}}_{t=1}^{n}$$の対数尤度(Evidence)の上界」であり，エージェントの行動$$\alpha$$や脳の内部状態$$\mu$$の更新式:
+つまり，Fristonの自由エネルギー$$F(y)$$は「脳の外部環境$$Y$$に対する観測データ$${\{y_t\}}_{t=1}^{n}$$の対数尤度下限(ELBO)に$$-1$$をかけたもの」である．<a href="[https://www.fil.ion.ucl.ac.uk/~karl/The%20free-energy%20principle%20-%20a%20rough%20guide%20to%20the%20brain.pdf](https://www.fil.ion.ucl.ac.uk/~karl/The free-energy principle - a rough guide to the brain.pdf)">FristonのCell論文(2009)</a>にあるエージェントの行動$$\alpha$$や脳の内部状態$$\mu$$の更新式:
 
 $$
 \begin{aligned}
@@ -158,9 +158,9 @@ $$
 \end{aligned}
 $$
 
-は，$$F(y) = $$「脳の外部環境$$Y$$に対する観測データ$${\{y_t\}}_{t=1}^{n}$$の対数尤度(Evidence)」を最小化する過程を表している．
+における$$F(y)$$の最小化は，「脳の外部環境$$Y$$に対する観測データ$${\{y_t\}}_{t=1}^{n}$$の対数尤度(Evidence)」を最大化する過程を表している．
 
-執筆時の個人的な理解としては，FEPにおける各変数$$\theta, \mu, y, \alpha$$の更新規則は，「観測データを用いた最尤推定」そのものだと思っている．更新規則よりも，4つの変数間のループ構造（グラフ表現）が重要なのだろう．
+執筆時の個人的な理解としては，FEPにおける各変数$$\theta, \mu, y, \alpha$$の更新規則は，「観測データを用いた最尤推定」そのものだと思っている．論文で提唱されている自由エネルギー$$F(y)$$最小化は，Variational BayesにおけるELBO最大化と同じであるから，むしろ4つの変数間のループ構造（グラフ表現）の方が重要なのだろう． 
 
 <a href="https://www.mendeley.com/viewer/?fileId=05efc940-2dc2-9039-46ca-bb6e1ae1bdba&documentId=ed320c28-3a4c-373a-9089-2a456e2b56f3">FristonのNature論文(2010)</a>では，自由エネルギー$$F(y)$$の定義がより複雑化しており，よく理解していない．
 
