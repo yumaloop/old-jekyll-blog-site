@@ -16,6 +16,7 @@ tags:
 
 
 ある変数$$X$$のとりうるすべての状態(実現値)$$x$$に対して，何らかのエネルギー関数$$\phi(x)$$が与えられたとする．このとき，変数$$X$$のGibbs分布（Boltzmann分布）:
+
 $$
 \begin{aligned}
 p(x) 
@@ -25,12 +26,15 @@ p(x)
 $$
 
 を考える．このとき，Gibbs分布$$p(x)$$と任意の近似分布$$q(x)$$とのKL-divergence:
+
 $$
 \begin{aligned}
 D_{KL}(p \vert\vert q) := \int_{X} q(x) \log \frac{q(x)}{p(x)} 
 \end{aligned}
 $$
+
 は以下のように分解できる．
+
 $$
 \begin{aligned}
 D_{KL}(p \vert\vert q) 
