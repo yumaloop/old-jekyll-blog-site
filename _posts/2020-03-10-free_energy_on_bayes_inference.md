@@ -14,6 +14,7 @@ tags:
 **平均場近似と自由エネルギー**
 
 ある変数$$X$$のとりうるすべての状態(実現値)$$x$$に対して，何らかのエネルギー関数$$\phi(x)$$が与えられたとする．このとき，変数$$X$$のGibbs分布（Boltzmann分布）:
+
 $$
 \begin{aligned}
 p(x) 
@@ -119,6 +120,7 @@ $$
 <br>
 
 ELBOの定義式:
+
 $$
 \begin{aligned}
 (\text{Evidence}) 
@@ -128,11 +130,15 @@ $$
 &= (\text{Evidence Lower Bound})
 \end{aligned}
 $$
+
 と<a href="[https://www.fil.ion.ucl.ac.uk/~karl/The%20free-energy%20principle%20-%20a%20rough%20guide%20to%20the%20brain.pdf](https://www.fil.ion.ucl.ac.uk/~karl/The free-energy principle - a rough guide to the brain.pdf)">FristonのCell論文(2009)</a>にある自由エネルギーの定義式
+
 $$
 F(y) = - \mathbb{E}_{\theta \sim q}[\log p(y,\theta)] + \mathbb{E}_{\theta \sim q}[\log q(\theta)] 
 $$
+
 を比べると，以下の関係が得られる．
+
 $$
 \begin{aligned}
 F(y) 
@@ -143,9 +149,7 @@ F(y)
 \end{aligned}
 $$
 
-
 つまり，Fristonの自由エネルギー$$F(y)$$は，「対脳の外部環境$$Y$$に対する観測データ$${\{y_t\}}_{t=1}^{n}$$の対数尤度(Evidence)の上界」であり，エージェントの行動$$\alpha$$や脳の内部状態$$\mu$$の更新式:
-
 
 $$
 \begin{aligned}
@@ -153,6 +157,7 @@ $$
 \mu^{*} &= \underset{\mu}{\rm argmin} ~ F(y)
 \end{aligned}
 $$
+
 は，$$F(y) = $$「脳の外部環境$$Y$$に対する観測データ$${\{y_t\}}_{t=1}^{n}$$の対数尤度(Evidence)」を最小化する過程を表している．
 
 執筆時の個人的な理解としては，FEPにおける各変数$$\theta, \mu, y, \alpha$$の更新規則は，「観測データを用いた最尤推定」そのものだと思っている．更新規則よりも，4つの変数間のループ構造（グラフ表現）が重要なのだろう．
