@@ -68,7 +68,7 @@ $$
 また．自由エネルギー$$F^{\phi}(q)$$の最小値は，
 
 $$
-{F^{\phi}}^{*}(q) = - \log \int_X \exp (-\beta \phi(x)) = - \log Z^{\phi}(\beta)
+{F^{\phi}}^{*}(q) = - \frac{1}{\beta} \log \int_X \exp (-\beta \phi(x)) = - \frac{1}{\beta} \log Z^{\phi}(\beta)
 $$
 
 となる．すなわち，
@@ -76,7 +76,7 @@ $$
 $$
 \begin{aligned}
 {F^{\phi}}(q) 
-= - \log Z^{\phi}(\beta) 
+= - \frac{1}{\beta} \log Z^{\phi}(\beta) 
 ~~ \Leftrightarrow ~~ 
 D_{KL}(p \vert\vert q) = 0
 ~~ \Leftrightarrow ~~ 
@@ -101,7 +101,10 @@ $$
 $$F^{\phi}(q)$$の定義式で，$$F = F^{\phi}(q)$$，$$U = \mathbb{E}_{x \sim q}[\phi(x)]$$，$$S = H_q(X)$$とおけば，
 
 $$
-F = \beta U - S
+\begin{aligned}
+\beta F &= \beta U - S \\
+F &= U - \frac{1}{\beta} S
+\end{aligned}
 $$
 
 となるから，汎関数$$F^{\phi}(q)$$は，熱力学におけるHelmholtzの自由エネルギー$$F$$と類似した形式を持っていることがわかる．
