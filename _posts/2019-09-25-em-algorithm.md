@@ -5,8 +5,7 @@ lang: en
 categories:
     - StatML
 tags:
-    - hoge
-    - foo
+    - Bayes
 ---
 
 ![EM algorithm header img](https://www.mathworks.com/matlabcentral/mlc-downloads/downloads/submissions/65772/versions/3/screenshot.png"EM algorithm")
@@ -78,31 +77,39 @@ $$
 
 Let's define the following data categories.
 
-- Complete data $$x\in X$$ : <br>
-    - **not observable** but completely follows the true distribution $$p(x)$$ 
-- Imcomplete data $$y \in Y$$ : <br>
+- Complete data $$Y \in \mathcal{Y}$$ : <br>
+    - **not observable** but completely follows the true distribution $$p(y)$$ 
+- Imcomplete data $$X \in \mathcal{X}$$ : <br>
     - observable but **not completely follows** the true distribution $$p(x)$$ 
 
-In general, the relationship complete data $$x$$ and incomplete data $$y$$ is a one-to-many relationship. but here, as a convenient assumption, I introduce a latent variable $$z \in Z$$ to express this constraint, that is assume $$x = [y,z]$$ holds. Considering the stochastic model for the complete data $$x$$,
+In general, the relationship complete data $$y$$ and incomplete data $$x$$ is a one-to-many relationship. but here, as a convenient assumption, I introduce a latent variable $$z \in Z$$ to express this constraint, that is assume $$y = [x, z]$$ holds. Considering the stochastic model for the complete data $$x$$,
 $$
 ~ \\
 \begin{align}
-p(x | \theta) = p(y,z | \theta)
+p(y | \theta) = p(x,z | \theta)
 \end{align}
 ~ \\
 $$
 
-data sample $$x_i$$ cannot be observed and its likelihood $$p(x_i \vert \theta)$$ cannot be calculated. However, for data sample $$y_i$$ can be observed and its likelihood $$p(y_i \vert \theta)$$ can be calculated.
+
+
+- Complete data $$\{X,Z\} \in \mathcal{X \times Z}$$ : <br>
+  - **not observable** but completely follows the true distribution $$p(x,z)$$ 
+- Imcomplete data $$X \in \mathcal{X}$$ : <br>
+  - observable but **not completely follows** the true distribution $$p(x)$$ 
+
+
+
+data sample $$x_i$$ cannot be observed and its likelihood $$p(x_i \vert \theta)$$ cannot be calculated. However, for pair data sample $$\{x_i, z_i\}$$ can be observed and its likelihood $$p(x_i, z_i \vert \theta)$$ can be calculated.
 $$
 ~ \\
 \begin{align}
-p(y_i | \theta) 
-&= \int_{Z} p(x_i | \theta) ~ dz \\
-&= \int_{Z} p(y_i, z | \theta) ~ dz
+p(x_i | \theta) 
+&= \int_{Z} p(x_i, z_i | \theta) ~ dz \\
 \end{align}
 ~ \\
 $$
-By using this formula, the estimated value of $$\hat{\theta}_{MLE}$$ can be obtained by approximating $$p(x \vert \theta)$$, the likelihood function of complete data $$x$$. The procedure to derive the estimated value of $$\hat{\theta}_{MLE}$$ is called EM algorithm because it is an iterative method that repeats E-step and M-step alternately.
+By using this formula, the estimated value of $$\hat{\theta}_{MLE}$$ can be obtained by approximating $$p(x,z \vert \theta)$$, the likelihood function of complete data $$\{x, z\}$$. The procedure to derive the estimated value of $$\hat{\theta}_{MLE}$$ is called EM algorithm because it is an iterative method that repeats E-step and M-step alternately.
 
 
 
@@ -118,7 +125,7 @@ By using this formula, the estimated value of $$\hat{\theta}_{MLE}$$ can be obta
 > 	
 > 	  Update the expectation value $$Q$$.
 > 	
-> 	  $$ Q(\theta | \theta^{(t)}) = \mathbb{E}_{x \sim p(x|\theta)} \left[ \log p(x|\theta) | y, \theta^{(t)} \right] $$
+> 	  $$ \begin{aligned} Q(\theta | \theta^{(t)}) &= \mathbb{E}_{z \sim p(z \vert x, \theta^{(t)})} \left[ \log p(x, z \vert \theta)  \right] \\ &\simeq \sum_{i=1}^{n} p(z_i \vert x_i, \theta^{(t)}) \log p(x_i, z_i \vert \theta) \\ &= \sum_{i=1}^{n} p(z_i \vert x_i, \theta^{(t)}) \log p(z_i \vert x_i, \theta) + Const. \end{aligned}$$
 > 	
 > 	- M step 
 > 	
@@ -126,7 +133,7 @@ By using this formula, the estimated value of $$\hat{\theta}_{MLE}$$ can be obta
 > 	
 > 	  $$ \theta^{(t+1)} = \underset{\theta \in \Theta}{\rm argmax} ~ Q(\theta | \theta^{(t)}) $$
 > 	
-> 3. Consider the convergence value $$\theta^{(\infty)}$$ as the algorithm output. 
+> 3. Consider the convergence value $$\theta^{(\infty)}$$ as the algorithm output $$\hat{\theta}_{EM}$$. 
 
 
 
@@ -149,9 +156,8 @@ Also, the summarized formula of calculations in E step and M step is as follows.
 > $$
 > \begin{align}
 > \theta^{(t+1)} 
-> &= \underset{\theta \in \Theta}{\rm argmax} ~ \mathbb{E}_{x \sim p(x|\theta)} \left[ \log p(x | \theta) | y, \theta^{(t)} \right] \\
-> &= \underset{\theta \in \Theta}{\rm argmax} ~ \mathbb{E}_{(y,z) \sim p(y,z|\theta)} \left[ \log p(y, z | \theta) | y, \theta^{(t)} \right] \\
-> &= \underset{\theta \in \Theta}{\rm argmax} ~ \mathbb{E}_{z | {\theta}^{(t)} \sim \int_{Y} p(y,z | {\theta}^{(t)}) dy} \left[ \log p(y, z | \theta) \right]
+> &= \underset{\theta \in \Theta}{\rm argmax} ~ \mathbb{E}_{z \sim p(z \vert x, \theta^{(t)})} \left[ \log p(x, z \vert \theta)  \right] \\
+> &= \underset{\theta \in \Theta}{\rm argmax} ~ \sum_{i=1}^{n} p(z_i \vert x_i, \theta^{(t)}) \log p(x_i, z_i \vert \theta)
 > \end{align}
 > $$
 

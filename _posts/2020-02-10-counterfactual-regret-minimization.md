@@ -5,8 +5,8 @@ lang: en
 categories:
     - StatML
 tags:
-    - hoge
-    - foo
+    - RL
+	- Regret	
 ---
 
 

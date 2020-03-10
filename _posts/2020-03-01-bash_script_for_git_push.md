@@ -5,7 +5,7 @@ lang: en
 categories:
     - Tips
 tags:
-    - memo
+    - Git
 
 ---
 

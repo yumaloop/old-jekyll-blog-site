@@ -5,7 +5,7 @@ lang: en
 categories:
     - StatML
 tags:
-    - foo
+    - Bayes
 ---
 
 

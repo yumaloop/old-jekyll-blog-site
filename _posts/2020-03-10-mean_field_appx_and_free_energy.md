@@ -3,9 +3,9 @@ layout: post
 title: 平均場近似と自由エネルギー
 lang: ja
 categories:
-    - Tips
+    - StatML
 tags:
-    - memo
+    - Bayes
 
 ---
 

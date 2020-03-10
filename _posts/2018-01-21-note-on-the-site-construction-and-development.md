@@ -5,8 +5,7 @@ lang: en
 categories:
     - Personal
 tags:
-    - hoge
-    - foo
+    - Env
 ---
 
 

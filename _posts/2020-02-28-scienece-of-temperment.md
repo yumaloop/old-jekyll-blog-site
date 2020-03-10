@@ -5,7 +5,7 @@ lang: ja
 categories:
     - Tips
 tags:
-    - memo
+    - random
 
 ---
 

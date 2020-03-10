@@ -5,8 +5,7 @@ lang: en
 categories:
     - Tips
 tags:
-    - hoge
-    - foo
+    - Env
 ---
 
 

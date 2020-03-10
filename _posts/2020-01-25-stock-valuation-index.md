@@ -5,8 +5,7 @@ lang: en
 categories:
     - Econ
 tags:
-    - hoge
-    - foo
+    - stock
 ---
 
 ## hoge

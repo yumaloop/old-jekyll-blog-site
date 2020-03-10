@@ -5,8 +5,7 @@ lang: en
 categories:
     - Tips
 tags:
-    - hoge
-    - foo
+    - random
 ---
 
 Have you ever want to login to keio.jp automatically? Don't you think it is cool? At least I think so and I write down the way to achieve that with Python.
