@@ -11,54 +11,67 @@ tags:
 
 
 
-KL-divergence:
 
+
+
+
+ある変数$$X$$のとりうるすべての状態(実現値)$$x$$に対して，何らかのエネルギー関数$$\phi(x)$$が与えられたとする．このとき，変数$$X$$のGibbs分布（Boltzmann分布）:
 $$
 \begin{aligned}
-D_{KL}(p \vert\vert q) := \int_{Z} q(z) \log \frac{q(z)}{p(z)} 
+p(x) 
+&= \frac{\exp (- \beta \phi(x))}{\int_X \exp (- \beta \phi(x))} 
+= \frac{\exp (- \beta \phi(x))}{Z^{\phi}(\beta)}
 \end{aligned}
 $$
 
-に対して，エネルギー関数$$\phi(z)$$が与えられたときの$$Z$$のGibbs分布（Boltzmann分布）:
-
+を考える．このとき，Gibbs分布$$p(x)$$と任意の近似分布$$q(x)$$とのKL-divergence:
 $$
 \begin{aligned}
-p(z) 
-&= \frac{\exp (- \beta \phi(z))}{\int_Z \exp (- \beta \phi(z))} 
-= \frac{\exp (- \beta \phi(z))}{Z^{\phi}(\beta)}
+D_{KL}(p \vert\vert q) := \int_{X} q(x) \log \frac{q(x)}{p(x)} 
 \end{aligned}
 $$
-
-を考える．このとき，
-
+は以下のように分解できる．
 $$
 \begin{aligned}
 D_{KL}(p \vert\vert q) 
-&= \int_Z q(z)\phi(z) - \left\{ - \int_Z q(z)\log q(z) \right\} + \log \int_Z \exp(-\beta \phi(z)) \\
-&= \mathbb{E}_{z \sim q}[\phi(z)] - H_q(Z) + \log Z^{\phi}(\beta) \\
+&= \int_X q(x)\phi(x) - \left\{ - \int_X q(x)\log q(x) \right\} + \log \int_X \exp(-\beta \phi(x)) \\
+&= \mathbb{E}_{x \sim q}[\phi(x)] - H_q(X) + \log Z^{\phi}(\beta) \\
 &= (\text{Internal energy}) - (\text{Entropy}) + (\text{Const.}) \\
 \end{aligned}
 $$
 
-だから，自由エネルギー:
+いま，近似分布$$q(x)$$に対する汎関数として，自由エネルギー:
 
 $$
-F^{\phi}(q) := \mathbb{E}_{z \sim q}[\phi(z)] - H_q(Z) ~~~ (\text{Free energy})
+F^{\phi}(q) := \mathbb{E}_{x \sim q}[\phi(x)] - H_q(X) ~~~ (\text{Free energy})
 $$
 
-を定義すれば，任意の$$p(z) = \frac{\exp (- \beta \phi(z))}{\int_Z \exp (- \beta \phi(z))}$$に対して，
+を定義すれば，$$q(x)$$による$$p(x)$$の近似問題は，次式で表現できる．
 
 $$
 \begin{aligned}
-\underset{q}{\rm min} ~ D_{KL}(p \vert\vert q) = 
+\underset{q}{\rm min} ~ D_{KL}(p \vert\vert q) &= 
 \underset{q}{\rm min} ~ F^{\phi}(q)
 \end{aligned}
 $$
 
-が成り立つ．また．自由エネルギー$$F^{\phi}(q)$$の最小値は，
+また．自由エネルギー$$F^{\phi}(q)$$の最小値は，
 
 $$
-{F^{\phi}}^{*}(q) = - \log \int_Z \exp (-\beta \phi(z)) = - \log Z^{\phi}(\beta)
+{F^{\phi}}^{*}(q) = - \log \int_X \exp (-\beta \phi(x)) = - \log Z^{\phi}(\beta)
+$$
+
+となる．すなわち，
+
+$$
+\begin{aligned}
+{F^{\phi}}(q) 
+= - \log Z^{\phi}(\beta) 
+~~ \Leftrightarrow ~~ 
+D_{KL}(p \vert\vert q) = 0
+~~ \Leftrightarrow ~~ 
+p(\cdot) \equiv	 q(\cdot)
+\end{aligned}
 $$
 
 となる．
