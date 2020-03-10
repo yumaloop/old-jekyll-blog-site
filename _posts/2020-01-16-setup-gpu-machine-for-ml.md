@@ -79,9 +79,9 @@ Linux XXXX 4.4.0-145-generic #171-Ubuntu SMP Tue Mar 26 12:43:40 UTC 2019 x86_64
 
 
 
-##### Linuxディストリビューションを確認したい
+##### Checking Linux distribution
 
-/etc/issueファイルをみる
+`/etc/issue` contains information about Linux distribution.
 
 ```bash
 $ cat /etc/issue
@@ -90,7 +90,7 @@ Ubuntu 16.04.6 LTS \n \l
 
 
 
-/etc/lsb-releaseをみる
+`/etc/lsb-release` contains the same information.
 
 ```bash
 $ cat /etc/lsb-release
@@ -101,7 +101,7 @@ DISTRIB_DESCRIPTION="Ubuntu 16.04.6 LTS"
 
 
 
-/etc/os-releaseをみる
+`/etc/os-release` contains the same information.
 
 ```bash
 $ cat /etc/os-release
@@ -111,9 +111,9 @@ VERSION=“16.04.6 LTS (Xenial Xerus)” ID=ubuntu ID_LIKE=debian PRETTY_NAME=�
 
 
 
-##### Linuxカーネルを確認したい
+##### Checking Linux kernel
 
-/proc/versionをみる
+`/proc/version` contains information about Linux kernel.
 
 ```bash
 $ cat /proc/version
@@ -124,13 +124,15 @@ Linux version 4.4.0-159-generic (buildd@lgw01-amd64-042) (gcc version 5.4.0 2016
 
  
 
-## ストレージ（ROM）
+## Storage (ROM)
 
-ストレージデバイス（HDD, SSD）とファイルシステムまわりについて．
+Storage device (HDD, SSD) and file systems.
 
-##### HDDの状態を確認したい
 
-df -hコマンドを使う
+
+##### Checking ROM devices
+
+`df` commad shows information about ROM (HDD) devices
 
 ```bash
 $ df -h
@@ -152,11 +154,9 @@ tmpfs           1.6G     0  1.6G   0% /run/user/1001
 
 
 
-##### ファイル数を確認したい
+##### Checking the number of files
 
-wcコマンドを使う
-
-カレントディレクトリ直下にあるファイル数を表示する
+`wc` command shows the number of files under the current dir.
 
 ```bash
 $ du -hsc *
