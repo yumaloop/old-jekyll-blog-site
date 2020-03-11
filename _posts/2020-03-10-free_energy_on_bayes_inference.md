@@ -141,18 +141,16 @@ $$
 
 $$
 \begin{aligned}
-F(y) 
-&= - \mathbb{E}_{\theta \sim q}[\log p(y,\theta)] + \mathbb{E}_{\theta \sim q}[\log q(\theta)] \\
+(\text{Surprise}) 
+&= - \log p(y) \\
+&\leq - \mathbb{E}_{\theta \sim q}[\log p(y,\theta)] + \mathbb{E}_{\theta \sim q}[\log q(\theta)] \\
 &= -\mathcal{L}_{ELBO}(q) \\
-&\geq - \log p(y) \\
-&= -(\text{Evidence}) \\
-&= (\text{Surprise})
+&= F(y) \\
+&= (\text{Free energy})
 \end{aligned}
 $$
 
 つまり，Fristonの自由エネルギー$$F(y)$$は「脳の外部環境$$Y$$に対する観測データ$${\{y_t\}}_{t=1}^{n}$$の対数尤度下限(ELBO)に$$-1$$をかけたもの」である．なお，Bayes推論では,対数尤度$$\log p(y)$$をエビデンス(Evidence)といい，情報理論では負の対数尤度$$-\log p(y)$$をサプライズ(Surprise)という．
-
-
 
 <a href="[https://www.fil.ion.ucl.ac.uk/~karl/The%20free-energy%20principle%20-%20a%20rough%20guide%20to%20the%20brain.pdf](https://www.fil.ion.ucl.ac.uk/~karl/The free-energy principle - a rough guide to the brain.pdf)">FristonのCell論文(2009)</a>にあるエージェントの行動$$\alpha$$や脳の内部状態$$\mu$$の更新式:
 $$
@@ -162,7 +160,14 @@ $$
 \end{aligned}
 $$
 
-における$$F(y)$$の最小化は，「脳の外部環境$$Y$$に対する観測データ$${\{y_t\}}_{t=1}^{n}$$の対数尤度(Evidence)」を最大化する過程を表している．
+における$$F(y)$$の最小化は，「脳の外部環境$$Y$$に対する観測データ$${\{y_t\}}_{t=1}^{n}$$の対数尤度(Evidence)」を最大化する過程を表している．ELBOとFEPの関係をまとめると以下の表のようになる．
+
+|      | 原理                                                         | Jensenの不等式を使った近似                                |
+| ---- | ------------------------------------------------------------ | --------------------------------------------------------- |
+| ELBO | 観測データ$$x_i$$に対するEvidence: $$ \log p(x_i)$$ の最大化 | $$\text{Evidence} \geq \mathcal{L}_{ELBO}$$: 下限を最大化 |
+| FEP  | 観測データ$$x_i$$に対するSurprise: $$- \log p(x_i)$$ の最小化 | $$\text{Surprise} \leq F$$: 上限を最小化                  |
+
+
 
 執筆時の個人的な理解としては，FEPにおける各変数$$\theta, \mu, y, \alpha$$の更新規則は，「観測データを用いた最尤推定」そのものだと思っている．論文で提唱されている自由エネルギー$$F(y)$$最小化は，Variational BayesにおけるELBO最大化と同じであるから，むしろ4つの変数間のループ構造（グラフ表現）の方が重要なのだろう． 
 
