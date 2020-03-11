@@ -56,6 +56,7 @@ I study algorithms, models, and systems to solve problems that statistical estim
 #### Links
 
 * Facebook: [yumauchiumi](https://www.facebook.com/yumauchiumi)
+* Instagram: [uchiumiyuma](https://www.instagram.com/uchiumiyuma)
 * Twitter: [@yumaloop](https://twitter.com/yumaloop)
 * Medium: [@yumaloop](https://medium.com/@yumaloop)
 * Github: [@yumaloop](https://github.com/yumaloop)
