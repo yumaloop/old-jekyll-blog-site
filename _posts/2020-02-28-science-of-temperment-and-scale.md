@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 音律と音階
+title: Temperament and Scale in Music
 lang: ja
 categories:
     - Tips
