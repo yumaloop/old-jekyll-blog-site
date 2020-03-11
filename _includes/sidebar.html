@@ -2,7 +2,7 @@
 <div id="sidebar" class="sidebar">
   <div id="site-info" class="site-info">
     <div class="site-a-logo"><img src="{{"/assets/img/icon.gif" | relative_url }}"></div>
-    <h1>Yuma Uchiumi</h1>
+    <h1><a href="{{ "/about" | site.url }}">{{ site.author.name }}</a></h1>
     <div class="site-des"><p style="text-align: left">{{ site.text.sidebar_msg }}</p></div>
     <div class="social"> 
       <a target="_blank" class="facebook" href="https://www.facebook.com/{{ site.author.facebook }}" title="Facebook">Facebook</a>
