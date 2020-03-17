@@ -6,7 +6,7 @@ categories:
     - StatML
 tags:
     - RL
-	- Regret	
+    - Regret
 ---
 
 
@@ -29,10 +29,8 @@ tags:
   - $$\sigma_i: A \to [0,1]$$ a strategy of player $$i$$, probability distribution on action set $$A$$.
   - $$\sigma~: A^N \to [0,1]$$ a strategy profile, $$\sigma := (\sigma_1, \dots, \sigma_N)$$
   - $$\pi^{\sigma}_i: H \to [0,1]: $$ probability of history $$h$$ under a strategy of player $$i$$ $$\sigma_i$$
-
   - $$\pi^{\sigma}: H^N \to [0,1]: $$ probability of history $$h$$ under a strategy profile  $$\sigma$$
   
-
 
 
 Then, you can also interplate $$u_i$$ as the functino mapping a storategy profile $$\sigma$$ to its utility. 
