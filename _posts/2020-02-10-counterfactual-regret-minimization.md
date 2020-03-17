@@ -28,12 +28,12 @@ tags:
   - $$u_i: Z \to \mathbb{R}: $$ utility function of player $$i$$
   - $$\sigma_i: A \to [0,1]$$ a strategy of player $$i$$, probability distribution on action set $$A$$.
   - $$\sigma~: A^N \to [0,1]$$ a strategy profile, $$\sigma := (\sigma_1, \dots, \sigma_N)$$
-  - $$\pi^{\sigma}_i: H \to [0,1]: $$ probability of history $$h$$ under a strategy of player $$i$$ $$\sigma_i$$
+  - $$\pi^{\sigma}_i: H \to [0,1]: $$ probability of history $$h$$ under a strategy $$\sigma_i$$ of player $$i$$ 
   - $$\pi^{\sigma}: H^N \to [0,1]: $$ probability of history $$h$$ under a strategy profile  $$\sigma$$
   
 
 
-Then, you can also interplate $$u_i$$ as the functino mapping a storategy profile $$\sigma$$ to its utility. 
+Then, you can also interplate $$u_i$$ as the function mapping a storategy profile $$\sigma$$ to its utility. 
 
 
 $$
@@ -93,13 +93,13 @@ $$
 
 
 
-**Regret**
+**Regret matching**
 
 - Average overall regret of player $$i$$ at time $$T$$：
 
 $$
 R_i^T 
-:= \underset{\sigma_i^*}{\rm max}
+:= \underset{\sigma_i^*}{\rm max} ~
 \frac{1}{T} \sum_{t=1}^{T} \left( u_i(\sigma_i^*, \sigma_{-i}^{t}) - u_i(\sigma_i^t, \sigma_{-i}^{t}) \right)
 $$
 
@@ -117,6 +117,14 @@ $$
 
 
 
+If the average overall regret holds $$R_i^T \leq \varepsilon$$, the average strategy $$\overline{\sigma}_i^t(I)(a) $$ is $$2 \varepsilon-$$Nash equilibrium for player $$i$$ in time $$t$$. So that, in order to derive Nash equilibrium, we should minimize the average overall regret $$R_i^T$$ or its upper bound $$\varepsilon$$ according to $$R_i^T \to 0 ~~ (\varepsilon \to 0)$$.
+
+
+
+<br>
+
+**CFR Algorithm**
+
 - Counterfactual utility：
 
 $$
@@ -127,17 +135,46 @@ $$
 
 
 
-- Immediate counterfactual regret：
+- immediate counteractual regret of action $$a$$ in Information set $$I$$:
 
 $$
-\begin{align}
-R_{i,imm}^{T}(I)
-:= \frac{1}{T} \underset{a \in A(I)}{\rm max} \sum_{t=1}^{T} 
+\begin{aligned}
+R_{i,imm}^{T}(I, a)
+:=
+\frac{1}{T} \sum_{t=1}^{T} 
 \pi_{-i}^{\sigma^t}(I)
 \left( 
 u_i(\sigma^t_{I \to a}, I) - u_i(\sigma^t, I) 
 \right)
-\end{align}
+\end{aligned}
 $$
 
 
+
+- Immediate counterfactual regret of Information set $$I$$：
+
+$$
+\begin{aligned}
+R_{i,imm}^{T}(I)
+:= \underset{a \in A(I)}{\rm max} ~
+\frac{1}{T} \sum_{t=1}^{T} 
+\pi_{-i}^{\sigma^t}(I)
+\left( 
+u_i(\sigma^t_{I \to a}, I) - u_i(\sigma^t, I) 
+\right)
+\end{aligned}
+$$
+
+The following inequality holds for **the average overall regret** $$R_i^T $$ and **the immediate counterfactual regret**  $$R_{i,imm}^{T}(I)$$:
+
+$$
+R_i^T \leq \sum_{I \in \mathcal{I}_i} R_{i,imm}^{T,+}(I)
+$$
+
+So that, we obtain the sufficient condition of $$R_{i,imm}^{T}(I)$$  for the average strategy $$\overline{\sigma}_i^t(I)(a) $$ to become a Nash equilibrium strategy as below. 
+
+$$
+\sum_{I \in \mathcal{I}_i} R_{i,imm}^{T,+}(I) \to 0 ~~~ \Rightarrow ~~~ R_i^T \to 0 ~~~ \Rightarrow ~~~ \varepsilon \to 0.
+$$
+
+Now all we need is to minimize the immediate counterfactual regret  $$R_{i,imm}^{T}(I)$$.
