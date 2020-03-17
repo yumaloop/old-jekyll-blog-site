@@ -9,7 +9,7 @@ tags:
     - Regret
 ---
 
-In this post, I introduce you the Counterfactual Regret Minimization (CFR Algorithm). It is mainly used for the algorithm to figure out the optimal strategy of a extensive game with incomplete information such as Poker and Mahjong.
+In this post, I introduce you the Counterfactual Regret Minimization (CFR Algorithm). It is mainly used for the algorithm to figure out the optimal strategy of a extensive-form game with incomplete information such as Poker and Mahjong.
 
 
 ### Notation
@@ -136,19 +136,25 @@ $$
 $$
 \begin{aligned}
 R_{i,imm}^{T}(I)
-:= \underset{a \in A(I)}{\rm max} ~
+&:= \underset{a \in A(I)}{\rm max} ~
 \frac{1}{T} \sum_{t=1}^{T} 
 \pi_{-i}^{\sigma^t}(I)
 \left( 
 u_i(\sigma^t_{I \to a}, I) - u_i(\sigma^t, I) 
-\right)
+\right) 
 \end{aligned}
 $$
 
 The following inequality holds for **the average overall regret** $$R_i^T $$ and **the immediate counterfactual regret**  $$R_{i,imm}^{T}(I)$$:
 
 $$
-R_i^T \leq \sum_{I \in \mathcal{I}_i} R_{i,imm}^{T,+}(I)
+\begin{aligned}
+R_i^T 
+\leq \sum_{I \in \mathcal{I}_i} &R_{i,imm}^{T,+}(I) \\
+where ~~~
+&R_{i,imm}^{T, +}(I) 
+:= max(R_{i,imm}^{T}(I), 0)
+\end{aligned}
 $$
 
 So that, we obtain the sufficient condition of $$R_{i,imm}^{T}(I)$$  for the average strategy $$\overline{\sigma}_i^t(I)(a) $$ to become a Nash equilibrium strategy as below. 
@@ -157,4 +163,6 @@ $$
 \sum_{I \in \mathcal{I}_i} R_{i,imm}^{T,+}(I) \to 0 ~~~ \Rightarrow ~~~ R_i^T \to 0 ~~~ \Rightarrow ~~~ \varepsilon \to 0.
 $$
 
-Now all we need is to minimize the immediate counterfactual regret  $$R_{i,imm}^{T}(I)$$.
+Now all we need is to minimize the immediate counterfactual regret  $$R_{i,imm}^{T}(I)$$. 
+
+In addition, as can be seen from the above formula, the computational complexity of the CFR algorithm depends on the number of information sets $$I$$. Also, to avoid the complete search of game tree (searching all information sets $$I$$), subsequent algorithms such as CFR + propose an abstraction of the game state.
