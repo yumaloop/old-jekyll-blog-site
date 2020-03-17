@@ -54,8 +54,9 @@ $$
 **Definition:** $$(\text{Nash equilibrium})$$
 
 In $$N$$-player extensive game, a strategy profile $$\acute{\sigma} := (\acute{\sigma_1}, \dots, \acute{\sigma_N})$$ is the Nash equilibrium if and only if the followings holds.
+
 $$
-\begin{align}
+\begin{aligned}
 u_1(\acute{\sigma_1}, \dots, \acute{\sigma_N}) 
 &\geq \underset{\sigma_1}{\rm max} ~ u_1(\sigma_1, \acute{\sigma_{-1}}) \\
 u_2(\acute{\sigma_1}, \dots, \acute{\sigma_N}) 
@@ -63,15 +64,16 @@ u_2(\acute{\sigma_1}, \dots, \acute{\sigma_N})
 &~ \vdots \\
 u_N(\acute{\sigma_1}, \dots, \acute{\sigma_N}) 
 &\geq \underset{\sigma_N}{\rm max} ~ u_N(\sigma_N, \acute{\sigma_{-N}})
-\end{align}
+\end{aligned}
 $$
 
 
 **Definition: $$\text{(}\varepsilon\text{-Nash equilibrium)}$$**
 
 In $$N$$-player extensive game, a strategy profile $$\acute{\sigma} := (\acute{\sigma_1}, \dots, \acute{\sigma_N})$$ is the $$\varepsilon$$-Nash equilibrium if and only if the followings holds when $$\forall \varepsilon \geq 0$$ is given.
+
 $$
-\begin{align}
+\begin{aligned}
 u_1(\acute{\sigma_1}, \dots, \acute{\sigma_N}) + \varepsilon
 &\geq \underset{\sigma_1}{\rm max} ~ u_1(\sigma_1, \acute{\sigma_{-1}}) \\
 u_2(\acute{\sigma_1}, \dots, \acute{\sigma_N}) + \varepsilon
@@ -79,16 +81,11 @@ u_2(\acute{\sigma_1}, \dots, \acute{\sigma_N}) + \varepsilon
 &~ \vdots \\
 u_N(\acute{\sigma_1}, \dots, \acute{\sigma_N}) + \varepsilon
 &\geq \underset{\sigma_N}{\rm max} ~ u_N(\sigma_N, \acute{\sigma_{-N}})
-\end{align}
+\end{aligned}
 $$
 
 
 - Average overall regret
-
-
-
-
-
 
 
 
@@ -102,7 +99,8 @@ $$
 
 $$
 R_i^T 
-:= \frac{1}{T} \underset{\sigma_i^*}{\rm max} \sum_{t=1}^{T} \left( u_i(\sigma_i^*, \sigma_{-i}^{t}) - u_i(\sigma_i^t, \sigma_{-i}^{t}) \right)
+:= \underset{\sigma_i^*}{\rm max}
+\frac{1}{T} \sum_{t=1}^{T} \left( u_i(\sigma_i^*, \sigma_{-i}^{t}) - u_i(\sigma_i^t, \sigma_{-i}^{t}) \right)
 $$
 
 
