@@ -9,7 +9,7 @@ tags:
     - Regret
 ---
 
-In this post, I introduce you the Counterfactual Regret Minimization (CFR Algorithm). It is mainly used for the algorithm to figure out the optimal strategy of a extensive game with incomplete information such as Pocker.
+In this post, I introduce you the Counterfactual Regret Minimization (CFR Algorithm). It is mainly used for the algorithm to figure out the optimal strategy of a extensive game with incomplete information such as Poker and Mahjong.
 
 
 ### Notation
@@ -42,12 +42,9 @@ u_i(\sigma)
 \end{align}
 $$
 
-
-
+<br>
 
 ### Nash equilibrium
-
-
 
 **Definition:** $$(\text{Nash equilibrium})$$
 
@@ -82,10 +79,7 @@ u_N(\acute{\sigma_1}, \dots, \acute{\sigma_N}) + \varepsilon
 \end{aligned}
 $$
 
-
-- Average overall regret
-
-
+<br>
 
 ### Regret matching
 
@@ -109,11 +103,7 @@ $$
 \end{align}
 $$
 
-
-
 If the average overall regret holds $$R_i^T \leq \varepsilon$$, the average strategy $$\overline{\sigma}_i^t(I)(a) $$ is $$2 \varepsilon-$$Nash equilibrium for player $$i$$ in time $$t$$. So that, in order to derive Nash equilibrium, we should minimize the average overall regret $$R_i^T$$ or its upper bound $$\varepsilon$$ according to $$R_i^T \to 0 ~~ (\varepsilon \to 0)$$.
-
-
 
 <br>
 
