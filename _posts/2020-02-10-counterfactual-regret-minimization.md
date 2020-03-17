@@ -9,9 +9,7 @@ tags:
     - Regret
 ---
 
-
-
-## Counterfactual Regret Minimization (CFR Algorithm)
+In this post, I introduce you the Counterfactual Regret Minimization (CFR Algorithm). It is mainly used for the algorithm to figure out the optimal strategy of a extensive game such as Pocker.
 
 
 ### Notation
