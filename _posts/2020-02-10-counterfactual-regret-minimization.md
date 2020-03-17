@@ -89,11 +89,7 @@ $$
 
 
 
-### Counterfactual regret
-
-
-
-**Regret matching**
+### Regret matching
 
 - Average overall regret of player $$i$$ at time $$T$$：
 
@@ -123,7 +119,7 @@ If the average overall regret holds $$R_i^T \leq \varepsilon$$, the average stra
 
 <br>
 
-**CFR Algorithm**
+### CFR Algorithm
 
 - Counterfactual utility：
 
@@ -132,8 +128,6 @@ $$
 u_i(\sigma, I) = \frac{\sum_{h \in H, h' \in Z} \pi_{-i}^{\sigma}(h)\pi^{\sigma}(h,h')u_i(h) }{\pi_{-i}^{\sigma}(I)}
 \end{align}
 $$
-
-
 
 - immediate counteractual regret of action $$a$$ in Information set $$I$$:
 
@@ -148,8 +142,6 @@ u_i(\sigma^t_{I \to a}, I) - u_i(\sigma^t, I)
 \right)
 \end{aligned}
 $$
-
-
 
 - Immediate counterfactual regret of Information set $$I$$：
 
