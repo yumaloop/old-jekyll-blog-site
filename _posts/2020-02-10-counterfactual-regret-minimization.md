@@ -12,7 +12,7 @@ tags:
 In this post, I introduce you the Counterfactual Regret Minimization (CFR Algorithm). It is mainly used for the algorithm to figure out the optimal strategy of a extensive-form game with incomplete information such as Poker and Mahjong.
 
 
-### Notation
+### Extensive-form Game
 
 - Set, variables
   - $$N: $$ set of players
@@ -21,7 +21,8 @@ In this post, I introduce you the Counterfactual Regret Minimization (CFR Algori
     - $$a \in A: $$ action
   - $$H: $$set of sequences
     - $$h \in H: $$ sequences (= possible history of actions, $$h = (a_1, \dots, a_t$$)
-    - $$Z \subseteq H: $$ set of terminal histories
+    - $$Z \subseteq H: $$ set of terminal histories. $$Z = \{z \in H \vert \forall h \in H, z \notin h \}$$
+    - $$z \in Z$$: sea
 - Function, relations
   - $$u_i: Z \to \mathbb{R}: $$ utility function of player $$i$$
   - $$\sigma_i: A \to [0,1]$$ a strategy of player $$i$$, probability distribution on action set $$A$$.

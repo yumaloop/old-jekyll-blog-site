@@ -8,8 +8,6 @@ tags:
     - Env
 ---
 
-
-
 In this post, I describe the setup procedure of this blog site.
 
 This site is developed with Jekyll, a static site generator and hosted by Github pages. All contents of the site are registered in [Github public repository](https://github.com/yumaloop/yumaloop.github.io) and you can browse any source code in it.

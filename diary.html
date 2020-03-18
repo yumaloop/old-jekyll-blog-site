@@ -33,9 +33,9 @@
         <!-- large-8 -->
         <div class="large-8 medium-8 columns">
           <div class="markdown-body home-categories">
-            
-            {% for post in paginator.posts %}
-              {% unless post.categories contains "Diary" %}
+
+            {% for post in site.posts %}
+              {% if post.categories contains "Diary" %}
 
               <!-- article -->
               <div class="article">
@@ -44,9 +44,9 @@
                   <div class="a-content">
                     <div class="a-content-text">
                       {% if post.lang == "en" %}
-                      <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
+                      <p>{{ post.content | strip_html | truncatewords: 25 }}</p>
                       {% elsif post.lang == "ja" %}
-                      <p>{{ post.content | strip_html | truncate: 150 }}</p>
+                      <p>{{ post.content | strip_html | truncate: 75 }}</p>
                       {% endif %}
                     </div>
                   </div>
@@ -64,8 +64,7 @@
                 </div>
                 </div>
               </div>
-
-              {% endunless %}
+              {% endif %}
             {% endfor %}
 
               <!-- page nation -->
