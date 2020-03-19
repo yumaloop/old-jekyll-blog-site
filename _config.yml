@@ -17,6 +17,11 @@ author:
 text:
   sidebar_msg: Yuma Uchiumi's Blog like site containing some random things. Here are messy notes to organize my thoughts and sometimes useful information not on the Web. I hope you'll enjoy them.
 
+collections:
+  diary:
+    output: true
+    permalink: /diary/:name
+
 paginate: 5
 paginate_path: page:num
 
