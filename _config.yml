@@ -20,7 +20,6 @@ text:
 collections:
   diary:
     output: true
-#     permalink: /diary/
 
 paginate: 5
 paginate_path: page:num
