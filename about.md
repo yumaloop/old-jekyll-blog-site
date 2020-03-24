@@ -28,8 +28,8 @@ I study algorithms, models, and systems to solve problems that statistical estim
    * Software engineer, [ARAYA, inc.](https://www.araya.org) (Jul. 2018 - Mar. 2020)
    * Software engineer, [PASTURE, INC.](https://corp.pasture.biz/) (Jul. 2017 - Mar. 2018)
 * Outsourcing Agreement
-   * Technical support staff, [STANDARD, inc.](https://standard2017.com/) (Feb. 2019 - Present)
    * Technical solution service, [AVILEN Co., Ltd.](https://avilen.co.jp/) (Apr. 2020 - Present)
+   * Technical support staff, [STANDARD, inc.](https://standard2017.com/) (Feb. 2019 - Present)
 
 #### Skill
 
