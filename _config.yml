@@ -20,6 +20,8 @@ text:
 collections:
   diary:
     output: true
+  draft:
+    output: false
 
 paginate: 5
 paginate_path: page:num
