@@ -25,6 +25,7 @@ I study algorithms, models, and systems to solve problems that statistical estim
 #### Work Experience
 
 * Internship
+   * Software engineer, [DATAWISE, inc.](https://www.datawise.co.jp/) (Apr. 2020 - Present)
    * Software engineer, [ARAYA, inc.](https://www.araya.org) (Jul. 2018 - Mar. 2020)
    * Software engineer, [PASTURE, INC.](https://corp.pasture.biz/) (Jul. 2017 - Mar. 2018)
 * Outsourcing Agreement
