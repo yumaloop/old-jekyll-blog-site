@@ -14,7 +14,7 @@ tags:
 **State Space Model (SSM)**
 
 State Space Model(SSM) is widely used in the field requiring the sequential estimation or online learning.
-This model is effective if you consider a system which has variables which completely represent the actual state but cannot be observed and the variables whiich partially represent the actual state but can be observed. Here, I call the former $$x$$ (state variable) and the latter $$y$$ (observation variable).
+This model is effective if you consider a system having two different variables; one completely represents the actual state but cannot be observed and the other partially represents the actual state but can be observed. Here, I call the former $$x$$ (state variable) and the latter $$y$$ (observation variable).
 
 - Equation of each state $$x_t$$ : 
 
