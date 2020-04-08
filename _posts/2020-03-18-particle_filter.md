@@ -13,28 +13,22 @@ tags:
 
 **State Space Model (SSM)**
 
-SSM is the model 
-
-A system in which the variables of actual state and the variables that can be actually observed are different.
-
-
-
-It is widely used in the field requiring the sequential estimation or online learning.
-
-
+State Space Model (SSM) is effective if you consider a system in which the variables of actual state and the variables that can be actually observed are different. It is widely used in the field requiring the sequential estimation or online learning.
 
 - Equation of each state $$x_t$$ : 
+
   $$
   \begin{aligned}
-  x_{t+1} &= F(x_t) ~~ (\text{Decision process}) \\
+  x_{t+1} &= F(x_t) ~~ (\text{Deterministic process}) \\
   x_{t+1} &\sim f(\cdot\vert x_t) ~~ (\text{Stochastic process}) 
   \end{aligned}
   $$
 
 - Equation of each observation $$y_t$$ :
+
   $$
   \begin{aligned}
-  y_t &= H(x_t) ~~ (\text{Decision process}) \\
+  y_t &= H(x_t) ~~ (\text{Deterministic process}) \\
   y_t &\sim h(\cdot \vert x_t) ~~ (\text{Stochastic process}) 
   \end{aligned}
   $$
@@ -42,7 +36,6 @@ It is widely used in the field requiring the sequential estimation or online lea
 
 
 **Perticle filter**
-
 
 
 1. For each $$i$$ in $$[1 … M]$$
