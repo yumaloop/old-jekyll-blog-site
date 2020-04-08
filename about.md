@@ -24,13 +24,18 @@ I study algorithms, models, and systems to solve problems that statistical estim
 
 #### Work Experience
 
-* Internship
-   * Software engineer, [DATAWISE, inc.](https://www.datawise.co.jp/) (Apr. 2020 - Present)
-   * Software engineer, [ARAYA, inc.](https://www.araya.org) (Jul. 2018 - Mar. 2020)
-   * Software engineer, [PASTURE, INC.](https://corp.pasture.biz/) (Jul. 2017 - Mar. 2018)
+* Part-time Job
+   * Data Engineer Internship, [DATAWISE, inc.](https://www.datawise.co.jp/) (Apr. 2020 - Present)
+      > I've been working on analyzing the location information of NTT docomo users.
+   * R&D Internship, [ARAYA, inc.](https://www.araya.org) (Jul. 2018 - Mar. 2020)
+      > I was engaged in the R&D project for the computational cost of the Deep Neural Nets. I've surveyed related papers and conducted some PoC implementations and experiments on it.
+   * Web Engineer Internship, [PASTURE, INC.](https://corp.pasture.biz/) (Jul. 2017 - Mar. 2018)
+      > I worked as the backend web engineer and developed the batch processing system of API for the analysis and the marketing support for Instagram accounts.
 * Outsourcing Agreement
    * Technical solution service, [AVILEN Co., Ltd.](https://avilen.co.jp/) (Apr. 2020 - Present)
+      > I've been working in customer support services using intercom apps and also implemented the technical advisory for the educational materials on Machine Learning.
    * Technical support staff, [STANDARD, inc.](https://standard2017.com/) (Feb. 2019 - Present)
+      > I've been working in customer support services using intercom apps and also implemented the technical advisory for the educational materials on Machine Learning.
 
 #### Skill
 
