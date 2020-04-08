@@ -152,7 +152,7 @@ $$
 
 つまり，Fristonの自由エネルギー$$F(y)$$は「脳の外部環境$$Y$$に対する観測データ$${\{y_t\}}_{t=1}^{n}$$の対数尤度下限(ELBO)に$$-1$$をかけたもの」である．なお，Bayes推論では,対数尤度$$\log p(y)$$をエビデンス(Evidence)といい，情報理論では負の対数尤度$$-\log p(y)$$をサプライズ(Surprise)という．
 
-<a href="[https://www.fil.ion.ucl.ac.uk/~karl/The%20free-energy%20principle%20-%20a%20rough%20guide%20to%20the%20brain.pdf](https://www.fil.ion.ucl.ac.uk/~karl/The free-energy principle - a rough guide to the brain.pdf)">FristonのCell論文(2009)</a>にあるエージェントの行動$$\alpha$$や脳の内部状態$$\mu$$の更新式:
+<a href="https://www.fil.ion.ucl.ac.uk/~karl/The%20free-energy%20principle%20-%20a%20rough%20guide%20to%20the%20brain.pdf">FristonのCell論文(2009)</a>にあるエージェントの行動$$\alpha$$や脳の内部状態$$\mu$$の更新式:
 
 $$
 \begin{aligned}
@@ -172,4 +172,4 @@ $$
 
 執筆時の個人的な理解としては，FEPにおける各変数$$\theta, \mu, y, \alpha$$の更新規則は，「観測データを用いた最尤推定」そのものだと思っている．論文で提唱されている自由エネルギー$$F(y)$$最小化は，Variational BayesにおけるELBO最大化と同じであるから，むしろ4つの変数間のループ構造（グラフ表現）の方が重要なのだろう． 
 
-<a href="https://www.mendeley.com/viewer/?fileId=05efc940-2dc2-9039-46ca-bb6e1ae1bdba&documentId=ed320c28-3a4c-373a-9089-2a456e2b56f3">FristonのNature論文(2010)</a>では，自由エネルギー$$F(y)$$の定義がより複雑化しており，よく理解していない．
+<a href="https://www.fil.ion.ucl.ac.uk/~karl/The%20free-energy%20principle%20A%20unified%20brain%20theory.pdf">FristonのNature論文(2010)</a>では，自由エネルギー$$F(y)$$の定義がより複雑化しており，よく理解していない．
