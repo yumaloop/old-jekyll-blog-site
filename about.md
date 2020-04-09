@@ -33,7 +33,7 @@ I study algorithms, models, and systems to solve problems that statistical estim
       > I worked as the backend web engineer and developed the batch processing system of API for the analysis and the marketing support for Instagram accounts.
 * Outsourcing Agreement
    * Technical solution service, [AVILEN Co., Ltd.](https://avilen.co.jp/) (Apr. 2020 - Present)
-      > I've been working in customer support services using intercom apps and also implemented the technical advisory for the educational materials on Machine Learning.
+      > I've been working in the technical solution team to achieve the partial automation of the operation in the client's company.
    * Technical support staff, [STANDARD, inc.](https://standard2017.com/) (Feb. 2019 - Present)
       > I've been working in customer support services using intercom apps and also implemented the technical advisory for the educational materials on Machine Learning.
 
