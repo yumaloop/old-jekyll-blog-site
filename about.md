@@ -39,7 +39,7 @@ I study algorithms, models, and systems to solve problems that statistical estim
 
 #### Skill
 
-* Programing
+* Programing Language
    * Python
    * Ruby on Rails
    * Java
@@ -51,12 +51,12 @@ I study algorithms, models, and systems to solve problems that statistical estim
    * Grade 1, Mathematical statistics, Japan Statistical Society Certificate
    * Grade 1, Applied statistics, Japan Statistical Society Certificate
 
-* DevOps
+* DevOps Tools
    * Git
    * Docker
    * Kubernetes
 
-* Cloud
+* Cloud Services
    * AWS (EC2, S3, Lambda, Sagemaker)
    * GCP (ComputeEngine, CloudStrage, BigQuery) 
 
