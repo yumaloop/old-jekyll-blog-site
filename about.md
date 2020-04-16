@@ -26,7 +26,7 @@ I study algorithms, models, and systems to solve problems that statistical estim
 
 * Part-time Job
    * Data Engineer Internship, [DATAWISE, inc.](https://www.datawise.co.jp/) (Apr. 2020 - Present)
-      > I've been working on analyzing the location information of NTT docomo users.
+      > I've been working on analyzing the GPS data of mobile phone users.
    * R&D Internship, [ARAYA, inc.](https://www.araya.org) (Jul. 2018 - Mar. 2020)
       > I was engaged in the R&D project for the computational cost of the Deep Neural Nets. I've surveyed related papers and conducted some PoC implementations and experiments on it.
    * Web Engineer Internship, [PASTURE, INC.](https://corp.pasture.biz/) (Jul. 2017 - Mar. 2018)
