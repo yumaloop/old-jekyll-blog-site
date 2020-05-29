@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Moving Average and Iterative Optimization Algorithm
+title: Time-steady States on Systems 
 lang: ja
 categories:
     - Econ
@@ -12,7 +12,7 @@ tags:
 
 
 
-# 移動平均と逐次最適化
+# システムと定常状態
 
 多くの動的モデル（Dynamic Model-System）は，定常状態（time-steady state）に至ることを目的として設計される．ここで，定常状態とは，「ある変数$X$に作用する，何らかの時変量（parameter $\theta_t$）や関数（$L_t(x; \theta)$）が一定値に収束すること」と定義しておく．
 
