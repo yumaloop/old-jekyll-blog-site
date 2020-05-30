@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A Capitalist Game
+title: A Capitalist's Game
 lang: ja
 categories:
     - Econ
