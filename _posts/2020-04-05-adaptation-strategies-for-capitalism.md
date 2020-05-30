@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 資本主義社会に対する個人の適合戦略
+title: A Capitalist Game
 lang: ja
 categories:
     - Econ
