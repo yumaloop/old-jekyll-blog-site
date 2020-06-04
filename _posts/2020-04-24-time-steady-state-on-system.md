@@ -20,8 +20,6 @@ tags:
 
 
 
-
-
 1. [化学反応](https://ja.wikipedia.org/wiki/化学反応)においては、[可逆反応](https://ja.wikipedia.org/wiki/可逆反応)の生成物の変化量と出発物質の変化量が合致した状態を指す。[化学平衡](https://ja.wikipedia.org/wiki/化学平衡)を参照。
 2. [力学](https://ja.wikipedia.org/wiki/力学)においては、物体に加わっている全ての[力](https://ja.wikipedia.org/wiki/力_(物理学))の合力と[力のモーメント](https://ja.wikipedia.org/wiki/力のモーメント)の和がともに 0 である状態を平衡と呼ぶ。[力学的平衡](https://ja.wikipedia.org/w/index.php?title=力学的平衡&action=edit&redlink=1)（[英語](https://ja.wikipedia.org/wiki/英語): [Mechanical equilibrium](https://en.wikipedia.org/wiki/Mechanical_equilibrium)）を参照。
 3. [熱力学](https://ja.wikipedia.org/wiki/熱力学)においては通常、[熱平衡](https://ja.wikipedia.org/wiki/熱平衡)、[力学的平衡](https://ja.wikipedia.org/wiki/熱力学的平衡)、[化学平衡](https://ja.wikipedia.org/wiki/化学平衡)の三つを合わせて、[熱力学的平衡](https://ja.wikipedia.org/wiki/熱力学的平衡)とよぶ。
