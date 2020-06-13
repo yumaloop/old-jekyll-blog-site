@@ -215,6 +215,8 @@ S&P 500の統計が開始されてから，1929-2019年のちょうど100年間�
 - [us.spindices.com - S&P 500](https://us.spindices.com/indices/equity/sp-500)
 - [us.spindices.com - Dow Jones Industrial Average](https://us.spindices.com/indices/equity/dow-jones-industrial-average)
 - [tradingeconomics.com - United States GDP Growth Rate](https://tradingeconomics.com/united-states/gdp-growth)
+- [tradingeconomics.com - S&P 500](https://tradingeconomics.com/spx:ind)
+- [tradingeconomics.com - Dow Jones Industrial Average](https://tradingeconomics.com/united-states/stock-market)
 - [fred.stlouisfed.org - Real Gross Domestic Product](https://fred.stlouisfed.org/graph/?g=oM2u)
 - [fred.stlouisfed.org - S&P 500 Index](https://fred.stlouisfed.org/series/SP500)
 - [fred.stlouisfed.org - Dow Jones Industrial Average](https://fred.stlouisfed.org/series/DJIA)
