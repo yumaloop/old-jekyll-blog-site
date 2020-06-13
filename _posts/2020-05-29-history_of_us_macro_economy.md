@@ -76,6 +76,11 @@ Source: https://www.macrotrends.net/2324/sp-500-historical-chart-data
 **Dow Jones Industrial Average (DJIA) (1915.02 - 2020.06)** <br>
 Source: https://www.macrotrends.net/2324/sp-500-historical-chart-data
 
+<img src="{{ site.baseurl }}/assets/img/post/nasdaq-historical-chart-2020-06-13-macrotrends.png">
+
+**NASDAQ Composite (1971.02 - 2020.06)** <br>
+Source: https://www.macrotrends.net/1320/nasdaq-historical-chart
+
 そして，狭い意味での効率的市場仮説を支持するならば，短期(年あるいは月単位)での景気循環は平滑化される．また事実として，あらゆる経済統計がせいぜい100年分しか存在しない以上，景気循環説や効率的市場仮説は正しく検証できない．
 
 S&P 500は，NYSEとNSDAQの上場銘柄から(流動性の高い大型株の)時価総額を指数化したものなので，DJIAより実体経済(企業部門の利益)を反映している(と言われている)．
@@ -205,11 +210,14 @@ S&P 500の統計が開始されてから，1929-2019年のちょうど100年間�
 
 # References & Source
 
-- [www.macrotrends.net - S&P 500](https://www.macrotrends.net/2526/sp-500-historical-annual-returns)
-- [spindices.com - S&P 500](https://us.spindices.com/indices/equity/sp-500)
-- [tradingeconomics.com](https://tradingeconomics.com/united-states/gdp-growth)
+- [www.macrotrends.net - S&P 500, historical annual returns](https://www.macrotrends.net/2526/sp-500-historical-annual-returns)
+- [www.macrotrends.net - DJIA, 100 years historical chart](https://www.macrotrends.net/1319/dow-jones-100-year-historical-chart)
+- [us.spindices.com - S&P 500](https://us.spindices.com/indices/equity/sp-500)
+- [us.spindices.com - Dow Jones Industrial Average](https://us.spindices.com/indices/equity/dow-jones-industrial-average)
+- [tradingeconomics.com - United States GDP Growth Rate](https://tradingeconomics.com/united-states/gdp-growth)
 - [fred.stlouisfed.org - Real Gross Domestic Product](https://fred.stlouisfed.org/graph/?g=oM2u)
 - [fred.stlouisfed.org - S&P 500 Index](https://fred.stlouisfed.org/series/SP500)
+- [fred.stlouisfed.org - Dow Jones Industrial Average](https://fred.stlouisfed.org/series/DJIA)
 - [Wikipedia - Economic history of the United States](https://en.wikipedia.org/wiki/Economic_history_of_the_United_States)
 - [Wikipedia - List of recessions in the United States](https://en.wikipedia.org/wiki/List_of_recessions_in_the_United_States)
 - [Wikipedia - List of economic expansions in the United States](https://en.wikipedia.org/wiki/List_of_economic_expansions_in_the_United_States)
