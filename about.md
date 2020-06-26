@@ -69,6 +69,7 @@ I study algorithms, models, and systems to solve problems that statistical estim
 * Github: [@yumaloop](https://github.com/yumaloop)
 * Kaggle: [@yumaloop](https://www.kaggle.com/yumaloop)
 * Hatena Blog: [yul.hatenablog.com](https://yul.hatenablog.com/archive)
+* Qitta: [@yumaloop](https;//qitta.com/yumaloop)
 * Linkedin: [yuma-uchiumi-699398151](https://www.linkedin.com/in/yuma-uchiumi-699398151/)
 * Wantedly: [users/18935801](https://www.wantedly.com/users/18935801)
 * Spotify: [xndo1nzh6y83p775etrktk2mv](https://open.spotify.com/user/xndo1nzh6y83p775etrktk2mv?si=s3ZU58pZTHKGt4aOfpwmKg)
