@@ -44,7 +44,7 @@ I study algorithms, models, and systems to solve problems that statistical estim
    * Ruby on Rails
    * Java
    * C/C++
-   * HTML/CSS/Javascript
+   * HTML/CSS/Sass/Javascript
    * SQL(MySQL/PostgreSQL)
 
 * Stat/ML
@@ -58,7 +58,7 @@ I study algorithms, models, and systems to solve problems that statistical estim
 
 * Cloud Services
    * AWS (EC2, S3, Lambda, Sagemaker)
-   * GCP (ComputeEngine, CloudStrage, BigQuery) 
+   * GCP (ComputeEngine, CloudStrage, BigQuery, Airflow) 
 
 #### Links
 
