@@ -10,7 +10,7 @@ tags:
 
 
 
-[Simon Wood](https://scholar.google.co.uk/citations?user=EskiIyEAAAAJ&hl=en), a famous statistician in UK known as the text book for GAM introduced the lockdown reading list in his [homepage](https://people.maths.bris.ac.uk/~sw15190/). It looks interesting, so I'll share it here.
+[Simon Wood](https://scholar.google.co.uk/citations?user=EskiIyEAAAAJ&hl=en), a famous statistician in UK known as the text book for the GAMs introduced the lockdown reading list in his [homepage](https://people.maths.bris.ac.uk/~sw15190/). It looks interesting, so I'll share it here. (most of them are [Blackwell's, books](https://blackwells.co.uk/bookshop/home))
 
 - [Collapse](https://blackwells.co.uk/bookshop/product/Collapse-by-Jared-M-Diamond/9780241958681) (Jared Diamond) on how societies are destroyed, not by external forces, but by their failure to adapt their cultural norms to those forces.
 - [Thinking Fast and Slow](https://blackwells.co.uk/bookshop/product/Thinking-Fast-and-Slow-by-Daniel-Kahneman/9780141033570) (Daniel Kahneman) on the pitfalls of our intuitive reasoning, especially about risk and uncertainty.
