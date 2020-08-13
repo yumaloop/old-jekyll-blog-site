@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-description: Know thyself.
+description: "Know thyself" (γνῶθι σεαυτόν)
 permalink: /about/
 ---
 
