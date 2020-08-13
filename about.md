@@ -23,7 +23,7 @@ I study algorithms, models, and systems to solve problems that statistical estim
 * MSc in Computer Science (Apr. 2020 - Mar. 2022)
   - Center for Information & Computer Science, School of Science for Open and Environmental Systems, Graduate School of Science and Technology, Keio University, Japan.
 
-#### &#x1f30f; Work Experience
+#### &#x1f4bb; Work Experience
 
 * Part-time Job
    * Data Engineer Internship, [DATAWISE, inc.](https://www.datawise.co.jp/) (Apr. 2020 - Present)
