@@ -23,7 +23,7 @@ I study algorithms, models, and systems to solve problems that statistical estim
 * MSc in Computer Science (Apr. 2020 - Mar. 2022)
   - Center for Information & Computer Science, School of Science for Open and Environmental Systems, Graduate School of Science and Technology, Keio University, Japan.
 
-#### &#x1f4bb; Work Experience
+#### &#x26a1; Wrok Experience
 
 * Part-time Job
    * Data Engineer Internship, [DATAWISE, inc.](https://www.datawise.co.jp/) (Apr. 2020 - Present)
@@ -38,7 +38,7 @@ I study algorithms, models, and systems to solve problems that statistical estim
    * Technical support staff, [STANDARD, inc.](https://standard2017.com/) (Feb. 2019 - Present)
       > I've been working in customer support services using intercom apps and also implemented the technical advisory for the educational materials on Machine Learning.
 
-#### &#x26a1; Skill
+#### &#x1f4a1; Skill
 
 * Programing Language
    * Python
