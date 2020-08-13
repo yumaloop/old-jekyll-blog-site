@@ -8,8 +8,13 @@ tags:
     - Tips
 ---
 
-# 資本の再帰性
 
+<a href='https://500px.com/photo/1013781606/The-glare-of-empty-square-by-Sara-Biljana-Gaon' alt='The glare of empty square by Sara Biljana Gaon on 500px.com'>
+  <img src='https://drscdn.500px.org/photo/1013781606/m%3D900/v2?sig=8fbfac0615a131ce9fe97ebac12eca86ca0e9b9eec82ba6b4fa68ce6da3cfc07' alt='The glare of empty square by Sara Biljana Gaon on 500px.com' style="width: 40vw; min-width: 330px;" />
+</a>
+<script type='text/javascript' src='https://500px.com/embed.js'></script>
+
+# 資本の再帰性
 
 $$
 \frac{dx}{dt} = Cx
