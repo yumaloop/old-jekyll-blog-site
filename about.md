@@ -73,6 +73,7 @@ I study algorithms, models, and systems to solve problems that statistical estim
 * Linkedin: [yuma-uchiumi-699398151](https://www.linkedin.com/in/yuma-uchiumi-699398151/)
 * Wantedly: [users/18935801](https://www.wantedly.com/users/18935801)
 * Spotify: [xndo1nzh6y83p775etrktk2mv](https://open.spotify.com/user/xndo1nzh6y83p775etrktk2mv?si=s3ZU58pZTHKGt4aOfpwmKg)
+* 500px: [@yumaloop](https://500px.com/yumaloop)
 
 #### Contact
 
