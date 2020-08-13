@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-description: "Know thyself" (γνῶθι σεαυτόν)
+description: <i>Know thyself</i> - <i>&gamma;&nu;&#8182;&theta;&iota; &sigma;&epsilon;&alpha;&upsilon;&tau;&#972;&nu; </i>
 permalink: /about/
 ---
 
