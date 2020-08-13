@@ -8,21 +8,22 @@ permalink: /about/
 I'm Yuma Uchiumi, a graduate student majoring in computer science.
 I was born on December 8, 1997 in Tokyo, Japan.  [CV](https://github.com/yumaloop/yumaloop.github.io/blob/master/assets/pdf/CV201906.pdf)<br>
 My research goal is to understand and implement the computation for human thinking; 
-I study algorithms, models, and systems to solve problems that statistical estimation, multi-agent communication, rewarded games, and so on.
+I study algorithms, models, and systems to solve problems that statistical estimation, multi-agent communication, rewarded games, and so on. 
+&#x1f47b; &#x1f36d; &#x1f984; &#x1f308; &#x26c5; &#x2728; 
 
 > keywords: Statistics, Machine Learning, Multi-Agent System, Game Theory<br>
 > ʕ•̫͡•ʕ•̫͡•ʔ•̫͡•ʔ•̫͡•ʕ•̫͡•ʔ•̫͡•ʕ•̫͡•ʕ•̫͡•ʔ•̫͡•ʔ•̫͡•ʕ•̫͡•ʔ•̫͡•ʔ
 
 <br>
 
-#### Education
+#### &#x1f393; Education
 
 * BSc in Computer Science (Apr. 2016 - Mar. 2020)
   - Department of Information & Computer Science, Faculty of Science and Technology, Keio University, Japan.
 * MSc in Computer Science (Apr. 2020 - Mar. 2022)
   - Center for Information & Computer Science, School of Science for Open and Environmental Systems, Graduate School of Science and Technology, Keio University, Japan.
 
-#### Work Experience
+#### &#x1f30f; Work Experience
 
 * Part-time Job
    * Data Engineer Internship, [DATAWISE, inc.](https://www.datawise.co.jp/) (Apr. 2020 - Present)
@@ -37,7 +38,7 @@ I study algorithms, models, and systems to solve problems that statistical estim
    * Technical support staff, [STANDARD, inc.](https://standard2017.com/) (Feb. 2019 - Present)
       > I've been working in customer support services using intercom apps and also implemented the technical advisory for the educational materials on Machine Learning.
 
-#### Skill
+#### &#x26a1; Skill
 
 * Programing Language
    * Python
@@ -60,7 +61,7 @@ I study algorithms, models, and systems to solve problems that statistical estim
    * AWS (EC2, S3, Lambda, Sagemaker)
    * GCP (ComputeEngine, CloudStrage, BigQuery, Airflow) 
 
-#### Links
+#### &#x1f310; Links
 
 * Facebook: [yumauchiumi](https://www.facebook.com/yumauchiumi)
 * Instagram: [uchiumiyuma](https://www.instagram.com/uchiumiyuma)
@@ -75,7 +76,7 @@ I study algorithms, models, and systems to solve problems that statistical estim
 * Spotify: [xndo1nzh6y83p775etrktk2mv](https://open.spotify.com/user/xndo1nzh6y83p775etrktk2mv?si=s3ZU58pZTHKGt4aOfpwmKg)
 * 500px: [@yumaloop](https://500px.com/yumaloop)
 
-#### Contact
+#### &#x1f31f; Contact
 
 * Address: Tokyo, Japan
 * Mobile: +81-(0)80-3438-7891
