@@ -26,17 +26,20 @@ I study algorithms, models, and systems to solve problems that statistical estim
 #### &#x1f4a1; Work Experience
 
 * Part-time Job
-   * Data Engineer Internship, [DATAWISE, inc.](https://www.datawise.co.jp/) (Apr. 2020 - Present)
+    * Data Engineer Internship, [DATAWISE, inc.](https://www.datawise.co.jp/) (Apr. 2020 - Present)
       > I've been working on analyzing the GPS data of mobile phone users.
-   * R&D Internship, [ARAYA, inc.](https://www.araya.org) (Jul. 2018 - Mar. 2020)
+    * R&D Internship, [ARAYA, inc.](https://www.araya.org) (Jul. 2018 - Mar. 2020)
       > I was engaged in the R&D project for the computational cost of the Deep Neural Nets. I've surveyed related papers and conducted some PoC implementations and experiments on it.
-   * Web Engineer Internship, [PASTURE, INC.](https://corp.pasture.biz/) (Jul. 2017 - Mar. 2018)
+    * Web Engineer Internship, [PASTURE, INC.](https://corp.pasture.biz/) (Jul. 2017 - Mar. 2018)
       > I worked as the backend web engineer and developed the batch processing system of API for the analysis and the marketing support for Instagram accounts.
 * Outsourcing Agreement
-   * Technical solution service, [AVILEN Co., Ltd.](https://avilen.co.jp/) (Apr. 2020 - Present)
+    * Technical solution service, [AVILEN Co., Ltd.](https://avilen.co.jp/) (Apr. 2020 - Present)
       > I've been working in the technical solution team to achieve the partial automation of the operation in the client's company.
-   * Technical support staff, [STANDARD, inc.](https://standard2017.com/) (Feb. 2019 - Present)
+    * Technical support staff, [STANDARD, inc.](https://standard2017.com/) (Feb. 2019 - Present)
       > I've been working in customer support services using intercom apps and also implemented the technical advisory for the educational materials on Machine Learning.
+* Others
+    * Summer Internship, [Yahoo Japan Co., Lted.](https://about.yahoo.co.jp/) (Sep. 2020)
+      > Big data analysis and development in the financial domain.
 
 #### &#x26a1; Skill
 
