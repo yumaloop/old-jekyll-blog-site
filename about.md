@@ -41,27 +41,31 @@ I study algorithms, models, and systems to solve problems that statistical estim
 #### &#x26a1; Skill
 
 * Programing Language
-   * Python
-   * Ruby on Rails
-   * Java
-   * C/C++
-   * HTML/CSS/Sass/Javascript
-   * SQL(MySQL/PostgreSQL)
+    * Python
+    * Ruby
+    * Java
+    * C/C++
+    * HTML/CSS/Sass/Javascript
+    * SQL(MySQL/PostgreSQL)
 
 * Stat/ML
-   * Grade 1, Mathematical statistics, Japan Statistical Society Certificate
-   * Grade 1, Applied statistics, Japan Statistical Society Certificate
+    * Grade 1, Mathematical statistics, Japan Statistical Society Certificate
+    * Grade 1, Applied statistics, Japan Statistical Society Certificate
 
 * DevOps Tools
-   * Git
-   * Docker
-   * Kubernetes
+    * Git
+    * Docker 
+    * Kubernetes
+
+* Web Framework
+    * Ruby on Rails
+    * Vue.js
 
 * Cloud Services
-   * AWS (EC2, S3, Lambda, Sagemaker)
-   * GCP (ComputeEngine, CloudStrage, BigQuery, Airflow) 
+    * AWS (EC2, S3, Lambda, Amplify, Sagemaker)
+    * GCP (ComputeEngine, CloudStrage, App Script, BigQuery, Airflow) 
 
-#### &#x1f310; Links
+#### &#x1f310; Social Links
 
 * Facebook: [yumauchiumi](https://www.facebook.com/yumauchiumi)
 * Instagram: [uchiumiyuma](https://www.instagram.com/uchiumiyuma)
