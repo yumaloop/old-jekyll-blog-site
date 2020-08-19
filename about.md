@@ -43,6 +43,7 @@ I study algorithms, models, and systems to solve problems that statistical estim
 * Programing Language
     * Python
     * Ruby
+    * PHP
     * Java
     * C/C++
     * HTML/CSS/Sass/Javascript
@@ -57,7 +58,7 @@ I study algorithms, models, and systems to solve problems that statistical estim
     * Docker 
     * Kubernetes
 
-* Web Framework
+* Web Frameworks
     * Ruby on Rails
     * Vue.js
 
