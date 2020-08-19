@@ -23,6 +23,8 @@ I study algorithms, models, and systems to solve problems that statistical estim
 * MSc in Computer Science (Apr. 2020 - Mar. 2022)
   - Center for Information & Computer Science, School of Science for Open and Environmental Systems, Graduate School of Science and Technology, Keio University, Japan.
 
+<br>
+
 #### &#x1f4a1; Work Experience
 
 * Part-time Job
@@ -38,8 +40,10 @@ I study algorithms, models, and systems to solve problems that statistical estim
     * Technical support staff, [STANDARD, inc.](https://standard2017.com/) (Feb. 2019 - Present)
       > I've been working in customer support services using intercom apps and also implemented the technical advisory for the educational materials on Machine Learning.
 * Others
-    * Summer Internship, [Yahoo Japan Co., Lted.](https://about.yahoo.co.jp/) (Sep. 2020)
+    * Summer Internship, [Yahoo Japan Co., Ltd.](https://about.yahoo.co.jp/) (Sep. 2020)
       > Big data analysis and development in the financial domain.
+
+<br>
 
 #### &#x26a1; Skill
 
@@ -69,6 +73,8 @@ I study algorithms, models, and systems to solve problems that statistical estim
     * AWS (EC2, S3, Lambda, Amplify, Sagemaker)
     * GCP (ComputeEngine, CloudStrage, App Script, BigQuery, Airflow) 
 
+<br>
+
 #### &#x1f310; Social Links
 
 * Facebook: [yumauchiumi](https://www.facebook.com/yumauchiumi)
@@ -83,6 +89,8 @@ I study algorithms, models, and systems to solve problems that statistical estim
 * Wantedly: [users/18935801](https://www.wantedly.com/users/18935801)
 * Spotify: [xndo1nzh6y83p775etrktk2mv](https://open.spotify.com/user/xndo1nzh6y83p775etrktk2mv?si=s3ZU58pZTHKGt4aOfpwmKg)
 * 500px: [@yumaloop](https://500px.com/yumaloop)
+
+<br>
 
 #### &#x1f31f; Contact
 
