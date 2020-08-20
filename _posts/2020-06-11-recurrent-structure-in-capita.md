@@ -14,53 +14,107 @@ tags:
 </a>
 <script type='text/javascript' src='https://500px.com/embed.js'></script>
 
-# 資本の再帰性
+# Self-discriptive system within time change.
+
+The simplest example of self-discriptive systems is the exponential increase. This is because the simplest "change" of a variable $$x$$ is a first derivative of its time $$dx/dt$$, and the simplest form of the function "$$f(x)$$" determined by a variable $$x$$ is a linear one $$Cx$$.
+
+- Case1: Growth is **constant** with the current state (state is **invariant** over time)
+
+$$
+\frac{dx}{dt} = C
+$$
+
+
+- Case2: Growth is **linear** with the current state (state changes **exponentially**)
 
 $$
 \frac{dx}{dt} = Cx
 $$
 
-### カネがカネを生む
-
-資本市場と投資がこれに当たる．
-いわゆるキャピタルゲイン(Capital Gain)がこれに当たる．
-貸す側の原理．
+- Case3: Growth is **complex but relative** to the current state (generalization)
 
 $$
-\frac{dx}{dt} = Cx
+\frac{dx}{dt} = f(x)
 $$
 
-### 信用が信用を生む
+# Actual situations
 
-これは借りる側の原理だ．
+**1. Money/Capital creates new money/capital**
 
-銀行業がこれだ．
-信用創造という言葉があるくらい．
-あるいは，信用をもとに，少しずつ貸出を増やす．
-既得権益は，信用と実績を積み上げたからこそ，既得権益足り得るのだ．
-若者にできることは「信頼」を勝ち取るか，実績」で黙らせるかだ．
-将来へのハッタリをいい，それを実現する．
+This is the principle of capital markets and investment. Or what is called Capital Gain. Source of motivation on the lender side.
 
-### 評判が評判を生む
+これは資本市場と投資の原理．いわゆるキャピタルゲイン．貸し手の動機の源泉となる行動原理．
 
-ブランディング
-ブランド価値や
-出自・学歴によるシグナリングや
-「信頼と実績」
+<br>
 
-### 信者が信者を生む
+**2. Trust/Credit creates new trust/credit**
 
-「儲ける」という言葉が，「信者」と分解できるというのはよく知られいるが，
-フォロワーが多い人ほど，フォロワーが増えやすい．
+The most obvious example is banking. Actually, there is a word of credit creation. Lending is gradually increased based on credit. This is the principle of the borrower.
+
+わかりやすい例は銀行業． 実際，信用創造という言葉があるくらい．信用をもとに，少しずつ貸出を増やす．これは借り手の原理．
+
+
+A vested interest (a large corporation or a large political party) can be established as a vested interest by reproducing credit and achievement in the future by accumulating past credit and achievement.
+
+既得権益（大企業や大政党）は，過去の信用と実績の積み重ねによって将来においても信用と実績を再生産することで，既得権益として成立する．
+
+
+What youth can do is to win "trust" or to silence with "achievements". It means getting into the future and realizing it.
+
+若者にできることは「信頼」を勝ち取るか，実績」で黙らせるかだ． 将来へのハッタリをいい，それを実現することしかない．
+
+
+The modern financial system is supported by the principle that capital and credit increase/decrease exponentially. This principle creates a dynamic phenomenon (spiral) that motivates lenders and borrowers and that "lending and borrowing exponentially increases/decreases." This is inflation and deflation.
+
+現代金融システムは，「資本と信用が指数増加/減少する」という原理によって支えられる．この原理は，貸し手と借り手に動機を与え「指数増加/減少する貸金と借金」という現象（スパイラル）を生む．これがインフレとデフレ．
+
+
+<br>
+
+**4. Follower/Fan creates new follower/fan**
+
+In order for super popular corporate brands, entertainers, celebrities, and influencers to be born, their fans/followers need to create new fans/followers.
+
+超人気な企業ブランドや芸能人，セレブ，インフルエンサーが生まれるためには，彼らのファン/フォロワーが新たなファン/フォロワーを生む必要がある．
+
+
+Nowadays, this mechanism has been strengthened in the entertainment industry where globalization by the Internet has been achieved, and in platforms where search and recommendation algorithms that strongly fit past trends are dominant.
+
+近年，インターネットによるグローバル化が達成されたエンタメ産業や，過去の傾向に強くfitする検索や推薦のアルゴリズムが支配的なプラットホームにおいて，このメカニズムは強化されている．
+
+The more followers/fans there are, the more followers/fans there are.
+The services with more registrants/subscribers tend to have more registrants/subscribers.
+
+フォロワー/ファンが多い人ほど，フォロワー/ファンが増えやすい．
+登録者/購読者の多いサービスほど，登録者/購読者が増えやすい．
+
+
+<br>
+
+
+**3. Popularity/Evaluation creates new popularity/evaluation**
+
+For products that sell well, the "selling" state itself becomes valuable.
+
 売れているものは，売れているということ自体が価値になる．
-ネットワーク外部性とか
-情報商材とか
+
+
+This phenomenon is often explained by René Girard's triangular desire from the perspective of consumer sentiment, and by the network externality from the perspective of industrial organization theory.
+
+この現象は，消費者心理の観点からはルネ・ジラールの欲望の三角形，産業組織論の観点からはネットワーク外部性でよく説明される．
+
+Additionally, this schema is often misused for stealth marketing, hype, information products, affiliates, etc.
+
+また，このスキーマは，しばしばステマ，偽客(サクラ)，誇大広告，情報商材，アフィリエイトなどで悪用される．
+
+<br>
+
+<!--
 
 ### 自己組織化 
 
 ファンがアイドルに理想像を提示し求める．
 アイドルはファンの期待に応えるため，理想像に近づく．
 
-
-
+-->
 
