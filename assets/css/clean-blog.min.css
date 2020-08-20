@@ -12,7 +12,7 @@ body {
     font-size: 2.0rem;
     color: #333;
     /* font-family: Lora, 'Times New Roman', serif */
-    font-family: -apple-system, blinkMacSystemFont, "SF UI Display", ".PingFang SC", "PingFang SC", YuGothic-M, YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    font-family: -apple-system, blinkMacSystemFont, "SF UI Display", ".PingFang SC", "PingFang SC", YuGothic-M, YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, Lora, 'Times New Roman', sans-serif;
 }
 
 p {

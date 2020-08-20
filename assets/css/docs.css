@@ -13,13 +13,44 @@
     font-weight: bold;
 }
 
+/*
 #masthead {
     background-color: transparent;
     background-image: url("../img/cropped-cropped-IceDam.jpg");
-    /*background-image: url("https://media.giphy.com/media/1337mjZhdNJWSY/giphy.gif");*/
-    /*background-image: url("../img/header-bg.gif");*/
+    /* background-image: url("https://media.giphy.com/media/1337mjZhdNJWSY/giphy.gif"); */
+    /* background-image: url("../img/header-bg.gif"); */
+    /* width: 100%; */
+    /* height: 150px; */
+    /*
     width: 100%;
-    height: 150px;
+    height: 10.0rem;
+}
+*/
+
+/* SmartPhone　width < 767px */
+@media only screen and (max-width: 767px){
+    #masthead {
+        background-color: transparent;
+        background-image: url("../img/cropped-cropped-IceDam.jpg");
+        /* background-image: url("https://media.giphy.com/media/1337mjZhdNJWSY/giphy.gif"); */
+        /* background-image: url("../img/header-bg.gif"); */
+        width: auto;
+        height: 5.5rem;
+    }
+}
+
+/* PC　width > 768px */
+@media only screen and (min-width: 768px), print {
+    #masthead {
+        background-color: transparent;
+        background-image: url("../img/cropped-cropped-IceDam.jpg");
+        /* background-image: url("https://media.giphy.com/media/1337mjZhdNJWSY/giphy.gif"); */
+        /* background-image: url("../img/header-bg.gif"); */
+        /* width: 100%; */
+        /* height: 150px; */
+        width: 100%;
+        height: 10.0rem;
+    }
 }
 
 .move-right .exit-off-canvas {
@@ -519,8 +550,25 @@
     max-width: 640px;
 }
 
+/*
 .markdown-body {
-    margin-top: 34px;
+    margin-top: 3.4rem;
+}
+*/
+
+/* SmartPhone　width < 767px */
+@media only screen and (max-width: 767px){
+    .markdown-body {
+        margin-top: 3.4rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
+/* PC　width > 768px */
+@media only screen and (min-width: 768px){
+    .markdown-body {
+        margin-top: 3.4rem;
+    }
 }
 
 .markdown-body {
@@ -531,9 +579,8 @@
     /*
     font-family: "SF UI Display", ".PingFang SC", "PingFang SC", "Neue Haas Grotesk Text Pro", "Arial Nova", "Segoe UI", "Microsoft YaHei", "Microsoft JhengHei", "Helvetica Neue", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "Hiragino Sans GB", sans-serif;
     */
-    font-family: -apple-system, blinkMacSystemFont, "SF UI Display", ".PingFang SC", "PingFang SC", YuGothic-M, YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
-    /* font-size: 18px; */
-    font-size: 1.8rem; /* 16px */
+    font-family: -apple-system, blinkMacSystemFont, "SF UI Display", ".PingFang SC", "PingFang SC", "Neue Haas Grotesk Text Pro", "Arial Nova", "Segoe UI", "Microsoft YaHei", "Microsoft JhengHei", "Helvetica Neue", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "Hiragino Sans GB", YuGothic-M, YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    font-size: 18px;
     line-height: 1.6;
     word-wrap: break-word;
 }
