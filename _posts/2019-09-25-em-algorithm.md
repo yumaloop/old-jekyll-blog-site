@@ -8,7 +8,11 @@ tags:
     - Bayes
 ---
 
-![EM algorithm header img](https://www.mathworks.com/matlabcentral/mlc-downloads/downloads/submissions/65772/versions/3/screenshot.png"EM algorithm")
+<a href='https://500px.com/photo/1002517180/The-algorithm-by-Luca-Rovatti' alt='The algorithm... by Luca Rovatti on 500px.com'>
+  <img src='https://drscdn.500px.org/photo/1002517180/m%3D900/v2?sig=038077982809b60781286b9e0d94cd3b5dd1dba4a97d80d27302a7829d340618' alt='The algorithm... by Luca Rovatti on 500px.com' />
+</a>
+
+<script type='text/javascript' src='https://500px.com/embed.js'></script>
 
 ​	EM algorithm is **an algorithm for deriving the maximum likelihood estimator (MLE)**, which is generally applied to statistical methods for incomplete data. Originally, the concept of **“incomplete data and complete data”** was established to handle missing data, but by extending the definition, it can be applied to cut data, censored data, mixed distribution models, Robust distribution models, and latent data. It can also be applied to variable models, and Bayesian modeling.
 
