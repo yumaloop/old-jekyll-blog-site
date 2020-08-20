@@ -68,6 +68,7 @@ I study algorithms, models, and systems to solve problems that statistical estim
 * Web Frameworks
     * Ruby on Rails
     * Vue.js
+    * Node.js 
 
 * Cloud Services
     * AWS (EC2, S3, Lambda, Amplify, Sagemaker)
