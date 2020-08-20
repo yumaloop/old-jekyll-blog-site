@@ -43,7 +43,7 @@ $$
 
 This is the principle of capital markets and investment. Or what is called Capital Gain. Source of motivation on the lender side.
 
-これは資本市場と投資の原理．いわゆるキャピタルゲイン．貸し手の動機の源泉となる行動原理．
+これは資本市場と投資の原理．いわゆるキャピタルゲイン．貸し手の動機の源泉．
 
 <br>
 
@@ -54,20 +54,32 @@ The most obvious example is banking. Actually, there is a word of credit creatio
 わかりやすい例は銀行業． 実際，信用創造という言葉があるくらい．信用をもとに，少しずつ貸出を増やす．これは借り手の原理．
 
 
-A vested interest (a large corporation or a large political party) can be established as a vested interest by reproducing credit and achievement in the future by accumulating past credit and achievement.
-
-既得権益（大企業や大政党）は，過去の信用と実績の積み重ねによって将来においても信用と実績を再生産することで，既得権益として成立する．
-
-
-What youth can do is to win "trust" or to silence with "achievements". It means getting into the future and realizing it.
-
-若者にできることは「信頼」を勝ち取るか，実績」で黙らせるかだ． 将来へのハッタリをいい，それを実現することしかない．
-
-
 The modern financial system is supported by the principle that capital and credit increase/decrease exponentially. This principle creates a dynamic phenomenon (spiral) that motivates lenders and borrowers and that "lending and borrowing exponentially increases/decreases." This is inflation and deflation.
 
 現代金融システムは，「資本と信用が指数増加/減少する」という原理によって支えられる．この原理は，貸し手と借り手に動機を与え「指数増加/減少する貸金と借金」という現象（スパイラル）を生む．これがインフレとデフレ．
 
+
+A vested interest (a large corporation or a large political party) can be established as a vested interest by reproducing credit and achievement in the future by accumulating past credit and achievement.
+
+既得権益（大企業や大政党）は，過去の信用と実績の積み重ねにより，将来の信用と実績を再生産することで，既得権益として成立する．
+
+To make matters difficult, "trust" and "achievement" are complementary. "Trust" provides an opportunity to unlock new achievements. The new “achievement” repairs and strengthens trust. In other words, vested interests are invincible unless environmental changes occur.
+
+厄介なことに「信頼」と「実績」は相補関係にある．「信頼」は新たな実績解除への機会を提供する．新たな「実績」は信頼を補修・強化する．つまり，既得権益は環境変化が起きない限り無敵．
+
+The first step for new powers (ventures and youth) to scale up is to win trust or to make some achievements.
+In addition, it is even better as it causes environmental changes and innovation.
+
+新興勢力（ベンチャーや若者）がスケールアップするための第一歩は「信頼」を勝ち取るか，「実績」で黙らせるか．
+加えて，環境変化やイノベーションを起こすとなお良い．
+
+As a result, 
+The risk-loving youths first try to walk the cycle from the trust to the achievement, but 
+The risk-averse youths first try to walk the cycle from the achievement to the trust.
+
+結果として，
+リスク選好的な若者は，信頼から実績へというサイクルを歩もうとし，
+リスク回避的な若者は，実績から信頼へというサイクルを歩もうとする．
 
 <br>
 
