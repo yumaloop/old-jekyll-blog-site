@@ -8,16 +8,14 @@ tags:
     - Env
 ---
 
-<a href='https://500px.com/photo/63820065/Purple-Glass-by-Francesco-Trimarchi' alt='Purple Glass by Francesco Trimarchi on 500px.com'>
-  <img src='https://drscdn.500px.org/photo/63820065/m%3D900/v2?sig=7167352d1fddd428e82505ac901cac303016714b5faf236385a0ec62534c266e' alt='Purple Glass by Francesco Trimarchi on 500px.com' />
+<a href='https://500px.com/photo/133006509/fenced-by-jack-lanphere' alt='Fenced by Jack Lanphere on 500px.com'>
+  <img src='https://drscdn.500px.org/photo/133006509/m%3D900/v2?sig=f41b61642cd32e0d6adc7f2060ed749cf6ecef4a927b35e508a2e424eb1c11cc' alt='Fenced by Jack Lanphere on 500px.com' />
 </a>
 <script type='text/javascript' src='https://500px.com/embed.js'></script>
 
 In this post, I describe the setup procedure of this blog site.
 
 This site is developed with Jekyll, a static site generator and hosted by Github pages. All contents of the site are registered in [Github public repository](https://github.com/yumaloop/yumaloop.github.io) and you can browse any source code in it.
-
-
 
 <br>
 

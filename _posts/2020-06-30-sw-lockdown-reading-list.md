@@ -8,11 +8,6 @@ tags:
     - Tips
 ---
 
-<a href='https://500px.com/photo/133006509/fenced-by-jack-lanphere' alt='Fenced by Jack Lanphere on 500px.com'>
-  <img src='https://drscdn.500px.org/photo/133006509/m%3D900/v2?sig=f41b61642cd32e0d6adc7f2060ed749cf6ecef4a927b35e508a2e424eb1c11cc' alt='Fenced by Jack Lanphere on 500px.com' />
-</a>
-<script type='text/javascript' src='https://500px.com/embed.js'></script>
-
 [Simon Wood](https://scholar.google.co.uk/citations?user=EskiIyEAAAAJ&hl=en), a leading statistician in UK being famous for the text book of the GAMs introduced the lockdown reading list in his [homepage](https://people.maths.bris.ac.uk/~sw15190/). It looks interesting, so I'll share it here. (most of them are [Blackwell's, books](https://blackwells.co.uk/bookshop/home))
 
 - [Collapse](https://blackwells.co.uk/bookshop/product/Collapse-by-Jared-M-Diamond/9780241958681) (Jared Diamond) on how societies are destroyed, not by external forces, but by their failure to adapt their cultural norms to those forces.
