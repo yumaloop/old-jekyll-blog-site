@@ -15,6 +15,7 @@ tags:
 </div>
 
 <script type='text/javascript' src='https://500px.com/embed.js'></script>
+<br>
 
 In this post, I describe the setup procedure of this blog site.
 

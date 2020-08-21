@@ -10,23 +10,14 @@ tags:
 
 Have you ever want to login to keio.jp automatically? Don't you think it is cool? At least I think so and I write down the way to achieve that with Python.
 
-
-
 <br>
-
-
-
 <div style="text-align:center">
-  <video style="width: 90%;" controls autoplay loop muted>
+  <video style="width: 100%;" controls autoplay loop muted>
     <source src="{{ "/assets/video/keio_login.mp4" | relative_url }}" type="video/mp4">
     <p>Your browser does not support the video tag.</p>
   </video>
 </div>
-
-
 <br>
-
-
 
 In order to login to keio.jp (Keio Single Sign-On System), it is necessary to satisfy the page transition as below. 
 
@@ -38,11 +29,7 @@ In order to login to keio.jp (Keio Single Sign-On System), it is necessary to sa
 
 So, this time, a static web-scraping library like BeautifulSoup is not enough, because it doesn't support the dynamic site with Javascript or page redirection. Then I use [Selenium](https://selenium.dev/documentation/en/) and [ChromeDriver](http://chromedriver.chromium.org/getting-started) in python.
 
-
-
 <br>
-
-
 
 
 #### Example 1 : Auto login to keio.jp
