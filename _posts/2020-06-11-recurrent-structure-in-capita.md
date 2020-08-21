@@ -8,10 +8,11 @@ tags:
     - Tips
 ---
 
-
+<div class='pixels-photo'>
 <a href='https://500px.com/photo/1013781606/The-glare-of-empty-square-by-Sara-Biljana-Gaon' alt='The glare of empty square by Sara Biljana Gaon on 500px.com'>
   <img src='https://drscdn.500px.org/photo/1013781606/m%3D900/v2?sig=8fbfac0615a131ce9fe97ebac12eca86ca0e9b9eec82ba6b4fa68ce6da3cfc07' alt='The glare of empty square by Sara Biljana Gaon on 500px.com' style="width: 40vw; min-width: 330px;" />
 </a>
+</div>
 <script type='text/javascript' src='https://500px.com/embed.js'></script>
 
 **Self-discriptive system within time change.**

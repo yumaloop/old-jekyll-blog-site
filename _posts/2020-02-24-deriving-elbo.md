@@ -8,13 +8,14 @@ tags:
     - Bayes
 ---
 
+<div class='pixels-photo'>
 <a href='https://500px.com/photo/1020528836/Untitled-by-Vladimir-Maric' alt='Untitled by Vladimir Maric on 500px.com'>
   <img src='https://drscdn.500px.org/photo/1020528836/m%3D900/v2?sig=9c4001aaf8730c97353ae102428c6bc64818166778d359c4979d17eb42cf809d' alt='Untitled by Vladimir Maric on 500px.com' />
 </a>
+</div>
 <script type='text/javascript' src='https://500px.com/embed.js'></script>
 
 Evidence Lower Bound (ELBO) is widely used in variational inference. Recently, according to the massive success of DeepLearning and related models, variational inference (and its technic) gains exposure in the filed of representation learning. For instance, stochastic generative models such as VAE and GAN are famous for their variational aspects.
-
 
 
 ## ELBO

@@ -8,9 +8,12 @@ tags:
     - Env
 ---
 
-<a href='https://500px.com/photo/133006509/fenced-by-jack-lanphere' alt='Fenced by Jack Lanphere on 500px.com'>
-  <img src='https://drscdn.500px.org/photo/133006509/m%3D900/v2?sig=f41b61642cd32e0d6adc7f2060ed749cf6ecef4a927b35e508a2e424eb1c11cc' alt='Fenced by Jack Lanphere on 500px.com' />
+<div class='pixels-photo'>
+<a href='https://500px.com/photo/73388927/Isolate-by-Peter-Henry' alt='Isolate by Peter Henry on 500px.com'>
+  <img src='https://drscdn.500px.org/photo/73388927/m%3D900/v2?sig=eb513a07f9677c05e0b8b5c78bc6d8137363f547f56d374508f77ce351fce932' alt='Isolate by Peter Henry on 500px.com' />
 </a>
+</div>
+
 <script type='text/javascript' src='https://500px.com/embed.js'></script>
 
 In this post, I describe the setup procedure of this blog site.

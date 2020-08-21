@@ -8,9 +8,11 @@ tags:
     - Env
 ---
 
+<div class='pixels-photo'>
 <a href='https://500px.com/photo/1020504822/PicosDeEuropa-by-Kapan-Tay' alt='Picos_De_Europa by Kapan Tay on 500px.com'>
   <img src='https://drscdn.500px.org/photo/1020504822/m%3D900/v2?sig=e8cd1e4a2a70e4a800399c2bfba893fceb8d54699dcaf0ed8a62e1e9979c3f02' alt='Picos_De_Europa by Kapan Tay on 500px.com' />
 </a>
+</div>
 <script type='text/javascript' src='https://500px.com/embed.js'></script>
 
 In this note, I describe how to install NVIDIA GPU and set up CUDA/cuDNN on Ubuntu 16.04LTS machine that has been clean booted. Also, I write down some linux commands used in debugging, since knowing your machine in detail would lead to resolving some errors related to the machine environment. This article could be updated from time to time.
