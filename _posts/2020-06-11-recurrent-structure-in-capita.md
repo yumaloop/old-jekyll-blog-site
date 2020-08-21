@@ -14,7 +14,7 @@ tags:
 </a>
 <script type='text/javascript' src='https://500px.com/embed.js'></script>
 
-# Self-discriptive system within time change.
+**Self-discriptive system within time change.**
 
 The simplest example of self-discriptive systems is the exponential increase. This is because the simplest "change" of a variable $$x$$ is a first derivative of its time $$dx/dt$$, and the simplest form of the function "$$f(x)$$" determined by a variable $$x$$ is a linear one $$Cx$$.
 
