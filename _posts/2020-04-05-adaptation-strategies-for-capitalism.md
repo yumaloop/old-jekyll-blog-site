@@ -15,10 +15,10 @@ tags:
 
 <script type='text/javascript' src='https://500px.com/embed.js'></script>
 
+<br>
+<br>
 
 # 1. 資本主義の原理
-
-
 
 **資本主義 - Capitalism**
 
