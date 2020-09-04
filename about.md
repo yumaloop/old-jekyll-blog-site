@@ -41,7 +41,7 @@ I study algorithms, models, and systems to solve problems that statistical estim
       > I've been working in customer support services using intercom apps and also implemented the technical advisory for the educational materials on Machine Learning.
 * Others
     * Summer Internship, [Yahoo Japan Co., Ltd.](https://about.yahoo.co.jp/) (Sep. 2020)
-      > Big data analysis and development in the financial domain.
+      > I've been working in bigdata analysis and development at the Finance Office Headquarters Development Division DD Office.
 
 <br>
 
