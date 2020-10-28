@@ -29,10 +29,10 @@ I study algorithms, models, and systems to solve problems that statistical estim
 
 * Teaching Assistant
     * Robot Experiment, Fall semester 2020 (Oct. 2020 - Jan. 2021)
-      > Class on the real-time robot control using the physics simulator [CopperiaSim](https://www.coppeliarobotics.com/).
+      > A class on the real-time robot control using the physics simulator [CopperiaSim](https://www.coppeliarobotics.com/).
 * Part-time Job
     * Data Engineer Internship, [DATAWISE, inc.](https://www.datawise.co.jp/) (Apr. 2020 - Present)
-      > I've been working on analyzing the GPS data of mobile phone users.
+      > I've been working on analyzing the GPS data of mobile phone users. Specifically, I'm working on improving the algorithm that estimates the total population from location data of NTT docomo users, crawling and batch processing public data, and building backend apps on GCP.
     * R&D Internship, [ARAYA, inc.](https://www.araya.org) (Jul. 2018 - Mar. 2020)
       > I was engaged in the R&D project for the computational cost of the Deep Neural Nets. I've surveyed related papers and conducted some PoC implementations and experiments on it.
     * Web Engineer Internship, [PASTURE, INC.](https://corp.pasture.biz/) (Jul. 2017 - Mar. 2018)
@@ -44,7 +44,7 @@ I study algorithms, models, and systems to solve problems that statistical estim
       > I've been working in customer support services using intercom apps and also implemented the technical advisory for the educational materials on Machine Learning.
 * Others
     * Summer Internship, [Yahoo Japan Co., Ltd.](https://about.yahoo.co.jp/) (Sep. 2020)
-      > I've been working in bigdata analysis at the Finance Office Headquarters Development Division DD Room.
+      > I worked in bigdata analysis at the Finance Office Headquarters Development Division DD Room. I conducted an association analysis on log data on the Web and proposed some no marketing measures.
 
 <br>
 
