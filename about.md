@@ -27,6 +27,9 @@ I study algorithms, models, and systems to solve problems that statistical estim
 
 #### &#x1f4a1; Work Experience
 
+* Teaching Assistant
+    * Robot Experiment, Fall semester 2020 (Oct. 2020 - Jan. 2021)
+      > Class on the real-time robot control using the physics simulator [CopperiaSim](https://www.coppeliarobotics.com/).
 * Part-time Job
     * Data Engineer Internship, [DATAWISE, inc.](https://www.datawise.co.jp/) (Apr. 2020 - Present)
       > I've been working on analyzing the GPS data of mobile phone users.
