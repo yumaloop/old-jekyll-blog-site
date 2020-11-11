@@ -6,7 +6,7 @@ permalink: /about/
 ---
 
 I'm Yuma Uchiumi, a graduate student majoring in computer science.
-I was born on December 8, 1997 in Tokyo, Japan.  [CV](https://github.com/yumaloop/yumaloop.github.io/blob/master/assets/pdf/CV202011.pdf)<br>
+I was born on December 8, 1997 in Tokyo, Japan.  [see CV](https://yumaloop.github.io/assets/pdf/CV202011.pdf)<br>
 My research goal is to understand and implement the computation for human thinking; 
 I study algorithms, models, and systems to solve problems that statistical estimation, multi-agent communication, rewarded games, and so on. 
 &#x1f47b; &#x1f36d; &#x1f984; &#x1f308; &#x26c5; &#x2728; 
