@@ -1,13 +1,17 @@
-<!-- haed -->
+<!-- head -->
 <head>
+    <!-- meta -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yuma Uchiumi</title>
+    <!-- images -->
     <link rel="icon" href="{{"/assets/img/favicon-32x32.png" | relative_url }}">
+    <!-- css -->
     <link rel="stylesheet" href="{{"/assets/css/foundation.min.css" | relative_url }}">
     <link rel="stylesheet" href="{{"/assets/css/docs.css" | relative_url }}">
     <link rel="stylesheet" href="{{"/assets/css/clean-blog.min.css" | relative_url }}">
     <link rel="stylesheet" href="{{"/assets/highlightjs/styles/github.css" | relative_url }}" media="screen, projection" type="text/css">
+    <!-- script -->
     <script src="{{"/assets/js/vendor/modernizr.js" | relative_url }}"></script>
     <script src="{{"/assets/js/vendor/jquery.js" | relative_url }}"></script>
     <script src="{{"/assets/highlightjs/highlight.pack.js" | relative_url }}"></script>
@@ -18,6 +22,14 @@
       document.getElementById('search_q').value = searchVal;
       return true;
       }
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140580526-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-140580526-1');
     </script>
     <!-- Mathjax Support -->
     <script type="text/javascript" async

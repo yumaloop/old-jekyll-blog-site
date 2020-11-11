@@ -16,7 +16,7 @@ tags:
 
 
 <object data="https://www.tulane.edu/~lamp/whiteside.pdf" type="application/pdf" width="100%" height="800px">
-    <embed src="https://www.tulane.edu/~lamp/whiteside.pdf" | site.url }}">
+    <embed src="https://www.tulane.edu/~lamp/whiteside.pdf">
         <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://www.tulane.edu/~lamp/whiteside.pdf">Download PDF</a>.</p>
     </embed>
 </object>
@@ -26,9 +26,10 @@ tags:
 
 ## Japanese  translation
 
-<object data="{{ "/assets/pdf/whiteside_outline_method_jp.pdf" | site.url }}" type="application/pdf" width="100%" height="800px">
-    <embed src="{{ "/assets/pdf/whiteside_outline_method_jp.pdf" | site.url }}">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="{{ "/assets/pdf/whiteside_outline_method_jp.pdf" | site.url }}">Download PDF</a>.</p>
+
+<object data="{{ site.baseurl }}/assets/pdf/whiteside_outline_method_jp.pdf" type="application/pdf" width="100%" height="800px">
+    <embed src="{{ site.baseurl }}/assets/pdf/whiteside_outline_method_jp.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="{{ site.baseurl }}/assets/pdf/whiteside_outline_method_jp.pdf">Download PDF</a>.</p>
     </embed>
 </object>
 

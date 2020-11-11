@@ -8,17 +8,16 @@ tags:
     - Tips
 ---
 
-# United States Macroeconomic History
-
 2020年05月現在，コロナショックで，景気後退が予測されている．
 S&P 500 YTDをみると，2018年・2019年と比較しても低調だ．
 
+アメリカ株は予想に反して高い水準を維持しているが，6月以降の統計結果によっては落ち込む可能性も高い．このポストでは，アメリカのマクロ経済史を振り返り,2021年以降のアメリカ経済について考えてみたい．
+
 <img src="{{ site.baseurl }}/assets/img/post/sp-500-ytd-performance-2020-06-12-macrotrends.png">
 
-**S&P 500 Index YTD Daily Performance** <br>
+**Fig: S&P 500 Index YTD Daily Performance** <br>
 Source: https://www.macrotrends.net/2490/sp-500-ytd-performance
 
-アメリカ株は予想に反して高い水準を維持しているが，6月以降の統計結果によっては落ち込む可能性も高い．このポストでは，アメリカのマクロ経済史を振り返り,2021年以降のアメリカ経済について考えてみたい．
 
 <br>
 <br>
@@ -29,35 +28,22 @@ USの実質GDP年間推移(1947 - 2020)をみてみる．インフレ率を補�
 
 <img src="https://alfred.stlouisfed.org/graph/alfredgraph.png?g=rxJG">
 
-**Real GDP, Billions of Chained 2012 Dollars, Annual Rate (1947 - 2020)** <br>
+**Fig: Real GDP, Billions of Chained 2012 Dollars, Annual Rate (1947 - 2020)** <br>
 Source: https://alfred.stlouisfed.org/series?seid=GDPC1
-
-
 
 次に，成長率(1次微分)．USの四半期ごとのGDP成長率(YOY)を，戦後(1947-2020)に限定してみてみる．基本的にランダムウォークにみえるが，興味深いのは**1985年ごろを境に，分散が小さくなっていること**だ．
 
-
-
 <img src="{{site.baseurl}}/assets/img/post/USGDP1947-2020.png">
 
-**United States GDP Growth Rate, YOY (1947 - 2020)** <br>
+**Fig: United States GDP Growth Rate, YOY (1947 - 2020)** <br>
 Source: https://tradingeconomics.com/united-states/gdp-growth
 
 FREDのサイトにある，年間のGDP成長率(YOY)も載せておく．
 
 <img src="https://fred.stlouisfed.org/graph/fredgraph.png?g=qPxn">
 
-**Real GDP, Percent Change from Preceding Period (1930 - 2020)** <br>
+**Fig: Real GDP, Percent Change from Preceding Period (1930 - 2020)** <br>
 Source: https://fred.stlouisfed.org/graph/?g=oM2u
-
-
-
-
-
-
-
-
-
 
 <br>
 <br>
@@ -68,17 +54,17 @@ Source: https://fred.stlouisfed.org/graph/?g=oM2u
 
 <img src="{{ site.baseurl }}/assets/img/post/sp-500-historical-chart-data-2020-06-12-macrotrends.png">
 
-**S&P 500 Index (1928.01 - 2020.06)** <br>
+**Fig: S&P 500 Index (1928.01 - 2020.06)** <br>
 Source: https://www.macrotrends.net/2324/sp-500-historical-chart-data
 
 <img src="{{ site.baseurl }}/assets/img/post/dow-jones-100-year-historical-chart-2020-06-12-macrotrends.png">
 
-**Dow Jones Industrial Average (DJIA) (1915.02 - 2020.06)** <br>
+**Fig: Dow Jones Industrial Average (DJIA) (1915.02 - 2020.06)** <br>
 Source: https://www.macrotrends.net/2324/sp-500-historical-chart-data
 
 <img src="{{ site.baseurl }}/assets/img/post/nasdaq-historical-chart-2020-06-13-macrotrends.png">
 
-**NASDAQ Composite (1971.02 - 2020.06)** <br>
+**Fig: NASDAQ Composite (1971.02 - 2020.06)** <br>
 Source: https://www.macrotrends.net/1320/nasdaq-historical-chart
 
 そして，狭い意味での効率的市場仮説を支持するならば，短期(年あるいは月単位)での景気循環は平滑化される．また事実として，あらゆる経済統計がせいぜい100年分しか存在しない以上，景気循環説や効率的市場仮説は正しく検証できない．
@@ -89,14 +75,14 @@ S&P 500は，NYSEとNSDAQの上場銘柄から(流動性の高い大型株の)�
 
 <img src="https://fred.stlouisfed.org/graph/fredgraph.png?g=rtxI">
 
-**S&P 500 Index, Daily Close (2010.06.15 - 2020.06.12)** <br>
+**Fig: S&P 500 Index, Daily Close (2010.06.15 - 2020.06.12)** <br>
 Source: https://fred.stlouisfed.org/graph/fredgraph.png?g=rtxI, 
 
 <br>
 
 <img src="https://fred.stlouisfed.org/graph/fredgraph.png?g=rtyH">
 
-**S&P 500 Index Change from Year Ago (2011.06.13 - 2020.06.12)** <br>
+**Fig: S&P 500 Index Change from Year Ago (2011.06.13 - 2020.06.12)** <br>
 Source: https://fred.stlouisfed.org/graph/fredgraph.png?g=rtyH
 
 S&P 500の日別の変化量(YOY)．マイナスとなった期間は2015/08~2016/07，2018/11~2019/05，2020/03~05の3回である．
@@ -105,26 +91,23 @@ S&P 500の日別の変化量(YOY)．マイナスとなった期間は2015/08~201
 
 <img src="https://fred.stlouisfed.org/graph/fredgraph.png?g=rtyj">
 
-**S&P 500 Index Change, Daily Close (2010.06.15 - 2020.06.12)** <br>
+**Fig: S&P 500 Index Change, Daily Close (2010.06.15 - 2020.06.12)** <br>
 Source: https://fred.stlouisfed.org/graph/fredgraph.png?g=rtyj
 
 S&P 500の日別の変化量(DOD)．
 
 <br>
-
 <br>
 
 # Economic Policy
 
 株価(cf. S&P 500)は，マクロ経済(GDP)に対する先行指標であると同時に，政府が経済対策を決定するための原因となる（結果ではない）．S&P 500の歴史と，その結果として時の米国政府がどのような経済政策を実施したか，その政策は具体的にどのようなマクロ経済理論によって裏付け(アドバイス)されたか，を考えてみる．
 
-
-
 S&P 500の前年比変動率（1929-2020/03）をみてみよう．
 
 <img src="{{ site.baseurl }}/assets/img/post/SP500HistoricalAnnualReturns1928-2020.png">
 
-**S&P 500 Historical Annual Returns (1928 - 2020)** <br>
+**Fig: S&P 500 Historical Annual Returns (1928 - 2020)** <br>
 Source: https://www.macrotrends.net/2526/sp-500-historical-annual-returns
 
 S&P 500の統計が開始されてから，1929-2019年のちょうど100年間で，年換算で前年比マイナスとなった年は22回しかない．そして，2020年は23番目の年になるかもしれない．全22回をリストアップしてみる．
@@ -133,10 +116,7 @@ S&P 500の統計が開始されてから，1929-2019年のちょうど100年間�
 >
 > 1941年，スタンダード統計社(Standard Statistics Bureau)とプアー出版社(H.V. and H.W. Poor Co.)が合併してS&P社(Standard&Poor's)が誕生．1957年，S&P 500が誕生．1966年，マグロウヒル社がS&P社を買収し，現在の運営体制 (S&P Global Inc.;  1995年までの旧名:The McGraw-Hill Companies)となった．
 
-
-
 <br>
-
 
 
 #### Great Depression (1929-1936, 7 years)
@@ -201,8 +181,6 @@ S&P 500の統計が開始されてから，1929-2019年のちょうど100年間�
 #### New Normal? (2020-????)
 
 - 2020: (-3.34% YTD) コロナショック
-
-
 
 <br>
 <br>

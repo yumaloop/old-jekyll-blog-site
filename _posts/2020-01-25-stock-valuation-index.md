@@ -8,10 +8,6 @@ tags:
     - stock
 ---
 
-## hoge
-
-
-
 
 
 ### 1. EV/EBITA

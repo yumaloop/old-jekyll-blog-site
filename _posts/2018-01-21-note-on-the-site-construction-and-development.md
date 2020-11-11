@@ -8,11 +8,18 @@ tags:
     - Env
 ---
 
+<div class='pixels-photo'>
+<a href='https://500px.com/photo/73388927/Isolate-by-Peter-Henry' alt='Isolate by Peter Henry on 500px.com'>
+  <img src='https://drscdn.500px.org/photo/73388927/m%3D900/v2?sig=eb513a07f9677c05e0b8b5c78bc6d8137363f547f56d374508f77ce351fce932' alt='Isolate by Peter Henry on 500px.com' />
+</a>
+</div>
+
+<script type='text/javascript' src='https://500px.com/embed.js'></script>
+<br>
+
 In this post, I describe the setup procedure of this blog site.
 
 This site is developed with Jekyll, a static site generator and hosted by Github pages. All contents of the site are registered in [Github public repository](https://github.com/yumaloop/yumaloop.github.io) and you can browse any source code in it.
-
-
 
 <br>
 
