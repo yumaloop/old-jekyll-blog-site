@@ -91,6 +91,7 @@ I study statistical algorithms, stochastic models, and information processing sy
 * Qitta: [@yumaloop](https://qiita.com/yumaloop)
 * Linkedin: [yuma-uchiumi-699398151](https://www.linkedin.com/in/yuma-uchiumi-699398151/)
 * Wantedly: [users/18935801](https://www.wantedly.com/users/18935801)
+* HackerRank: [@yumaloop](https://www.hackerrank.com/yumaloop?hr_r=1)
 * Spotify: [xndo1nzh6y83p775etrktk2mv](https://open.spotify.com/user/xndo1nzh6y83p775etrktk2mv?si=s3ZU58pZTHKGt4aOfpwmKg)
 * 500px: [@yumaloop](https://500px.com/yumaloop)
 
