@@ -46,6 +46,7 @@ I study statistical algorithms, stochastic models, and information processing sy
     * Summer Internship, [Yahoo Japan Co., Ltd.](https://about.yahoo.co.jp/) (Sep. 2020)
       > I worked in bigdata analysis at the Finance Office Headquarters Development Division DD Room. I conducted an association analysis on log data on the Web and proposed some marketing measures.
     * PwC Analytics Hackathon [PwC Japan Group](https://www.pwc.com/jp/ja/about-us/member/consulting.html) (Dec. 2020)
+      > I formed a team with young technology consultants and considered what kind of data analysis method would be most suitable for solving the problems faced by companies and organizations.
 
 <br>
 
