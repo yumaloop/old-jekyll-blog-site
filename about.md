@@ -31,7 +31,7 @@ I study algorithms, models, and systems to solve problems that statistical estim
     * Robot Experiment, Fall semester 2020 (Oct. 2020 - Jan. 2021)
       > A class on the real-time robot control using the physics simulator [CopperiaSim](https://www.coppeliarobotics.com/).
 * Part-time Job
-    * Data Engineer Internship, [DATAWISE, inc.](https://www.datawise.co.jp/) (Apr. 2020 - Present)
+    * Data Engineer Internship, [DATAWISE, inc.](https://www.datawise.co.jp/) (Apr. 2020 - Dec. 2020)
       > I've been working on analyzing the GPS data of mobile phone users. Specifically, I'm working on improving the algorithm that estimates the total population from location data of NTT docomo users, crawling and batch processing public data, and building backend apps on GCP.
     * R&D Internship, [ARAYA, inc.](https://www.araya.org) (Jul. 2018 - Mar. 2020)
       > I was engaged in the R&D project for the computational cost of the Deep Neural Nets. I've surveyed related papers and conducted some PoC implementations and experiments on it.
