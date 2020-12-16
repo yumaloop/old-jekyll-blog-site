@@ -33,7 +33,7 @@ I study statistical algorithms, stochastic models, and information processing sy
 The 30th Annual Conference of the Japanese Neural Network Society (JNNS 2020), Dec. 2-5, 2020, Virtual Conference.
 * Yuma Uchiumi, Yuki Abe, Takuma Seno, Michita Imai,
 "Unsupervised Motion Feature Extraction in Video via Bi-directional GAN",
-The 34th Annual Conference of the Japanese Society for Artificial Intelligence (JSAI 2020), Jun. 9–12, 2020, Virtual Conference.
+The 34th Annual Conference of the Japanese Society for Artificial Intelligence (JSAI 2020), Jun. 9-12, 2020, Virtual Conference.
 [(PDF)](https://www.jstage.jst.go.jp/article/pjsai/JSAI2020/0/JSAI2020_1I5GS204/_pdf/-char/ja)
 * Yuma Uchiumi, Yuki Abe, Takuma Seno, Michita Imai,
 "Motion Disentangled Bidirectional GAN",
