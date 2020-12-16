@@ -27,7 +27,7 @@ I study statistical algorithms, stochastic models, and information processing sy
 
 * Yuma Uchiumi, Yuki Abe, Michita Imai,
 "Disentangled Motion Representation Learning for Video Encoding and Generation",
-2021 International Symposium on Signal, Image Processing and Pattern Recognition (SIPPR 2021), Apr. 16-18, 2021 in Ho Chi Minh City.
+2021 International Symposium on Signal, Image Processing and Pattern Recognition (SIPPR 2021), Apr. 16-18, 2021 in Ho Chi Minh City, Vietnam.
 * Yuma Uchiumi, Michita Imai,
 "A Computation of Visual Attentions on the Stochastic Model Using the Fisher Information Matrix",
 The 30th Annual Conference of the Japanese Neural Network Society (JNNS 2020), Dec. 2-5, 2020, Virtual Conference.
