@@ -5,13 +5,13 @@ description: <i>Know thyself</i> - <i>&gamma;&nu;&#8182;&theta;&iota; &sigma;&ep
 permalink: /about/
 ---
 
-I'm Yuma Uchiumi, a graduate student majoring in computer science.
-I was born on December 8, 1997 in Tokyo, Japan.  [CV](https://github.com/yumaloop/yumaloop.github.io/blob/master/assets/pdf/CV201906.pdf)<br>
+I'm Yuma Uchiumi, a graduate student majoring in computer science. 
+I was born on December 8, 1997 in Tokyo, Japan.  [see CV](https://yumaloop.github.io/assets/pdf/CV202011.pdf)<br>
 My research goal is to understand and implement the computation for human thinking; 
-I study algorithms, models, and systems to solve problems that statistical estimation, multi-agent communication, rewarded games, and so on. 
+I study statistical algorithms, stochastic models, and information processing systems to solve the cognitive problems with human thinking.
 &#x1f47b; &#x1f36d; &#x1f984; &#x1f308; &#x26c5; &#x2728; 
 
-> keywords: Statistics, Machine Learning, Multi-Agent System, Game Theory<br>
+> keywords: Statistics, Machine Learning, Cognitive Science, Multi-Agent System, Game Theory<br>
 > ʕ•̫͡•ʕ•̫͡•ʔ•̫͡•ʔ•̫͡•ʕ•̫͡•ʔ•̫͡•ʕ•̫͡•ʕ•̫͡•ʔ•̫͡•ʔ•̫͡•ʕ•̫͡•ʔ•̫͡•ʔ
 
 <br>
@@ -45,6 +45,8 @@ I study algorithms, models, and systems to solve problems that statistical estim
 * Others
     * Summer Internship, [Yahoo Japan Co., Ltd.](https://about.yahoo.co.jp/) (Sep. 2020)
       > I worked in bigdata analysis at the Finance Office Headquarters Development Division DD Room. I conducted an association analysis on log data on the Web and proposed some marketing measures.
+    * PwC Analytics Hackathon [PwC Japan Group](https://www.pwc.com/jp/ja/about-us/member/consulting.html) (Dec. 2020)
+      > I formed a team with young technology consultants and considered what kind of data analysis method would be most suitable for solving the problems faced by companies and organizations.
 
 <br>
 
@@ -88,9 +90,10 @@ I study algorithms, models, and systems to solve problems that statistical estim
 * Github: [@yumaloop](https://github.com/yumaloop)
 * Kaggle: [@yumaloop](https://www.kaggle.com/yumaloop)
 * Hatena Blog: [yul.hatenablog.com](https://yul.hatenablog.com/archive)
-* Qitta: [@yumaloop](https://qitta.com/yumaloop)
+* Qitta: [@yumaloop](https://qiita.com/yumaloop)
 * Linkedin: [yuma-uchiumi-699398151](https://www.linkedin.com/in/yuma-uchiumi-699398151/)
 * Wantedly: [users/18935801](https://www.wantedly.com/users/18935801)
+* HackerRank: [@yumaloop](https://www.hackerrank.com/yumaloop?hr_r=1)
 * Spotify: [xndo1nzh6y83p775etrktk2mv](https://open.spotify.com/user/xndo1nzh6y83p775etrktk2mv?si=s3ZU58pZTHKGt4aOfpwmKg)
 * 500px: [@yumaloop](https://500px.com/yumaloop)
 
