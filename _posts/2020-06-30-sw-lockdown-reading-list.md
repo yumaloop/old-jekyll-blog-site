@@ -20,3 +20,10 @@ tags:
 - [Witch hunting in Scotland](https://blackwells.co.uk/bookshop/product/Witch-Hunting-in-Scotland-by-Brian-P-Levack/9780415399432) (Brian Levack) on the Scottish experience of the great European witchcraft panic (James I/VI wrote a treatise on Witchcraft).
 - [Wood and Thomas paper](https://people.maths.bris.ac.uk/~sw15190/WT99.pdf) on the problems of prediction with disease models in the absense of direct validation data (the least impressive item here).
 
+<div class='pixels-photo'>
+<a href='https://500px.com/photo/1023232933/Used-medical-mask-on-the-asphalted-road-Polution-concept--by-Arthur-Lomarainen' alt='Used medical mask on the asphalted road. Polution concept.  by Arthur Lomarainen on 500px.com'>
+  <img src='https://drscdn.500px.org/photo/1023232933/m%3D900/v2?sig=6fa163cdf4de9e796f0c78bb8608f2cace0ba8849195c687d7b1dbb88177f50c' alt='Used medical mask on the asphalted road. Polution concept.  by Arthur Lomarainen on 500px.com' />
+  </a>
+  </div>
+
+  <script type='text/javascript' src='https://500px.com/embed.js'></script>
