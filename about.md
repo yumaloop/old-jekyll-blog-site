@@ -31,6 +31,7 @@ I study statistical algorithms, stochastic models, and information processing sy
 * Yuma Uchiumi, Michita Imai,
 "A Computation of Visual Attentions on the Stochastic Model Using the Fisher Information Matrix",
 The 30th Annual Conference of the Japanese Neural Network Society (JNNS 2020), Dec. 2-5, 2020, Virtual Conference.
+[(PDF)](https://drive.google.com/file/d/1slhR-bAkC3M1dUPb6Aaw5tF1alxQ-sMo/view?usp=sharing)
 * Yuma Uchiumi, Yuki Abe, Takuma Seno, Michita Imai,
 "Unsupervised Motion Feature Extraction in Video via Bi-directional GAN",
 The 34th Annual Conference of the Japanese Society for Artificial Intelligence (JSAI 2020), Jun. 9-12, 2020, Virtual Conference.
