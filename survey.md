@@ -51,14 +51,30 @@ permalink: /survey/
   - [latest issues (online archive link)](https://journals.sagepub.com/toc/PEC/current)
   - [SCI Journal link](https://www.scijournal.org/impact-factor-of-perception.shtml)
   - about: Perception is a scholarly journal reporting experimental results and theoretical ideas ranging over the fields of human, animal, and machine perception. Topics covered include physiological mechanisms and clinical neurological disturbances; psychological data on pattern and object perception in animals and man; the role of experience in developing perception; skills, such as driving and flying; effects of culture on perception and aesthetics; errors, illusions, and perceptual phenomena occurring in controlled conditions, with emphasis on their theoretical significance; cognitive experiments and theories relating knowledge to perception.
-  - note:
+  - note: 無料ブラウズ不可？
 * Attention, Perception & Psychophysics
   - 2009-ongoing
   - IF: 2.000 (2017-2019)
   - Categories: Arts and Humanities, Neuroscience, Psychology
   - [latest issues (online archive link)](https://www.springer.com/journal/13414)
   - [SCI Journal link](https://www.scijournal.org/impact-factor-of-percept-psychophys.shtml)
-  - about:
+  - about: Attention, Perception, & Psychophysics covers all areas of research in sensory processes, perception, attention, and psychophysics. Most articles are reports of experimental work. Theoretical, integrative, and evaluative reviews are also published, while commentary on issues of importance to researchers appears in a special section of the journal.
+  - note:
+- Cognitive Systems Research
+  - 1999-ongoing
+  - IF: 2.615 (2017-2019)
+  - Categories: Computer Science, Neuroscience, Psychology
+  - [latest issues (online archive link)](https://www.journals.elsevier.com/cognitive-systems-research/)
+  - [SCI Journal link](https://www.scijournal.org/impact-factor-of-cogn-syst-res.shtml)
+  - about: Cognitive Systems Research covers all topics in the study of cognitive processes, in both natural and artificial systems. The journal seeks top-quality contributions and encourages, in particular, articles that transcend traditional disciplinary boundaries (in terms of implications or in terms of approaches). (1) The journal emphasizes the integration/synthesis of ideas, concepts, constructs, theories, and techniques from multiple paradigms, perspectives, and disciplines, in the analysis, understanding, and design of cognitive and intelligent systems. (2) Contributions describing results obtained within the traditional disciplines (e.g., psychology, artificial intelligence) using well-established paradigms are also sought (especially if such work has broader implications and relevance).
+  - note:
+* Cognitive Science
+  - 1977-ongoing
+  - IF: 2.613 (2017-2019)
+  - Categories: Computer Science, Neuroscience, Psychology
+  - [latest issues (online archive link)](https://onlinelibrary.wiley.com/journal/15516709)
+  - [SCI Journal link](https://www.scijournal.org/impact-factor-of-cognitive-science.shtml)
+  - about: Cognitive Science publishes articles in all areas of cognitive science, covering such topics as knowledge representation, inference, memory processes, learning, problem solving, planning, perception, natural language understanding, connectionism, brain theory, motor control, intentional systems, and other areas of interdisciplinary concern. Highest priority is given to research reports that are specifically written for a multidisciplinary audience. The audience is primarily researchers in cognitive science and its associated fields, including anthropologists, education researchers, psychologists, philosophers, linguists, computer scientists, neuroscientists, and roboticists.
   - note:
 * Journal of Memory and Language
   - XXXX-ongoing
@@ -69,6 +85,14 @@ permalink: /survey/
   - about:
   - note:
 * ACM Transactions On Applied Perception
+  - XXXX-ongoing
+  - IF:
+  - Categories
+  - [latest issues (online archive link)]()
+  - [SCI Journal link]()
+  - about:
+  - note:
+* IEEE Transactions On Information Theory
   - XXXX-ongoing
   - IF:
   - Categories
