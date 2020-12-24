@@ -3,7 +3,7 @@ layout: post
 title: United States Macroeconomic History
 lang: ja
 categories:
-    - Econ
+    - Finance
 tags:
     - Tips
 ---

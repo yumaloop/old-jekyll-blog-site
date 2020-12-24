@@ -3,7 +3,7 @@ layout: post
 title: A Capitalist's Game
 lang: ja
 categories:
-    - Econ
+    - Finance
 tags:
     - Tips
 ---

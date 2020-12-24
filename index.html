@@ -55,7 +55,8 @@
                     <a href="{{ post.url | relative_url }}">Read more</a>&nbsp;&nbsp; 
                     <span class="date"><time>{{ post.date | date: '%B %d, %Y' }}</time></span>
                     <span>category:&nbsp;</span> 
-                    <span class="posted-in"><a href="{{ "/categories/" | absolute_url}}#{{ post.categories }}">{{ post.categories }}</a>
+                    <span class="posted-in"><a href="{{ "/categories/" | absolute_url}}#{{ post.categories }}">{{ post.categories | array_to_sentence_string}}</a>
+                    <!-- <span class="posted-in"><a href="{{ "/categories/" | absolute_url}}#{{ post.categories }}">{{ post.categories }}</a> -->
                     </span>
                   </div>
                   <div class="more-right right"> 
