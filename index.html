@@ -69,17 +69,17 @@
               <!-- page nation -->
               {% if paginator.total_pages != 1 %}
               <div class="row">
-                <div class="large-6 columns">
+                <div class="large-4 columns">
                     {% if paginator.previous_page %}
                       <p class="text-left" style="padding-top:25px;"> <a href="{{ paginator.previous_page_path | relative_url }}">Prev Page «</a> </p> 
                     {% endif %}
                 </div>
-                <!--
-                <div class="large-6 columns">
-                  <p class="text-right" style="padding-top:25px;">{{ paginator.page }} / {{ paginator.total_pages }}</p>
+                <div class="large-4 columns">
+                    {% if paginator.previous_page %}
+                      <p class="text-center" style="padding-top:25px; font-size:0.5em;">{{ paginator.page }} / {{ paginator.total_pages }}</p>
+                    {% endif %}
                 </div>
-                -->
-                <div class="large-6 columns">
+                <div class="large-4 columns">
                   {% if paginator.next_page %}
                     <p class="text-right" style="padding-top:25px;"> <a href="{{ paginator.next_page_path | relative_url }}">» Next Page</a> </p>
                   {% endif %}
