@@ -26,7 +26,7 @@ permalink: /survey/
   - Categories: Physics and Astronomy
   - [latest issues (online archive)](https://www.mdpi.com/1099-4300/22/1)
   - [SCI Journal link](https://www.scijournal.org/impact-factor-of-entropy-switz.shtml)
-  －about: Entropy, an international and interdisciplinary journal of entropy and information studies, publishes reviews, regular research papers and short notes. If there are computation and the experiment, the details must be provided so that the results can be reproduced. There are in addition three unique features: •Manuscripts regarding research proposals and research ideas will be particularly welcome. •Comments on any related papers published in this journal and other journals can be published as short letters. •Electronic files regarding the full details of the calculation and experimental procedure, if unable to be published in a normal way, will be deposited as supplementary material.
+  - about: Entropy, an international and interdisciplinary journal of entropy and information studies, publishes reviews, regular research papers and short notes. If there are computation and the experiment, the details must be provided so that the results can be reproduced. There are in addition three unique features: •Manuscripts regarding research proposals and research ideas will be particularly welcome. •Comments on any related papers published in this journal and other journals can be published as short letters. •Electronic files regarding the full details of the calculation and experimental procedure, if unable to be published in a normal way, will be deposited as supplementary material.
   - note: 物理系，毎月発行．
 * Memory & Cognition
   - 1973-ongoing
