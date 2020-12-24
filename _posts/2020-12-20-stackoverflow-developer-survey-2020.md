@@ -16,14 +16,14 @@ In 2020,
 It means that these languages are in vogue and new learners are on the rise.
 While **JavaScript** swallows everything, **Perl**, **PHP**, and **Ruby** seem to be still in high demand.
 
-Frameworks packaging frontends, backends and database into one, such as Rails, are already obsolete.
+Frameworks packaging frontends, backends and database into one, such as Rails, are already not preferred.
 Today, dividing frontends with **JavaScript** (**Node.js**, **Vue.js**, **React.js**) 
 and backends/database with scalable cloud services (**AWS**, **GCP**)
 is major approach for adaptive web applications.
 
 **Python** and **Java** have always been very popular 
 and in demand as general languages that can be used for many purposes.
-In the future, it will be interesting to see if **Go** and **React** can take their place.
+In the future, it will be interesting to see if **Go** and **Rust** can take their place.
 
 Finally, I would like to introduce the cluster map of major development technologies found by the StackOverflow Developer Survey 2020. 
 With the penetration of new technologies such as **mobile**, **container** and **cloud computing**, 
