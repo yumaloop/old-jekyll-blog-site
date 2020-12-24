@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Monte Carlo Simulation of Black-Scholes Option Pricing Model
-lang: jp
+lang: ja
 categories:
     - Personal
 tags:
