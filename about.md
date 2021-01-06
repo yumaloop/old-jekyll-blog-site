@@ -17,9 +17,9 @@ I study statistical algorithms, stochastic models, and information processing sy
 #### Education
 
 * BSc in Computer Science (Apr. 2016 - Mar. 2020)
-  - Department of Information & Computer Science, Faculty of Science and Technology, Keio University, Japan.
+  - Department of Information & Computer Science, Faculty of Science and Technology, Keio University, Japan. [(Link)](https://www.st.keio.ac.jp/en/departments/faculty/ics.html)
 * MSc in Computer Science (Apr. 2020 - Mar. 2022)
-  - Center for Information & Computer Science, School of Science for Open and Environmental Systems, Graduate School of Science and Technology, Keio University, Japan.
+  - Center for Information & Computer Science, School of Science for Open and Environmental Systems, Graduate School of Science and Technology, Keio University, Japan. [(Link)](https://www.st.keio.ac.jp/en/departments/open/info.html)
 
 <br>
 
