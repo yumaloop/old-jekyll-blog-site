@@ -71,21 +71,21 @@ I study statistical algorithms, stochastic models, and information processing sy
 #### Technical Skills
 
 * Programing Languages:
-  - Python, Ruby, PHP, Java, SQL
+  - Python, Ruby, PHP, Java, SQL.
 * DevOps Tools:
-  - Git, Docker, Kubernetes
+  - Git, Docker, Kubernetes.
 * Web Frameworks:
-  - Ruby on Rails, Vue.js, Node.js
+  - Ruby on Rails, Vue.js, Node.js.
 * Cloud Services:
-  - AWS (EC2, S3, Lambda, Amplify, Sagemaker)
-  - GCP (ComputeEngine, CloudStrage, App Script, BigQuery, Airflow)
+  - AWS (EC2, S3, Lambda, Amplify, Sagemaker).
+  - GCP (ComputeEngine, CloudFunctions, CloudStrage, BigQuerty, AppScript).
 
 <br>
 
 #### Qualifications
-* Grade 1, Mathematical statistics, Japan Statistical Society Certificate
-* Grade 1, Applied statistics, Japan Statistical Society Certificate
-* Grade 2, The EIKEN Test in Practical English Proficiency, Eiken Foundation of Japan
+* Grade 1, Mathematical statistics, Japan Statistical Society Certificate.
+* Grade 1, Applied statistics, Japan Statistical Society Certificate.
+* Grade 2, The EIKEN Test in Practical English Proficiency, Eiken Foundation of Japan.
 
 <br>
 
